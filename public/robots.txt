@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://bnb-accelerator-buyer-tools.vercel.app/sitemap.xml
