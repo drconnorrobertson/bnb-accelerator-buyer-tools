@@ -1,0 +1,19 @@
+{
+  "project": "bnb-accelerator-buyer-tools",
+  "name": "BNB Buyer Tools",
+  "short": "Buyer Tools",
+  "kind": "calculator",
+  "library": "Calculator and model library",
+  "accent": "#85d7ff",
+  "intro": "Explore forty transparent calculation models, each with forty editable input sets. Formula definitions, unit checks and interpretation references help you understand what the arithmetic does and does not establish.",
+  "search": "Try debt, occupancy or reserve",
+  "origin": "https://bnb-accelerator-buyer-tools.vercel.app",
+  "baseRoutes": [
+    "/",
+    "/about/",
+    "/break-even/",
+    "/cash-flow/",
+    "/methodology/",
+    "/revenue-stress-test/"
+  ]
+}

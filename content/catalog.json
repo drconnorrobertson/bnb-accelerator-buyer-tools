@@ -1,0 +1,1922 @@
+{
+  "topics": [
+    {
+      "slug": "room-revenue",
+      "title": "Room revenue",
+      "category": "Revenue",
+      "question": "What room revenue follows from your rate and booked nights?",
+      "fields": [
+        {
+          "id": "rate",
+          "label": "Average room rate",
+          "unit": "USD per booked night",
+          "base": 250,
+          "min": 0,
+          "max": 10000
+        },
+        {
+          "id": "nights",
+          "label": "Booked nights",
+          "unit": "nights",
+          "base": 200,
+          "min": 0,
+          "max": 366
+        }
+      ],
+      "formula": "rate*nights",
+      "expression": [
+        "mul",
+        "rate",
+        "nights"
+      ],
+      "unit": "USD",
+      "intro": "Multiply the room rate by booked nights to model room charges before other receipts or deductions. Keep the nightly-rate definition consistent with the nights being modeled.",
+      "limit": "This excludes cleaning receipts, guest taxes, refunds and every operating cost. It is not a booking forecast.",
+      "action": "Compare the modeled room charges with a dated reservation ledger, then reconcile other receipts separately."
+    },
+    {
+      "slug": "booked-night-occupancy",
+      "title": "Booked-night occupancy",
+      "category": "Revenue",
+      "question": "What share of offered nights is booked?",
+      "fields": [
+        {
+          "id": "nights",
+          "label": "Booked nights",
+          "unit": "nights",
+          "base": 200,
+          "min": 0,
+          "max": 366
+        },
+        {
+          "id": "available",
+          "label": "Available nights",
+          "unit": "nights",
+          "base": 365,
+          "min": 1,
+          "max": 366
+        }
+      ],
+      "formula": "nights/available*100",
+      "expression": [
+        "mul",
+        [
+          "div",
+          "nights",
+          "available"
+        ],
+        100
+      ],
+      "unit": "percent",
+      "intro": "Divide booked nights by nights offered for booking. Owner use and maintenance closures change the denominator, so availability needs its own evidence.",
+      "limit": "Values above 100% identify inconsistent inputs; they are not feasible occupancy.",
+      "action": "Review calendar definitions before comparing your result with another property."
+    },
+    {
+      "slug": "average-daily-room-rate",
+      "title": "Average daily room rate",
+      "category": "Revenue",
+      "question": "What weighted nightly rate does the room revenue imply?",
+      "fields": [
+        {
+          "id": "revenue",
+          "label": "Annual room revenue",
+          "unit": "USD",
+          "base": 50000,
+          "min": 0,
+          "max": 100000000
+        },
+        {
+          "id": "nights",
+          "label": "Booked nights",
+          "unit": "nights",
+          "base": 200,
+          "min": 1,
+          "max": 366
+        }
+      ],
+      "formula": "revenue/nights",
+      "expression": [
+        "div",
+        "revenue",
+        "nights"
+      ],
+      "unit": "USD per night",
+      "intro": "Dividing room revenue by the booked nights that produced it yields a weighted average rate. This avoids giving a quiet month the same weight as a heavily booked month.",
+      "limit": "The numerator must exclude receipts that are not room charges for those nights.",
+      "action": "Check whether the source report includes cleaning charges or taxes in its displayed average."
+    },
+    {
+      "slug": "revenue-per-available-night",
+      "title": "Revenue per available night",
+      "category": "Revenue",
+      "question": "How much room revenue is earned per offered night?",
+      "fields": [
+        {
+          "id": "revenue",
+          "label": "Annual room revenue",
+          "unit": "USD",
+          "base": 50000,
+          "min": 0,
+          "max": 100000000
+        },
+        {
+          "id": "available",
+          "label": "Available nights",
+          "unit": "nights",
+          "base": 365,
+          "min": 1,
+          "max": 366
+        }
+      ],
+      "formula": "revenue/available",
+      "expression": [
+        "div",
+        "revenue",
+        "available"
+      ],
+      "unit": "USD per night",
+      "intro": "This calculation spreads room revenue over offered nights, including nights that were available but not booked. It combines the effect of rate and occupancy.",
+      "limit": "This is not the rate per booked night and does not account for costs.",
+      "action": "Use the same reporting period for room revenue and available nights."
+    },
+    {
+      "slug": "operating-margin",
+      "title": "Operating margin",
+      "category": "Operations",
+      "question": "What share of room revenue remains after operating costs?",
+      "fields": [
+        {
+          "id": "revenue",
+          "label": "Annual room revenue",
+          "unit": "USD",
+          "base": 50000,
+          "min": 1,
+          "max": 100000000
+        },
+        {
+          "id": "cost",
+          "label": "Annual operating cost",
+          "unit": "USD",
+          "base": 25000,
+          "min": 0,
+          "max": 100000000
+        }
+      ],
+      "formula": "(revenue-cost)/revenue*100",
+      "expression": [
+        "mul",
+        [
+          "div",
+          [
+            "sub",
+            "revenue",
+            "cost"
+          ],
+          "revenue"
+        ],
+        100
+      ],
+      "unit": "percent",
+      "intro": "Subtract the entered operating costs from room revenue and divide by revenue. The margin describes the cost definition you supply, not a standardized property valuation.",
+      "limit": "Debt service, income tax and irregular capital work are outside the entered operating-cost amount unless you explicitly include them.",
+      "action": "List included expenses before comparing margins between properties."
+    },
+    {
+      "slug": "net-operating-income",
+      "title": "Net operating income",
+      "category": "Operations",
+      "question": "What income remains before financing?",
+      "fields": [
+        {
+          "id": "revenue",
+          "label": "Annual room revenue",
+          "unit": "USD",
+          "base": 50000,
+          "min": 0,
+          "max": 100000000
+        },
+        {
+          "id": "cost",
+          "label": "Annual operating cost",
+          "unit": "USD",
+          "base": 25000,
+          "min": 0,
+          "max": 100000000
+        }
+      ],
+      "formula": "revenue-cost",
+      "expression": [
+        "sub",
+        "revenue",
+        "cost"
+      ],
+      "unit": "USD",
+      "intro": "Operating income subtracts the recurring operating expenses entered from room revenue. It is useful for separating property operations from the financing choice.",
+      "limit": "Exclude principal and interest from the operating-cost field for this definition. The result is pre-tax and excludes irregular capital work.",
+      "action": "Reconcile each recurring cost and identify any unpriced line rather than treating it as zero."
+    },
+    {
+      "slug": "debt-adjusted-cash-flow",
+      "title": "Debt-adjusted cash flow",
+      "category": "Operations",
+      "question": "What remains after operating costs and debt payments?",
+      "fields": [
+        {
+          "id": "revenue",
+          "label": "Annual room revenue",
+          "unit": "USD",
+          "base": 50000,
+          "min": 0,
+          "max": 100000000
+        },
+        {
+          "id": "cost",
+          "label": "Annual operating cost",
+          "unit": "USD",
+          "base": 25000,
+          "min": 0,
+          "max": 100000000
+        },
+        {
+          "id": "debt",
+          "label": "Annual debt service",
+          "unit": "USD",
+          "base": 24000,
+          "min": 0,
+          "max": 100000000
+        }
+      ],
+      "formula": "revenue-cost-debt",
+      "expression": [
+        "sub",
+        [
+          "sub",
+          "revenue",
+          "cost"
+        ],
+        "debt"
+      ],
+      "unit": "USD",
+      "intro": "The worksheet subtracts both operating costs and annual loan payments from room revenue. Showing those components separately helps reveal whether financing consumes the operating surplus.",
+      "limit": "It does not automatically include income tax, capital expenditures or changes in reserve balances.",
+      "action": "Compare the result with your actual cash obligations and keep a separate capital-work schedule."
+    },
+    {
+      "slug": "cash-on-cash-percentage",
+      "title": "Cash-on-cash percentage",
+      "category": "Returns",
+      "question": "What return follows from a defined cash investment?",
+      "fields": [
+        {
+          "id": "flow",
+          "label": "Annual pre-tax cash flow",
+          "unit": "USD",
+          "base": 10000,
+          "min": -10000000,
+          "max": 100000000
+        },
+        {
+          "id": "cash",
+          "label": "Total cash invested",
+          "unit": "USD",
+          "base": 125000,
+          "min": 1,
+          "max": 100000000
+        }
+      ],
+      "formula": "flow/cash*100",
+      "expression": [
+        "mul",
+        [
+          "div",
+          "flow",
+          "cash"
+        ],
+        100
+      ],
+      "unit": "percent",
+      "intro": "Divide pre-tax cash flow by all cash included in your investment definition. The denominator can include down payment, closing, setup, fees and committed reserves.",
+      "limit": "The result depends on your cash-flow definition and is not a total investment return.",
+      "action": "Retain a component schedule for the cash denominator and label the period of cash flow."
+    },
+    {
+      "slug": "operating-yield-on-price",
+      "title": "Operating yield on price",
+      "category": "Returns",
+      "question": "What is operating income as a share of purchase price?",
+      "fields": [
+        {
+          "id": "noi",
+          "label": "Annual operating income",
+          "unit": "USD",
+          "base": 30000,
+          "min": -10000000,
+          "max": 100000000
+        },
+        {
+          "id": "price",
+          "label": "Purchase price",
+          "unit": "USD",
+          "base": 400000,
+          "min": 1,
+          "max": 100000000
+        }
+      ],
+      "formula": "noi/price*100",
+      "expression": [
+        "mul",
+        [
+          "div",
+          "noi",
+          "price"
+        ],
+        100
+      ],
+      "unit": "percent",
+      "intro": "This simple yield divides annual operating income before financing by the purchase price. It allows you to separate operating assumptions from the debt structure.",
+      "limit": "The price denominator excludes transaction and setup costs. This is not an appraisal or market cap-rate recommendation.",
+      "action": "Use a consistent operating-cost schedule before comparing property yields."
+    },
+    {
+      "slug": "debt-service-coverage",
+      "title": "Debt-service coverage",
+      "category": "Financing",
+      "question": "How does operating income compare with annual debt service?",
+      "fields": [
+        {
+          "id": "noi",
+          "label": "Annual operating income",
+          "unit": "USD",
+          "base": 30000,
+          "min": -10000000,
+          "max": 100000000
+        },
+        {
+          "id": "debt",
+          "label": "Annual debt service",
+          "unit": "USD",
+          "base": 24000,
+          "min": 1,
+          "max": 100000000
+        }
+      ],
+      "formula": "noi/debt",
+      "expression": [
+        "div",
+        "noi",
+        "debt"
+      ],
+      "unit": "multiple",
+      "intro": "Divide annual operating income by annual debt service. A value of one means the two entered amounts are equal; below one means operating income is smaller.",
+      "limit": "Lenders may define qualifying income or expenses differently. This result does not establish loan eligibility.",
+      "action": "Ask the lender which income definition and test period its own underwriting uses."
+    },
+    {
+      "slug": "monthly-mortgage-payment",
+      "title": "Monthly mortgage payment",
+      "category": "Financing",
+      "question": "What is the modeled monthly principal and interest payment?",
+      "fields": [
+        {
+          "id": "loan",
+          "label": "Loan principal",
+          "unit": "USD",
+          "base": 300000,
+          "min": 0,
+          "max": 100000000
+        },
+        {
+          "id": "interest",
+          "label": "Annual interest rate",
+          "unit": "percent",
+          "base": 7,
+          "min": 0,
+          "max": 100
+        },
+        {
+          "id": "years",
+          "label": "Amortization term",
+          "unit": "years",
+          "base": 30,
+          "min": 1,
+          "max": 50
+        }
+      ],
+      "formula": "payment(loan, interest, years)",
+      "expression": [
+        "payment",
+        "loan",
+        "interest",
+        "years"
+      ],
+      "unit": "USD",
+      "intro": "This model uses a fixed annual interest rate and equal monthly payments over the amortization term. At zero interest it divides principal equally across months.",
+      "limit": "Taxes, insurance, loan fees, mortgage insurance, balloons and variable-rate changes are excluded.",
+      "action": "Reconcile the illustration with a current lender payment schedule."
+    },
+    {
+      "slug": "annual-mortgage-payments",
+      "title": "Annual mortgage payments",
+      "category": "Financing",
+      "question": "How much principal and interest is modeled across twelve months?",
+      "fields": [
+        {
+          "id": "loan",
+          "label": "Loan principal",
+          "unit": "USD",
+          "base": 300000,
+          "min": 0,
+          "max": 100000000
+        },
+        {
+          "id": "interest",
+          "label": "Annual interest rate",
+          "unit": "percent",
+          "base": 7,
+          "min": 0,
+          "max": 100
+        },
+        {
+          "id": "years",
+          "label": "Amortization term",
+          "unit": "years",
+          "base": 30,
+          "min": 1,
+          "max": 50
+        }
+      ],
+      "formula": "payment(loan, interest, years)*12",
+      "expression": [
+        "mul",
+        [
+          "payment",
+          "loan",
+          "interest",
+          "years"
+        ],
+        12
+      ],
+      "unit": "USD",
+      "intro": "Multiply the modeled level monthly principal-and-interest payment by twelve. This makes it comparable with an annual operating scenario.",
+      "limit": "A first partial year, interest-only period or payment change will require a different schedule.",
+      "action": "Keep the start date and payment type beside the annual amount."
+    },
+    {
+      "slug": "interest-only-payment",
+      "title": "Interest-only payment",
+      "category": "Financing",
+      "question": "What is one monthly interest-only payment at a fixed rate?",
+      "fields": [
+        {
+          "id": "loan",
+          "label": "Loan principal",
+          "unit": "USD",
+          "base": 300000,
+          "min": 0,
+          "max": 100000000
+        },
+        {
+          "id": "interest",
+          "label": "Annual interest rate",
+          "unit": "percent",
+          "base": 7,
+          "min": 0,
+          "max": 100
+        }
+      ],
+      "formula": "loan*interest/100/12",
+      "expression": [
+        "div",
+        [
+          "div",
+          [
+            "mul",
+            "loan",
+            "interest"
+          ],
+          100
+        ],
+        12
+      ],
+      "unit": "USD",
+      "intro": "Multiply principal by the annual rate and divide by twelve. The calculation pays no principal and is intentionally different from an amortizing loan model.",
+      "limit": "Actual day-count conventions, fees and later amortization or maturity terms are not modeled.",
+      "action": "Identify the length of the interest-only period and the obligations that follow it."
+    },
+    {
+      "slug": "total-entry-cash",
+      "title": "Total entry cash",
+      "category": "Acquisition",
+      "question": "What cash is allocated to the purchase and launch?",
+      "fields": [
+        {
+          "id": "down",
+          "label": "Down payment",
+          "unit": "USD",
+          "base": 100000,
+          "min": 0,
+          "max": 100000000
+        },
+        {
+          "id": "closing",
+          "label": "Closing cash excluding down payment",
+          "unit": "USD",
+          "base": 12000,
+          "min": 0,
+          "max": 100000000
+        },
+        {
+          "id": "setup",
+          "label": "Setup and initial work",
+          "unit": "USD",
+          "base": 30000,
+          "min": 0,
+          "max": 100000000
+        },
+        {
+          "id": "fees",
+          "label": "Other service fees",
+          "unit": "USD",
+          "base": 5000,
+          "min": 0,
+          "max": 100000000
+        },
+        {
+          "id": "reserve",
+          "label": "Initial reserve allocation",
+          "unit": "USD",
+          "base": 15000,
+          "min": 0,
+          "max": 100000000
+        }
+      ],
+      "formula": "down+closing+setup+fees+reserve",
+      "expression": [
+        "add",
+        [
+          "add",
+          [
+            "add",
+            [
+              "add",
+              "down",
+              "closing"
+            ],
+            "setup"
+          ],
+          "fees"
+        ],
+        "reserve"
+      ],
+      "unit": "USD",
+      "intro": "Add separately defined purchase and launch cash buckets. A reserve allocation is shown as committed cash even though it may remain in an account.",
+      "limit": "Do not count deposits or costs already included in another bucket twice. This is not a settlement statement.",
+      "action": "Reconcile every bucket to its source and identify credits or financed amounts separately."
+    },
+    {
+      "slug": "loan-to-price-ratio",
+      "title": "Loan-to-price ratio",
+      "category": "Financing",
+      "question": "What share of purchase price is represented by the loan?",
+      "fields": [
+        {
+          "id": "loan",
+          "label": "Loan principal",
+          "unit": "USD",
+          "base": 300000,
+          "min": 0,
+          "max": 100000000
+        },
+        {
+          "id": "price",
+          "label": "Purchase price",
+          "unit": "USD",
+          "base": 400000,
+          "min": 1,
+          "max": 100000000
+        }
+      ],
+      "formula": "loan/price*100",
+      "expression": [
+        "mul",
+        [
+          "div",
+          "loan",
+          "price"
+        ],
+        100
+      ],
+      "unit": "percent",
+      "intro": "The ratio divides the entered loan principal by the purchase price. It describes leverage against that price without assuming an appraised value.",
+      "limit": "A lender may use an appraised value, other basis or different loan amount. This calculation does not establish permitted leverage.",
+      "action": "Record whether the compared ratio uses price, value or total cost as its denominator."
+    },
+    {
+      "slug": "loan-to-total-cost-ratio",
+      "title": "Loan-to-total-cost ratio",
+      "category": "Financing",
+      "question": "What share of entered project cost is financed?",
+      "fields": [
+        {
+          "id": "loan",
+          "label": "Loan principal",
+          "unit": "USD",
+          "base": 300000,
+          "min": 0,
+          "max": 100000000
+        },
+        {
+          "id": "total",
+          "label": "Total project cost",
+          "unit": "USD",
+          "base": 450000,
+          "min": 1,
+          "max": 100000000
+        }
+      ],
+      "formula": "loan/total*100",
+      "expression": [
+        "mul",
+        [
+          "div",
+          "loan",
+          "total"
+        ],
+        100
+      ],
+      "unit": "percent",
+      "intro": "Divide principal by the combined project-cost basis you enter. This separates a total-cost ratio from a purchase-price ratio.",
+      "limit": "Define what belongs in total cost; financing eligibility can use different components.",
+      "action": "List the project-cost denominator before comparing it with a lender term."
+    },
+    {
+      "slug": "break-even-booked-nights",
+      "title": "Break-even booked nights",
+      "category": "Break-even",
+      "question": "How many booked nights cover annual fixed costs?",
+      "fields": [
+        {
+          "id": "rate",
+          "label": "Room rate",
+          "unit": "USD per night",
+          "base": 250,
+          "min": 0.01,
+          "max": 100000000
+        },
+        {
+          "id": "share",
+          "label": "Variable expense share",
+          "unit": "percent",
+          "base": 20,
+          "min": 0,
+          "max": 99.99
+        },
+        {
+          "id": "fixed",
+          "label": "Annual fixed costs including debt",
+          "unit": "USD",
+          "base": 36000,
+          "min": 0,
+          "max": 100000000
+        }
+      ],
+      "formula": "ceil(fixed/(rate*(1-share/100)))",
+      "expression": [
+        "ceil",
+        [
+          "div",
+          "fixed",
+          [
+            "mul",
+            "rate",
+            [
+              "sub",
+              1,
+              [
+                "div",
+                "share",
+                100
+              ]
+            ]
+          ]
+        ]
+      ],
+      "unit": "nights",
+      "intro": "Each booked night contributes the rate less the selected variable percentage. Divide fixed annual costs by that contribution and round up to a whole booked night.",
+      "limit": "The model assumes a constant contribution per night and does not verify that the required nights can be booked.",
+      "action": "Compare the result with actual availability and avoid counting fixed costs again in the variable share."
+    },
+    {
+      "slug": "required-nightly-room-rate",
+      "title": "Required nightly room rate",
+      "category": "Break-even",
+      "question": "What rate covers costs at a chosen number of booked nights?",
+      "fields": [
+        {
+          "id": "fixed",
+          "label": "Annual fixed costs including debt",
+          "unit": "USD",
+          "base": 36000,
+          "min": 0,
+          "max": 100000000
+        },
+        {
+          "id": "nights",
+          "label": "Expected booked nights",
+          "unit": "nights",
+          "base": 200,
+          "min": 1,
+          "max": 366
+        },
+        {
+          "id": "share",
+          "label": "Variable expense share",
+          "unit": "percent",
+          "base": 20,
+          "min": 0,
+          "max": 99.99
+        }
+      ],
+      "formula": "fixed/(nights*(1-share/100))",
+      "expression": [
+        "div",
+        "fixed",
+        [
+          "mul",
+          "nights",
+          [
+            "sub",
+            1,
+            [
+              "div",
+              "share",
+              100
+            ]
+          ]
+        ]
+      ],
+      "unit": "USD per night",
+      "intro": "Spread fixed costs across the selected booked nights, then allow for the variable expense percentage. The result is a mathematical cost-covering rate.",
+      "limit": "Market demand may not support this rate. Minimum stays, discounts and booking changes are not modeled.",
+      "action": "Treat the result as a question for your revenue evidence, not a pricing recommendation."
+    },
+    {
+      "slug": "variable-expense-amount",
+      "title": "Variable expense amount",
+      "category": "Expenses",
+      "question": "What annual cost follows from a revenue percentage?",
+      "fields": [
+        {
+          "id": "revenue",
+          "label": "Annual room revenue",
+          "unit": "USD",
+          "base": 50000,
+          "min": 0,
+          "max": 100000000
+        },
+        {
+          "id": "share",
+          "label": "Selected cost share",
+          "unit": "percent",
+          "base": 20,
+          "min": 0,
+          "max": 100
+        }
+      ],
+      "formula": "revenue*share/100",
+      "expression": [
+        "div",
+        [
+          "mul",
+          "revenue",
+          "share"
+        ],
+        100
+      ],
+      "unit": "USD",
+      "intro": "Apply a selected percentage to the revenue base. The dollar result makes a percentage assumption visible in the operating-cost schedule.",
+      "limit": "The model does not decide which expenses truly move with revenue or which base a contract uses.",
+      "action": "Confirm the fee base and distinguish revenue-linked costs from fixed annual obligations."
+    },
+    {
+      "slug": "management-fee-illustration",
+      "title": "Management fee illustration",
+      "category": "Expenses",
+      "question": "What management charge follows from an agreed revenue base?",
+      "fields": [
+        {
+          "id": "base",
+          "label": "Revenue subject to fee",
+          "unit": "USD",
+          "base": 50000,
+          "min": 0,
+          "max": 100000000
+        },
+        {
+          "id": "share",
+          "label": "Management fee rate",
+          "unit": "percent",
+          "base": 20,
+          "min": 0,
+          "max": 100
+        }
+      ],
+      "formula": "base*share/100",
+      "expression": [
+        "div",
+        [
+          "mul",
+          "base",
+          "share"
+        ],
+        100
+      ],
+      "unit": "USD",
+      "intro": "A management percentage only has meaning when its revenue base is defined. This illustration multiplies your chosen base by the fee percentage.",
+      "limit": "Minimum charges, additional services, taxes and contract exclusions are not incorporated.",
+      "action": "Compare the result with a sample invoice under the actual management agreement."
+    },
+    {
+      "slug": "blended-platform-fee",
+      "title": "Blended platform fee",
+      "category": "Expenses",
+      "question": "What is the combined cost across two booking channels?",
+      "fields": [
+        {
+          "id": "a",
+          "label": "Channel A room revenue",
+          "unit": "USD",
+          "base": 35000,
+          "min": 0,
+          "max": 100000000
+        },
+        {
+          "id": "feeA",
+          "label": "Channel A fee",
+          "unit": "percent",
+          "base": 3,
+          "min": 0,
+          "max": 100
+        },
+        {
+          "id": "b",
+          "label": "Channel B room revenue",
+          "unit": "USD",
+          "base": 15000,
+          "min": 0,
+          "max": 100000000
+        },
+        {
+          "id": "feeB",
+          "label": "Channel B fee",
+          "unit": "percent",
+          "base": 10,
+          "min": 0,
+          "max": 100
+        }
+      ],
+      "formula": "a*feeA/100+b*feeB/100",
+      "expression": [
+        "add",
+        [
+          "div",
+          [
+            "mul",
+            "a",
+            "feeA"
+          ],
+          100
+        ],
+        [
+          "div",
+          [
+            "mul",
+            "b",
+            "feeB"
+          ],
+          100
+        ]
+      ],
+      "unit": "USD",
+      "intro": "Calculate each channel\u2019s charge from its own assumed revenue and percentage, then add the charges. This avoids applying a single rate to a mixed channel portfolio.",
+      "limit": "Fees are hypothetical inputs, not current platform pricing. Other payment or guest charges are excluded.",
+      "action": "Verify each platform\u2019s current applicable terms and keep consistent revenue definitions."
+    },
+    {
+      "slug": "turnover-contribution",
+      "title": "Turnover contribution",
+      "category": "Operations",
+      "question": "What remains from cleaning receipts after cleaner costs?",
+      "fields": [
+        {
+          "id": "stays",
+          "label": "Number of stays",
+          "unit": "stays",
+          "base": 70,
+          "min": 0,
+          "max": 366
+        },
+        {
+          "id": "guest",
+          "label": "Cleaning charge per stay",
+          "unit": "USD",
+          "base": 150,
+          "min": 0,
+          "max": 100000000
+        },
+        {
+          "id": "cleaner",
+          "label": "Cleaner cost per stay",
+          "unit": "USD",
+          "base": 170,
+          "min": 0,
+          "max": 100000000
+        }
+      ],
+      "formula": "stays*(guest-cleaner)",
+      "expression": [
+        "mul",
+        "stays",
+        [
+          "sub",
+          "guest",
+          "cleaner"
+        ]
+      ],
+      "unit": "USD",
+      "intro": "Multiply the difference between the guest cleaning charge and cleaner cost by the stay count. Negative results identify a modeled turnover shortfall.",
+      "limit": "Linen replacement, deep cleans, platform charges and tax treatment are not included.",
+      "action": "Keep per-stay costs separate from costs charged per night or per visit."
+    },
+    {
+      "slug": "annual-utility-allowance",
+      "title": "Annual utility allowance",
+      "category": "Expenses",
+      "question": "What annual allowance follows from a monthly amount?",
+      "fields": [
+        {
+          "id": "monthly",
+          "label": "Monthly utility allowance",
+          "unit": "USD",
+          "base": 500,
+          "min": 0,
+          "max": 100000000
+        },
+        {
+          "id": "months",
+          "label": "Number of months",
+          "unit": "months",
+          "base": 12,
+          "min": 1,
+          "max": 12
+        }
+      ],
+      "formula": "monthly*months",
+      "expression": [
+        "mul",
+        "monthly",
+        "months"
+      ],
+      "unit": "USD",
+      "intro": "Multiply a monthly allowance by the number of included months. This is useful for showing a consistent cost assumption in an annual model.",
+      "limit": "A level allowance does not model weather, guest use, seasonal tariffs or service changes.",
+      "action": "Compare the flat assumption with a month-by-month bill schedule."
+    },
+    {
+      "slug": "monthly-tax-and-insurance-allowance",
+      "title": "Monthly tax and insurance allowance",
+      "category": "Expenses",
+      "question": "How much is the monthly equivalent of entered annual amounts?",
+      "fields": [
+        {
+          "id": "tax",
+          "label": "Annual property-tax assumption",
+          "unit": "USD",
+          "base": 5000,
+          "min": 0,
+          "max": 100000000
+        },
+        {
+          "id": "insurance",
+          "label": "Annual insurance assumption",
+          "unit": "USD",
+          "base": 3000,
+          "min": 0,
+          "max": 100000000
+        }
+      ],
+      "formula": "(tax+insurance)/12",
+      "expression": [
+        "div",
+        [
+          "add",
+          "tax",
+          "insurance"
+        ],
+        12
+      ],
+      "unit": "USD per month",
+      "intro": "Add the annual property-tax and insurance assumptions and divide by twelve for a monthly planning amount.",
+      "limit": "This does not calculate tax liability, premiums, escrow requirements or coverage. Inputs require current property-specific evidence.",
+      "action": "Use authority records and insurer quotes appropriate to the proposed purchase and use."
+    },
+    {
+      "slug": "replacement-reserve-allowance",
+      "title": "Replacement reserve allowance",
+      "category": "Reserves",
+      "question": "What annual allowance follows from replacement cost and interval?",
+      "fields": [
+        {
+          "id": "replacement",
+          "label": "Hypothetical replacement cost",
+          "unit": "USD",
+          "base": 12000,
+          "min": 0,
+          "max": 100000000
+        },
+        {
+          "id": "years",
+          "label": "Planning interval",
+          "unit": "years",
+          "base": 8,
+          "min": 1,
+          "max": 100
+        }
+      ],
+      "formula": "replacement/years",
+      "expression": [
+        "div",
+        "replacement",
+        "years"
+      ],
+      "unit": "USD per year",
+      "intro": "Spread a hypothetical replacement cost evenly across a selected interval. This shows one possible budgeting allowance rather than predicting equipment failure.",
+      "limit": "Timing, inflation, existing condition and repair alternatives are not included. It is not a tax-depreciation calculation.",
+      "action": "Keep specialist condition findings separate from your chosen reserve interval."
+    },
+    {
+      "slug": "cash-shortfall-runway",
+      "title": "Cash shortfall runway",
+      "category": "Reserves",
+      "question": "How long could a reserve cover a constant monthly shortfall?",
+      "fields": [
+        {
+          "id": "reserve",
+          "label": "Usable reserve",
+          "unit": "USD",
+          "base": 15000,
+          "min": 0,
+          "max": 100000000
+        },
+        {
+          "id": "shortfall",
+          "label": "Monthly cash shortfall",
+          "unit": "USD",
+          "base": 1500,
+          "min": 0.01,
+          "max": 100000000
+        }
+      ],
+      "formula": "reserve/shortfall",
+      "expression": [
+        "div",
+        "reserve",
+        "shortfall"
+      ],
+      "unit": "months",
+      "intro": "Divide usable reserve by the assumed monthly cash deficit. Funds earmarked for unrelated obligations should not be included as usable reserve.",
+      "limit": "The shortfall is held constant and there is no replenishment or emergency capital expense.",
+      "action": "Stress both the size and duration of the shortfall; this result does not recommend a reserve level."
+    },
+    {
+      "slug": "setup-cost-overrun",
+      "title": "Setup cost overrun",
+      "category": "Acquisition",
+      "question": "How much does a selected overrun add to setup cash?",
+      "fields": [
+        {
+          "id": "budget",
+          "label": "Original setup budget",
+          "unit": "USD",
+          "base": 30000,
+          "min": 0,
+          "max": 100000000
+        },
+        {
+          "id": "rise",
+          "label": "Overrun percentage",
+          "unit": "percent",
+          "base": 15,
+          "min": 0,
+          "max": 1000
+        }
+      ],
+      "formula": "budget*rise/100",
+      "expression": [
+        "div",
+        [
+          "mul",
+          "budget",
+          "rise"
+        ],
+        100
+      ],
+      "unit": "USD",
+      "intro": "Apply an overrun percentage to the original setup allowance. The result is additional cash rather than the revised full setup total.",
+      "limit": "The percentage is a scenario choice and does not replace itemized vendor quotes.",
+      "action": "Identify which unpriced scope items could use the additional allowance."
+    },
+    {
+      "slug": "lost-booking-contribution",
+      "title": "Lost-booking contribution",
+      "category": "Stress tests",
+      "question": "How much contribution is lost when booked nights fall?",
+      "fields": [
+        {
+          "id": "rate",
+          "label": "Average room rate",
+          "unit": "USD per booked night",
+          "base": 250,
+          "min": 0,
+          "max": 10000
+        },
+        {
+          "id": "lost",
+          "label": "Lost booked nights",
+          "unit": "nights",
+          "base": 25,
+          "min": 0,
+          "max": 366
+        },
+        {
+          "id": "share",
+          "label": "Avoided variable expense share",
+          "unit": "percent",
+          "base": 20,
+          "min": 0,
+          "max": 100
+        }
+      ],
+      "formula": "rate*lost*(1-share/100)",
+      "expression": [
+        "mul",
+        [
+          "mul",
+          "rate",
+          "lost"
+        ],
+        [
+          "sub",
+          1,
+          [
+            "div",
+            "share",
+            100
+          ]
+        ]
+      ],
+      "unit": "USD",
+      "intro": "Multiply lost room revenue by the share remaining after costs assumed to be avoided. Fixed costs are left unchanged.",
+      "limit": "Some expenses may not fall immediately when bookings decline. This does not model cancellations or refunds separately.",
+      "action": "State which costs can actually be avoided and how quickly they change."
+    },
+    {
+      "slug": "nightly-rate-sensitivity",
+      "title": "Nightly-rate sensitivity",
+      "category": "Stress tests",
+      "question": "What is the annual revenue effect of a dollar rate change?",
+      "fields": [
+        {
+          "id": "change",
+          "label": "Change in nightly room rate",
+          "unit": "USD per night",
+          "base": 20,
+          "min": -10000,
+          "max": 10000
+        },
+        {
+          "id": "nights",
+          "label": "Booked nights",
+          "unit": "nights",
+          "base": 200,
+          "min": 0,
+          "max": 366
+        }
+      ],
+      "formula": "change*nights",
+      "expression": [
+        "mul",
+        "change",
+        "nights"
+      ],
+      "unit": "USD",
+      "intro": "Hold booked nights constant and multiply by a dollar change in the nightly rate. This isolates the arithmetic rate effect.",
+      "limit": "Changing price can also change bookings, fees and guest mix. Those effects are outside this single-variable model.",
+      "action": "Follow with a combined rate-and-night scenario before treating the result as a complete view."
+    },
+    {
+      "slug": "room-revenue-downside",
+      "title": "Room revenue downside",
+      "category": "Stress tests",
+      "question": "What room revenue remains after a percentage reduction?",
+      "fields": [
+        {
+          "id": "revenue",
+          "label": "Annual room revenue",
+          "unit": "USD",
+          "base": 50000,
+          "min": 0,
+          "max": 100000000
+        },
+        {
+          "id": "drop",
+          "label": "Revenue reduction",
+          "unit": "percent",
+          "base": 20,
+          "min": 0,
+          "max": 100
+        }
+      ],
+      "formula": "revenue*(1-drop/100)",
+      "expression": [
+        "mul",
+        "revenue",
+        [
+          "sub",
+          1,
+          [
+            "div",
+            "drop",
+            100
+          ]
+        ]
+      ],
+      "unit": "USD",
+      "intro": "Apply one total reduction to the base room-revenue assumption. This is an aggregate scenario rather than a model of individual bookings.",
+      "limit": "It does not identify whether the decline comes from price, occupancy, refunds or availability.",
+      "action": "Record the cause behind your reduction when deciding which operating costs might also change."
+    },
+    {
+      "slug": "operating-cost-increase",
+      "title": "Operating cost increase",
+      "category": "Stress tests",
+      "question": "What annual cost follows from an expense increase?",
+      "fields": [
+        {
+          "id": "cost",
+          "label": "Annual operating cost",
+          "unit": "USD",
+          "base": 25000,
+          "min": 0,
+          "max": 100000000
+        },
+        {
+          "id": "rise",
+          "label": "Cost increase",
+          "unit": "percent",
+          "base": 15,
+          "min": 0,
+          "max": 1000
+        }
+      ],
+      "formula": "cost*(1+rise/100)",
+      "expression": [
+        "mul",
+        "cost",
+        [
+          "add",
+          1,
+          [
+            "div",
+            "rise",
+            100
+          ]
+        ]
+      ],
+      "unit": "USD",
+      "intro": "Increase the entered operating-cost total by a selected percentage. This makes an aggregate expense sensitivity visible.",
+      "limit": "Different expenses can move independently and some are fixed for a period. A single percentage simplifies that detail.",
+      "action": "Use itemized quotes when a particular cost is large enough to drive the decision."
+    },
+    {
+      "slug": "combined-operating-stress",
+      "title": "Combined operating stress",
+      "category": "Stress tests",
+      "question": "What cash flow remains when rate, nights and costs all change?",
+      "fields": [
+        {
+          "id": "rate",
+          "label": "Average room rate",
+          "unit": "USD per booked night",
+          "base": 250,
+          "min": 0,
+          "max": 10000
+        },
+        {
+          "id": "nights",
+          "label": "Booked nights",
+          "unit": "nights",
+          "base": 200,
+          "min": 0,
+          "max": 366
+        },
+        {
+          "id": "rateDrop",
+          "label": "Rate reduction",
+          "unit": "percent",
+          "base": 15,
+          "min": 0,
+          "max": 100
+        },
+        {
+          "id": "nightDrop",
+          "label": "Booked-night reduction",
+          "unit": "percent",
+          "base": 20,
+          "min": 0,
+          "max": 100
+        },
+        {
+          "id": "cost",
+          "label": "Annual operating cost",
+          "unit": "USD",
+          "base": 25000,
+          "min": 0,
+          "max": 100000000
+        },
+        {
+          "id": "rise",
+          "label": "Operating cost increase",
+          "unit": "percent",
+          "base": 10,
+          "min": 0,
+          "max": 1000
+        },
+        {
+          "id": "debt",
+          "label": "Annual debt service",
+          "unit": "USD",
+          "base": 24000,
+          "min": 0,
+          "max": 100000000
+        }
+      ],
+      "formula": "rate*nights*(1-rateDrop/100)*(1-nightDrop/100)-cost*(1+rise/100)-debt",
+      "expression": [
+        "sub",
+        [
+          "sub",
+          [
+            "mul",
+            [
+              "mul",
+              [
+                "mul",
+                "rate",
+                "nights"
+              ],
+              [
+                "sub",
+                1,
+                [
+                  "div",
+                  "rateDrop",
+                  100
+                ]
+              ]
+            ],
+            [
+              "sub",
+              1,
+              [
+                "div",
+                "nightDrop",
+                100
+              ]
+            ]
+          ],
+          [
+            "mul",
+            "cost",
+            [
+              "add",
+              1,
+              [
+                "div",
+                "rise",
+                100
+              ]
+            ]
+          ]
+        ],
+        "debt"
+      ],
+      "unit": "USD",
+      "intro": "Reduce rate and booked nights multiplicatively, increase operating costs, and retain the debt payment. This tests several connected assumptions together.",
+      "limit": "This is not a probability estimate. Costs are treated as an annual aggregate, not a booking-sensitive schedule.",
+      "action": "Write why each stress assumption is plausible for your own scenario without presenting it as a forecast."
+    },
+    {
+      "slug": "two-season-room-revenue",
+      "title": "Two-season room revenue",
+      "category": "Revenue",
+      "question": "What revenue follows from two different seasonal rates?",
+      "fields": [
+        {
+          "id": "highRate",
+          "label": "Season A nightly rate",
+          "unit": "USD",
+          "base": 350,
+          "min": 0,
+          "max": 100000000
+        },
+        {
+          "id": "highNights",
+          "label": "Season A booked nights",
+          "unit": "nights",
+          "base": 80,
+          "min": 0,
+          "max": 183
+        },
+        {
+          "id": "lowRate",
+          "label": "Season B nightly rate",
+          "unit": "USD",
+          "base": 200,
+          "min": 0,
+          "max": 100000000
+        },
+        {
+          "id": "lowNights",
+          "label": "Season B booked nights",
+          "unit": "nights",
+          "base": 120,
+          "min": 0,
+          "max": 183
+        }
+      ],
+      "formula": "highRate*highNights+lowRate*lowNights",
+      "expression": [
+        "add",
+        [
+          "mul",
+          "highRate",
+          "highNights"
+        ],
+        [
+          "mul",
+          "lowRate",
+          "lowNights"
+        ]
+      ],
+      "unit": "USD",
+      "intro": "Calculate room revenue separately for two seasonal segments and add the results. This avoids applying a peak rate to all booked nights.",
+      "limit": "Two segments simplify a full calendar and do not validate demand or available inventory.",
+      "action": "Choose segments whose periods do not overlap and confirm the combined booked nights fit the year."
+    },
+    {
+      "slug": "three-period-cash-flow",
+      "title": "Three-period cash flow",
+      "category": "Operations",
+      "question": "What does a three-period cash schedule add up to?",
+      "fields": [
+        {
+          "id": "a",
+          "label": "Period A net cash flow",
+          "unit": "USD",
+          "base": 12000,
+          "min": -10000000,
+          "max": 100000000
+        },
+        {
+          "id": "b",
+          "label": "Period B net cash flow",
+          "unit": "USD",
+          "base": -5000,
+          "min": -10000000,
+          "max": 100000000
+        },
+        {
+          "id": "c",
+          "label": "Period C net cash flow",
+          "unit": "USD",
+          "base": 8000,
+          "min": -10000000,
+          "max": 100000000
+        }
+      ],
+      "formula": "a+b+c",
+      "expression": [
+        "add",
+        [
+          "add",
+          "a",
+          "b"
+        ],
+        "c"
+      ],
+      "unit": "USD",
+      "intro": "Add net cash results across three non-overlapping periods. Negative entries remain visible rather than being excluded from a favorable total.",
+      "limit": "The periods must use the same cash-flow definition and together cover the interval you intend to describe.",
+      "action": "Inspect each period\u2019s funding need even when their combined total is positive."
+    },
+    {
+      "slug": "discounted-room-rate",
+      "title": "Discounted room rate",
+      "category": "Pricing",
+      "question": "What nightly rate follows from a simple percentage discount?",
+      "fields": [
+        {
+          "id": "rate",
+          "label": "Average room rate",
+          "unit": "USD per booked night",
+          "base": 250,
+          "min": 0,
+          "max": 10000
+        },
+        {
+          "id": "discount",
+          "label": "Discount percentage",
+          "unit": "percent",
+          "base": 10,
+          "min": 0,
+          "max": 100
+        }
+      ],
+      "formula": "rate*(1-discount/100)",
+      "expression": [
+        "mul",
+        "rate",
+        [
+          "sub",
+          1,
+          [
+            "div",
+            "discount",
+            100
+          ]
+        ]
+      ],
+      "unit": "USD per night",
+      "intro": "Reduce the entered room rate by one percentage discount. This shows the resulting rate before fees, taxes or other adjustments.",
+      "limit": "Multiple stacked discounts and platform-specific rounding rules are not modeled.",
+      "action": "Compare the discounted rate with your contribution and cost-covering rate."
+    },
+    {
+      "slug": "simple-cash-payback",
+      "title": "Simple cash payback",
+      "category": "Returns",
+      "question": "How many years of a constant cash flow equal the cash investment?",
+      "fields": [
+        {
+          "id": "cash",
+          "label": "Total cash invested",
+          "unit": "USD",
+          "base": 125000,
+          "min": 1,
+          "max": 100000000
+        },
+        {
+          "id": "flow",
+          "label": "Constant annual cash flow",
+          "unit": "USD",
+          "base": 10000,
+          "min": 0.01,
+          "max": 100000000
+        }
+      ],
+      "formula": "cash/flow",
+      "expression": [
+        "div",
+        "cash",
+        "flow"
+      ],
+      "unit": "years",
+      "intro": "Divide the cash investment by a constant positive annual cash flow. This is a simple undiscounted payback period.",
+      "limit": "It ignores time value, mortgage balance, sale proceeds, changing cash flows and tax effects. It is not a total-return model.",
+      "action": "Use it only as a clearly labeled simplification alongside more complete purchase analysis."
+    },
+    {
+      "slug": "amenity-payback-illustration",
+      "title": "Amenity payback illustration",
+      "category": "Design",
+      "question": "How many years of incremental contribution recover an upfront cost?",
+      "fields": [
+        {
+          "id": "cost",
+          "label": "Upfront amenity cost",
+          "unit": "USD",
+          "base": 15000,
+          "min": 0,
+          "max": 100000000
+        },
+        {
+          "id": "extra",
+          "label": "Annual incremental revenue assumption",
+          "unit": "USD",
+          "base": 6000,
+          "min": 0,
+          "max": 100000000
+        },
+        {
+          "id": "running",
+          "label": "Annual incremental operating cost",
+          "unit": "USD",
+          "base": 2000,
+          "min": 0,
+          "max": 100000000
+        }
+      ],
+      "formula": "cost/(extra-running)",
+      "expression": [
+        "div",
+        "cost",
+        [
+          "sub",
+          "extra",
+          "running"
+        ]
+      ],
+      "unit": "years",
+      "intro": "Divide the upfront cost by assumed incremental revenue less incremental operating cost. This isolates the improvement rather than the whole property\u2019s revenue.",
+      "limit": "A zero or negative contribution has no finite positive payback. Incremental demand is an assumption, not an established result.",
+      "action": "Ask what evidence supports incremental bookings and include ongoing servicing costs."
+    },
+    {
+      "slug": "per-night-contribution",
+      "title": "Per-night contribution",
+      "category": "Break-even",
+      "question": "What remains from a booked night after variable cost?",
+      "fields": [
+        {
+          "id": "rate",
+          "label": "Average room rate",
+          "unit": "USD per booked night",
+          "base": 250,
+          "min": 0,
+          "max": 10000
+        },
+        {
+          "id": "variable",
+          "label": "Variable cost per booked night",
+          "unit": "USD",
+          "base": 65,
+          "min": 0,
+          "max": 100000000
+        }
+      ],
+      "formula": "rate-variable",
+      "expression": [
+        "sub",
+        "rate",
+        "variable"
+      ],
+      "unit": "USD per night",
+      "intro": "Subtract the entered variable dollar cost from the room rate. The difference contributes toward fixed expenses and any surplus.",
+      "limit": "A flat cost per night can misstate costs that occur per stay or as a percentage of revenue.",
+      "action": "Separate turnover frequency from booked-night volume before using this contribution in a break-even model."
+    },
+    {
+      "slug": "owner-use-revenue-opportunity",
+      "title": "Owner-use revenue opportunity",
+      "category": "Operations",
+      "question": "What gross room revenue corresponds to selected owner-use nights?",
+      "fields": [
+        {
+          "id": "rate",
+          "label": "Average room rate",
+          "unit": "USD per booked night",
+          "base": 250,
+          "min": 0,
+          "max": 10000
+        },
+        {
+          "id": "owner",
+          "label": "Owner-use nights",
+          "unit": "nights",
+          "base": 14,
+          "min": 0,
+          "max": 366
+        }
+      ],
+      "formula": "rate*owner",
+      "expression": [
+        "mul",
+        "rate",
+        "owner"
+      ],
+      "unit": "USD",
+      "intro": "Multiply selected owner-use nights by a hypothetical achievable rate. This illustrates gross revenue opportunity rather than a cost charged to the owner.",
+      "limit": "It assumes those nights could otherwise have been booked and does not subtract avoided operating costs.",
+      "action": "Use the relevant seasonal rate rather than applying an annual average to every owner stay."
+    },
+    {
+      "slug": "debt-payment-cushion",
+      "title": "Debt payment cushion",
+      "category": "Financing",
+      "question": "How much operating income remains above annual debt payments?",
+      "fields": [
+        {
+          "id": "noi",
+          "label": "Annual operating income",
+          "unit": "USD",
+          "base": 30000,
+          "min": -10000000,
+          "max": 100000000
+        },
+        {
+          "id": "debt",
+          "label": "Annual debt service",
+          "unit": "USD",
+          "base": 24000,
+          "min": 0,
+          "max": 100000000
+        }
+      ],
+      "formula": "noi-debt",
+      "expression": [
+        "sub",
+        "noi",
+        "debt"
+      ],
+      "unit": "USD",
+      "intro": "Subtract annual debt service from operating income to express the debt cushion in dollars. This complements a coverage ratio when the scale of the margin matters.",
+      "limit": "A positive cushion does not include every capital, reserve or tax obligation and is not lender approval.",
+      "action": "Compare the dollar cushion with a combined operating stress rather than relying on a ratio alone."
+    }
+  ],
+  "references": [
+    {
+      "slug": "revenue-versus-receipts",
+      "title": "Revenue versus receipts",
+      "question": "Why are revenue and cash receipts different?",
+      "intro": "A booked stay can produce room charges, guest taxes, cleaning charges, refunds and platform deductions. A payout may arrive in a different period.",
+      "action": "Build a bridge between the defined revenue amount and the money received rather than relabeling one as the other.",
+      "limit": "Use the room-revenue model only with its stated numerator.",
+      "category": "Model interpretation"
+    },
+    {
+      "slug": "percentage-versus-percentage-points",
+      "title": "Percentage versus percentage points",
+      "question": "How should two rate changes be described?",
+      "intro": "A change from 20% to 25% is five percentage points and a 25% relative increase. These are different measures of the same change.",
+      "action": "Write both the original and revised rate before describing the difference.",
+      "limit": "Confusing the two can materially overstate or understate a cost change.",
+      "category": "Model interpretation"
+    },
+    {
+      "slug": "multiplicative-stress",
+      "title": "Multiplicative stress",
+      "question": "Why do rate and night reductions compound?",
+      "intro": "If price and booked nights both change, the revenue factors multiply. Reducing each by 20% leaves 64% of base revenue.",
+      "action": "Show the two factors separately so a reviewer can reproduce the result.",
+      "limit": "Adding the reductions does not reproduce the combined revenue calculation.",
+      "category": "Model interpretation"
+    },
+    {
+      "slug": "fixed-versus-variable-costs",
+      "title": "Fixed versus variable costs",
+      "question": "How should a cost be classified for a model?",
+      "intro": "A fixed cost remains in the scenario when bookings change. A variable cost moves with a defined activity or revenue base.",
+      "action": "Classify the cost for the period and decision being modeled; contracts can include both fixed and variable elements.",
+      "limit": "Do not assume every cost changes at the same speed as revenue.",
+      "category": "Model interpretation"
+    },
+    {
+      "slug": "per-stay-versus-per-night-costs",
+      "title": "Per-stay versus per-night costs",
+      "question": "Why does billing unit affect a projection?",
+      "intro": "Two properties with the same booked nights can have different turnover counts if their lengths of stay differ.",
+      "action": "Retain stay count and booked nights separately when modeling cleaning and consumables.",
+      "limit": "A per-stay charge should not be multiplied by booked nights.",
+      "category": "Model interpretation"
+    },
+    {
+      "slug": "cash-denominator-components",
+      "title": "Cash denominator components",
+      "question": "What belongs in total cash invested?",
+      "intro": "The chosen definition can include down payment, closing, setup, service fees and initial reserves. Consistency matters more than an unexplained label.",
+      "action": "List components and their timing beside the cash-on-cash calculation.",
+      "limit": "Do not compare a down-payment-only return with an all-cash return as if they use one base.",
+      "category": "Model interpretation"
+    },
+    {
+      "slug": "zero-and-negative-results",
+      "title": "Zero and negative results",
+      "question": "When should a model say not applicable?",
+      "intro": "A ratio with a zero denominator has no defined finite result. A payback model with nonpositive contribution does not produce a meaningful positive recovery time.",
+      "action": "Preserve the underlying inputs and explain why the output is unavailable.",
+      "limit": "Displaying infinity or a negative recovery period can mislead the reader.",
+      "category": "Model interpretation"
+    },
+    {
+      "slug": "rounding-policy",
+      "title": "Rounding policy",
+      "question": "Why retain precision until display?",
+      "intro": "Intermediate rounding can change a final ratio or payment. Calculations should use full numerical precision and round only the displayed result.",
+      "action": "Keep unrounded values internally and state the displayed unit.",
+      "limit": "A rounded dollar output can conceal a small positive or negative difference.",
+      "category": "Model interpretation"
+    },
+    {
+      "slug": "annual-versus-monthly-periods",
+      "title": "Annual versus monthly periods",
+      "question": "How do you align a calculation\u2019s units?",
+      "intro": "Annual income divided by monthly debt payments creates a ratio with inconsistent periods. Normalize time units first.",
+      "action": "Label every input with its period and show the conversion used.",
+      "limit": "Multiplying a partial period is a modeling assumption, not recorded annual performance.",
+      "category": "Model interpretation"
+    },
+    {
+      "slug": "amortization-versus-maturity",
+      "title": "Amortization versus maturity",
+      "question": "Why can the loan schedule need two dates?",
+      "intro": "An amortization term determines a level-payment calculation. Maturity determines when remaining principal may become due.",
+      "action": "Record both terms from the lender before relying on a long amortization illustration.",
+      "limit": "A long amortization period does not guarantee the loan remains outstanding that long.",
+      "category": "Model interpretation"
+    },
+    {
+      "slug": "interest-only-versus-amortizing",
+      "title": "Interest-only versus amortizing",
+      "question": "What does a lower initial payment omit?",
+      "intro": "An interest-only payment pays interest without scheduled principal reduction. An amortizing payment combines interest and principal over time.",
+      "action": "Model each period according to the actual structure and flag future changes.",
+      "limit": "Do not extrapolate an initial interest-only payment across the entire holding period.",
+      "category": "Model interpretation"
+    },
+    {
+      "slug": "noi-versus-cash-flow",
+      "title": "NOI versus cash flow",
+      "question": "Where does financing enter the model?",
+      "intro": "Operating income describes revenue after operating costs before financing. Debt-adjusted cash flow then subtracts principal and interest payments.",
+      "action": "Show the bridge rather than using the terms interchangeably.",
+      "limit": "Additional tax, capital and reserve obligations can still sit outside either simplified measure.",
+      "category": "Model interpretation"
+    },
+    {
+      "slug": "price-versus-total-project-cost",
+      "title": "Price versus total project cost",
+      "question": "Why can two leverage ratios differ?",
+      "intro": "A purchase-price denominator excludes some acquisition and launch costs. A total-project-cost denominator includes the components you define.",
+      "action": "Name the basis and retain the component schedule when calculating a ratio.",
+      "limit": "A lender may use a different basis from either worksheet.",
+      "category": "Model interpretation"
+    },
+    {
+      "slug": "reserve-allocation-versus-expense",
+      "title": "Reserve allocation versus expense",
+      "question": "How does earmarked cash differ from a paid cost?",
+      "intro": "A reserve is cash set aside for a purpose. An expense or capital payment occurs when work or another obligation is paid or recognized under the relevant accounting basis.",
+      "action": "Keep the allocation and later transaction distinct to avoid counting the same amount twice.",
+      "limit": "This is model organization rather than accounting or tax advice.",
+      "category": "Model interpretation"
+    },
+    {
+      "slug": "sensitivity-versus-forecast",
+      "title": "Sensitivity versus forecast",
+      "question": "What does changing an input establish?",
+      "intro": "A sensitivity shows what the formula does when an assumption changes. It does not assign a likelihood to the changed condition.",
+      "action": "Describe the scenario and the reason for testing it without calling the output predicted performance.",
+      "limit": "A detailed spreadsheet is still conditional on its inputs.",
+      "category": "Model interpretation"
+    },
+    {
+      "slug": "nominal-payback-limits",
+      "title": "Nominal payback limits",
+      "question": "What does simple payback leave out?",
+      "intro": "Simple payback divides cash committed by a constant positive cash flow. It does not discount future receipts or include a terminal sale.",
+      "action": "Use the label simple and undiscounted when presenting the result.",
+      "limit": "Do not use it as a substitute for a full investment-return analysis.",
+      "category": "Model interpretation"
+    },
+    {
+      "slug": "expense-double-counting",
+      "title": "Expense double counting",
+      "question": "How do you detect duplicate costs?",
+      "intro": "A cleaning cost or reserve may appear both as a line item and inside an aggregate management allowance. The model then subtracts it twice.",
+      "action": "Map each expense to one input bucket and document any aggregate inclusions.",
+      "limit": "A more conservative-looking total can still be an incorrect total.",
+      "category": "Model interpretation"
+    },
+    {
+      "slug": "input-provenance",
+      "title": "Input provenance",
+      "question": "What should accompany a calculator input?",
+      "intro": "A value needs a source, date, unit, period and status such as observed, quoted or assumed. The same number can mean different things under different definitions.",
+      "action": "Retain a non-sensitive source reference beside the scenario you export.",
+      "limit": "The calculator checks arithmetic and ranges, not authenticity.",
+      "category": "Model interpretation"
+    },
+    {
+      "slug": "model-handoff",
+      "title": "Model handoff",
+      "question": "How can someone else reproduce a scenario?",
+      "intro": "Share the model name, input set, units, formula version and limitations. A screenshot of the result alone omits important assumptions.",
+      "action": "Export the browser worksheet and retain it with your source register.",
+      "limit": "An exported file contains your entries; review it before sharing.",
+      "category": "Model interpretation"
+    }
+  ]
+}
