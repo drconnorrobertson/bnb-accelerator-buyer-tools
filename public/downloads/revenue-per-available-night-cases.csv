@@ -1,0 +1,6 @@
+fictional_case,denominator_basis,room_revenue_usd,booked_unit_nights,denominator_unit_nights,average_rate_usd,booked_share_percent,revenue_per_denominator_night_usd
+Base offered-night case,offered,36000,180,300,200.00,60.00,120.00
+Same receipts on full calendar,full calendar,36000,180,365,200.00,49.32,98.63
+Higher rate fewer booked nights,offered,36000,120,300,300.00,40.00,120.00
+Zero booked nights,offered,0,0,300,undefined,0.00,0.00
+Second property offered nights,offered,24000,80,100,300.00,80.00,240.00
