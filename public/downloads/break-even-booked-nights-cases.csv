@@ -1,0 +1,6 @@
+case,room_rate_USD_per_night,variable_share_percent,annual_fixed_cash_USD,contribution_USD_per_night,required_whole_nights,offered_nights,required_share_of_offered_percent,contribution_at_full_availability_USD,uncovered_fixed_cash_at_full_availability_USD
+Base case,250,20,36000,200,180,240,75,48000,0
+Lower room rate,200,20,36000,160,225,240,93.75,38400,0
+Higher fixed costs,250,20,42000,200,210,240,87.5,48000,0
+Limited availability,250,20,36000,200,180,160,112.5,32000,4000
+Whole-night rounding,195,20,36000,156,231,240,96.25,37440,0
