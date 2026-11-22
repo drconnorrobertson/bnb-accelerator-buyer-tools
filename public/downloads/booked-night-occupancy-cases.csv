@@ -1,0 +1,6 @@
+fictional_case,booked_nights,denominator_nights,booked_share_percent
+Reconciled offered calendar,200,300,66.67
+Same bookings; 20 nights held off sale,200,280,71.43
+Same bookings; 20 more nights offered,200,320,62.50
+Full calendar utilization comparison,200,365,54.79
+No bookings; positive offered calendar,0,300,0.00
