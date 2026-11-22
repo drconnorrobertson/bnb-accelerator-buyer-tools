@@ -9,7 +9,7 @@
     "answer": "For first-input sensitivity in this loan-to-total-cost ratio model, the published input set produces 53.33% under this model. It uses loan principal of $240,000 and total project cost of $450,000, together with the other inputs shown below. Holding those other inputs fixed, the lower loan principal test gives 42.67%, while the higher test gives 64%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide principal by the combined project-cost basis you enter. This separates a total-cost ratio from a purchase-price ratio. In this case, loan principal is $240,000. Hold every other input constant when inspecting the first input. A difference from a multi-input reference case cannot be attributed to that input alone.",
-      "The reference input set produces 66.67%. This case differs from that reference by -13.33%, or -20% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
+      "The reference input set produces 66.67%. This case differs from that reference by -13.33 percentage points, or -20% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $192,000 and the higher input is $288,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 53.33% ratio describes the entered principal and selected basis. A lender's own value definition, qualifying costs and terms must be examined separately.",
       "For the first field, the published loan principal is $240,000. Its lower and higher sensitivity rows change that field alone, so those rows are the relevant comparison for its local arithmetic effect. The full reference-case difference may include total project cost or other changed inputs and answers a different question."
@@ -121,8 +121,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "d4c2eafd5ff808fa3374950634a6df324296c3fa783c9fa2195e92356c615fb1",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "f11db47576dcdba3d5a2661b95343fe3ff669e6ac66b30c9e5abda2083dcb874",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -136,7 +136,7 @@
     "answer": "For second-input sensitivity in this loan-to-total-cost ratio model, the published input set produces 55.56% under this model. It uses loan principal of $300,000 and total project cost of $540,000, together with the other inputs shown below. Holding those other inputs fixed, the lower total project cost test gives 69.44%, while the higher test gives 46.3%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide principal by the combined project-cost basis you enter. This separates a total-cost ratio from a purchase-price ratio. In this case, total project cost is $540,000. Use the second input as a separate lever. A value can look small in isolation while materially affecting a product, ratio or residual.",
-      "The reference input set produces 66.67%. This case differs from that reference by -11.11%, or -16.67% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total project cost alone.",
+      "The reference input set produces 66.67%. This case differs from that reference by -11.11 percentage points, or -16.67% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total project cost alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $432,000 and the higher input is $648,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 55.56% ratio describes the entered principal and selected basis. A lender's own value definition, qualifying costs and terms must be examined separately.",
       "The second field is total project cost, entered here as $540,000. Read its two sensitivity rows separately from the first field. This preserves the distinction between changing loan principal and changing total project cost, even when both adjustments happen to move the headline answer in the same direction."
@@ -248,8 +248,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "76b6f3cd81e8eb75c38d23acea80fc63d5a13a1832361104de41c243d3c6ae60",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "52541efc7f20356ce3c98dd0b99d8422dac49840e1417fee0c9003f4466dcb62",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -263,7 +263,7 @@
     "answer": "For input units in this loan-to-total-cost ratio model, the published input set produces 58.82% under this model. It uses loan principal of $225,000 and total project cost of $382,500, together with the other inputs shown below. Holding those other inputs fixed, the lower loan principal test gives 47.06%, while the higher test gives 70.59%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide principal by the combined project-cost basis you enter. This separates a total-cost ratio from a purchase-price ratio. In this case, loan principal is $225,000. Read the units before performing the arithmetic. A room rate, a total amount, a percentage and a count are different inputs even when they contain similar numbers.",
-      "The reference input set produces 66.67%. This case differs from that reference by -7.84%, or -11.76% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
+      "The reference input set produces 66.67%. This case differs from that reference by -7.84 percentage points, or -11.76% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $180,000 and the higher input is $270,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 58.82% ratio describes the entered principal and selected basis. A lender's own value definition, qualifying costs and terms must be examined separately.",
       "The first two inputs use USD and USD, respectively. The raw values are 225000 and 382500. Keep those units attached when transferring this example into another worksheet; copying the numbers without the definitions can create a different mathematical question."
@@ -375,8 +375,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "849055daac26226993c4965324df4a4c1cb79e4d6ff66c41c6d4421160b1e7b0",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "4e64422479391c1360a5abd8eee23adf267a8ea697d8a4dad424db15f3e0e907",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -390,7 +390,7 @@
     "answer": "For reference-case comparison in this loan-to-total-cost ratio model, the published input set produces 66.67% under this model. It uses loan principal of $300,000 and total project cost of $450,000, together with the other inputs shown below. Holding those other inputs fixed, the lower total project cost test gives 83.33%, while the higher test gives 55.56%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide principal by the combined project-cost basis you enter. This separates a total-cost ratio from a purchase-price ratio. In this case, total project cost is $450,000. Compare the full input set with the model reference case. The reference is another hypothetical scenario, not a benchmark or a typical property result.",
-      "The reference input set produces 66.67%. This case differs from that reference by 0%, or 0% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total project cost alone.",
+      "The reference input set produces 66.67%. This case differs from that reference by 0 percentage points, or 0% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total project cost alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $360,000 and the higher input is $540,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 66.67% ratio describes the entered principal and selected basis. A lender's own value definition, qualifying costs and terms must be examined separately.",
       "All 2 inputs match the reference set, so 66.67% must equal 66.67%. This is a baseline consistency check. A disagreement under identical definitions and inputs would require checking the formula, precision or implementation before interpreting the result."
@@ -502,8 +502,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "2ee0da019eb3afe522b82c693621836d9cf93662866ea29330b1ad906e4bfeb1",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "afa6e70bde92f7f895bae5e5232719ce54c362eb0e6a0a90905400abba9ab34c",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -517,7 +517,7 @@
     "answer": "For lower-input boundary in this loan-to-total-cost ratio model, the published input set produces 33.33% under this model. It uses loan principal of $150,000 and total project cost of $450,000, together with the other inputs shown below. Holding those other inputs fixed, the lower loan principal test gives 26.67%, while the higher test gives 40%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide principal by the combined project-cost basis you enter. This separates a total-cost ratio from a purchase-price ratio. In this case, loan principal is $150,000. Check the selected input at a lower value without changing the other assumptions. A lower input does not always mean a more conservative output.",
-      "The reference input set produces 66.67%. This case differs from that reference by -33.33%, or -50% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
+      "The reference input set produces 66.67%. This case differs from that reference by -33.33 percentage points, or -50% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $120,000 and the higher input is $180,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 33.33% ratio describes the entered principal and selected basis. A lender's own value definition, qualifying costs and terms must be examined separately.",
       "The selected loan principal has an allowed numerical range from 0 to 100000000 USD. The lower sensitivity test uses $120,000 and returns 26.67%. That numerical range is a form constraint, not evidence that the alternate value can be obtained for a real project."
@@ -629,8 +629,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "b244447c639861a3d6cd67a9fd9f258175b6797a117e0fb4637a4acc9a33b5a7",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "bf9d06a5d71c80403f1e5058391b23e00752c5fee44123758434bd1b92cfcff2",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -644,7 +644,7 @@
     "answer": "For higher-input boundary in this loan-to-total-cost ratio model, the published input set produces 100% under this model. It uses loan principal of $450,000 and total project cost of $450,000, together with the other inputs shown below. Holding those other inputs fixed, the lower total project cost test gives 125%, while the higher test gives 83.33%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide principal by the combined project-cost basis you enter. This separates a total-cost ratio from a purchase-price ratio. In this case, total project cost is $450,000. Check the selected input at a higher value and preserve the other assumptions. Whether the output rises or falls depends on the formula.",
-      "The reference input set produces 66.67%. This case differs from that reference by 33.33%, or 50% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total project cost alone.",
+      "The reference input set produces 66.67%. This case differs from that reference by 33.33 percentage points, or 50% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total project cost alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $360,000 and the higher input is $540,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 100% ratio describes the entered principal and selected basis. A lender's own value definition, qualifying costs and terms must be examined separately.",
       "The higher total project cost test uses $540,000 and gives 83.33%, compared with the published 100%. Retain the original input alongside the higher test so that the effect remains visible. A larger input is not automatically a better outcome; its position in this formula determines the direction."
@@ -756,8 +756,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "961a712c7c32cb6507378e93869388eab3ac1e2dfba4da39fc0528ffbce88558",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "a75ec283a83fe90146871819a51e1cde1ba8bcbd8d7524e7b8f2565da3888269",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -771,7 +771,7 @@
     "answer": "For displayed rounding in this loan-to-total-cost ratio model, the published input set produces 66.66% under this model. It uses loan principal of $300,060 and total project cost of $450,135, together with the other inputs shown below. Holding those other inputs fixed, the lower loan principal test gives 53.33%, while the higher test gives 79.99%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide principal by the combined project-cost basis you enter. This separates a total-cost ratio from a purchase-price ratio. In this case, loan principal is $300,060. Keep precision through the calculation and round the displayed result only at the end. A displayed dollar amount can conceal a smaller underlying difference.",
-      "The reference input set produces 66.67%. This case differs from that reference by -0.006665%, or -0.01% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
+      "The reference input set produces 66.67%. This case differs from that reference by -0.006665 percentage points, or -0.01% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $240,048 and the higher input is $360,072. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 66.66% ratio describes the entered principal and selected basis. A lender's own value definition, qualifying costs and terms must be examined separately.",
       "Before display rounding, the result is 66.660001999 percent. The displayed result is 66.66%. Use the unrounded value when reproducing dependent arithmetic, and use the rounded figure only as a presentation of that result. A small difference near zero should not be confused with proof that the unrounded value is exactly zero."
@@ -883,8 +883,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "c56f68b868cd23ea23206e038f1d3a6af17417ceb7b9d01c9a8020f2063449d8",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "0b57a20c104e9094365ad45c4f4de158470deb291a1e79c019f34e70f2c7f2a8",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -898,7 +898,7 @@
     "answer": "For formula sequence in this loan-to-total-cost ratio model, the published input set produces 98.04% under this model. It uses loan principal of $375,000 and total project cost of $382,500, together with the other inputs shown below. Holding those other inputs fixed, the lower total project cost test gives 122.55%, while the higher test gives 81.7%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide principal by the combined project-cost basis you enter. This separates a total-cost ratio from a purchase-price ratio. In this case, total project cost is $382,500. Follow the order of operations in the worked steps. Parentheses can change the meaning of a percentage adjustment or ratio.",
-      "The reference input set produces 66.67%. This case differs from that reference by 31.37%, or 47.06% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total project cost alone.",
+      "The reference input set produces 66.67%. This case differs from that reference by 31.37 percentage points, or 47.06% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total project cost alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $306,000 and the higher input is $459,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 98.04% ratio describes the entered principal and selected basis. A lender's own value definition, qualifying costs and terms must be examined separately.",
       "The disclosed expression is loan/total*100. The worked operation list evaluates that expression using this case's values. Follow each intermediate line before comparing the final 98.04% with another source; changing the grouping or performing a percentage adjustment at a different point can describe a different calculation."
@@ -1010,8 +1010,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "a4fa84ec54d148b9bac0ee8e15ed74d32378f717ea9ddd4ca32961c5af3771b0",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "99130677564f0f78c5909688b4edf859194bfe61c4ab2224ced5720f14f30927",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -1025,7 +1025,7 @@
     "answer": "For absolute change in this loan-to-total-cost ratio model, the published input set produces 70% under this model. It uses loan principal of $315,000 and total project cost of $450,000, together with the other inputs shown below. Holding those other inputs fixed, the lower loan principal test gives 56%, while the higher test gives 84%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide principal by the combined project-cost basis you enter. This separates a total-cost ratio from a purchase-price ratio. In this case, loan principal is $315,000. Measure the change in the output unit before describing it as a percentage. A dollar change and a percentage change answer different questions.",
-      "The reference input set produces 66.67%. This case differs from that reference by 3.33%, or 5% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
+      "The reference input set produces 66.67%. This case differs from that reference by 3.33 percentage points, or 5% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $252,000 and the higher input is $378,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 70% ratio describes the entered principal and selected basis. A lender's own value definition, qualifying costs and terms must be examined separately.",
       "The absolute difference from the reference is 3.33% in the model's output units. That difference compares 70% with 66.67%. Preserve the unit and sign before describing the change in words, especially when the output is a period or ratio rather than a cash amount."
@@ -1137,8 +1137,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "e9b16734cbc6a1ec68d0c70b91886f3ebbb9a8de41e9d8043cfbcf271092b0e3",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "8cb07021ad38379fc354ee239011d103ac4217cfaf69d611e2a77bd25d4202e7",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -1152,7 +1152,7 @@
     "answer": "For relative change in this loan-to-total-cost ratio model, the published input set produces 81.48% under this model. It uses loan principal of $330,000 and total project cost of $405,000, together with the other inputs shown below. Holding those other inputs fixed, the lower total project cost test gives 101.85%, while the higher test gives 67.9%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide principal by the combined project-cost basis you enter. This separates a total-cost ratio from a purchase-price ratio. In this case, total project cost is $405,000. Use a nonzero reference before calculating a relative output change. A zero reference does not provide a finite percentage-change denominator.",
-      "The reference input set produces 66.67%. This case differs from that reference by 14.81%, or 22.22% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total project cost alone.",
+      "The reference input set produces 66.67%. This case differs from that reference by 14.81 percentage points, or 22.22% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total project cost alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $324,000 and the higher input is $486,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 81.48% ratio describes the entered principal and selected basis. A lender's own value definition, qualifying costs and terms must be examined separately.",
       "Using the absolute reference amount as the denominator, the change is 22.222222222%. This describes the movement from 66.67% to 81.48% under the full input set. It is separate from a percentage-point change in any one percent input."
@@ -1264,8 +1264,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "58fa1dd5d9cb80d82db7a8aced536337ac9db96e9f05edd2e070f66d40a2dc6a",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "be3a495c16ab5644e4f4fbc19977f8098351b29de0d3b460e5106625eb20027d",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -1279,7 +1279,7 @@
     "answer": "For observed versus assumed inputs in this loan-to-total-cost ratio model, the published input set produces 63.33% under this model. It uses loan principal of $285,000 and total project cost of $450,000, together with the other inputs shown below. Holding those other inputs fixed, the lower loan principal test gives 50.67%, while the higher test gives 76%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide principal by the combined project-cost basis you enter. This separates a total-cost ratio from a purchase-price ratio. In this case, loan principal is $285,000. Every number here is a hypothetical input. In a real file, label each value observed, quoted, assumed or unresolved before relying on the result.",
-      "The reference input set produces 66.67%. This case differs from that reference by -3.33%, or -5% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
+      "The reference input set produces 66.67%. This case differs from that reference by -3.33 percentage points, or -5% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $228,000 and the higher input is $342,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 63.33% ratio describes the entered principal and selected basis. A lender's own value definition, qualifying costs and terms must be examined separately.",
       "There is no real source record behind the teaching value $285,000 for loan principal. For actual use, retain a source reference and status for that field, then do the same for total project cost. The calculation can be reproduced from assumed values while still lacking evidence that either value describes a real property."
@@ -1391,8 +1391,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "b647829a13eedee7e0e1c3ffc3cb4e0b4bc5577e0d9b2998f840a34b0bbd0761",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "224e412dd01250d2bde3a12be200186504a29816b297ad8fa9b9d9be98ff19db",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -1406,7 +1406,7 @@
     "answer": "For single-variable isolation in this loan-to-total-cost ratio model, the published input set produces 74.07% under this model. It uses loan principal of $300,000 and total project cost of $405,000, together with the other inputs shown below. Holding those other inputs fixed, the lower total project cost test gives 92.59%, while the higher test gives 61.73%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide principal by the combined project-cost basis you enter. This separates a total-cost ratio from a purchase-price ratio. In this case, total project cost is $405,000. The one-input sensitivity rows isolate one arithmetic effect. They do not establish how other assumptions would behave at the same time.",
-      "The reference input set produces 66.67%. This case differs from that reference by 7.41%, or 11.11% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total project cost alone.",
+      "The reference input set produces 66.67%. This case differs from that reference by 7.41 percentage points, or 11.11% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total project cost alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $324,000 and the higher input is $486,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 74.07% ratio describes the entered principal and selected basis. A lender's own value definition, qualifying costs and terms must be examined separately.",
       "For the focused field total project cost, the lower test produces 92.59% and the higher test produces 61.73%. The other 1 inputs remain fixed in each row. This controlled comparison is what allows the local effect to be discussed without attributing simultaneous changes to the same field."
@@ -1518,8 +1518,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "3315221c37833077468f7ed9e6cd7e985e7c36d8d2a1f72bc4c870d4364f6081",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "bcc4ffe4bea94f0c80d6fcbc8a9c627d72c324a56752db65e27fc4d828560c73",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -1533,7 +1533,7 @@
     "answer": "For multiple-input movement in this loan-to-total-cost ratio model, the published input set produces 100% under this model. It uses loan principal of $360,000 and total project cost of $360,000, together with the other inputs shown below. Holding those other inputs fixed, the lower loan principal test gives 80%, while the higher test gives 120%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide principal by the combined project-cost basis you enter. This separates a total-cost ratio from a purchase-price ratio. In this case, loan principal is $360,000. Several inputs differ from the reference in this scenario. The combined difference is attributable to that full input set rather than a single change.",
-      "The reference input set produces 66.67%. This case differs from that reference by 33.33%, or 50% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
+      "The reference input set produces 66.67%. This case differs from that reference by 33.33 percentage points, or 50% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $288,000 and the higher input is $432,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 100% ratio describes the entered principal and selected basis. A lender's own value definition, qualifying costs and terms must be examined separately.",
       "The case differs from the reference in 2 fields: Loan principal $300,000 to $360,000; Total project cost $450,000 to $360,000. Keep that list with the 33.33% output difference. The one-input tests are a separate analysis of individual changes, not a decomposition of every interaction in the full case."
@@ -1645,8 +1645,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "a600179773dd52aff19168119c973a324e30ee08eaf2b5b10c37f7903d92e83e",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "04e90d9e6cd353c64eacbf176cc1d9a23a9221691801162d40d763bc158e9ca2",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -1660,7 +1660,7 @@
     "answer": "For source-period alignment in this loan-to-total-cost ratio model, the published input set produces 42.42% under this model. It uses loan principal of $210,000 and total project cost of $495,000, together with the other inputs shown below. Holding those other inputs fixed, the lower total project cost test gives 53.03%, while the higher test gives 35.35%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide principal by the combined project-cost basis you enter. This separates a total-cost ratio from a purchase-price ratio. In this case, total project cost is $495,000. For real use, retain the time basis of every amount or count. A monthly figure and an annual figure need a visible conversion before they are compared.",
-      "The reference input set produces 66.67%. This case differs from that reference by -24.24%, or -36.36% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total project cost alone.",
+      "The reference input set produces 66.67%. This case differs from that reference by -24.24 percentage points, or -36.36% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total project cost alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $396,000 and the higher input is $594,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 42.42% ratio describes the entered principal and selected basis. A lender's own value definition, qualifying costs and terms must be examined separately.",
       "The source schedule should preserve the period implied by each field label. In this example the first two fields are loan principal (USD) and total project cost (USD). The model uses them as labeled; it cannot infer that a number copied from a monthly or partial-period source needs conversion before entry."
@@ -1772,8 +1772,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "d3bd584ec7b7dd4287d1088fd31bb704afe0de08024548b45582eefd51a19173",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "2b96ad470b02f0375b5a57dadba4462b72d052adf93c2b96c13732dfa4b29b51",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -1787,7 +1787,7 @@
     "answer": "For denominator and scaling in this loan-to-total-cost ratio model, the published input set produces 51.28% under this model. It uses loan principal of $300,000 and total project cost of $585,000, together with the other inputs shown below. Holding those other inputs fixed, the lower loan principal test gives 41.03%, while the higher test gives 61.54%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide principal by the combined project-cost basis you enter. This separates a total-cost ratio from a purchase-price ratio. In this case, loan principal is $300,000. Inspect every division in the worked steps and name the quantity being divided by. If the formula contains no division, retain the actual multiplication or subtraction structure instead.",
-      "The reference input set produces 66.67%. This case differs from that reference by -15.38%, or -23.08% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
+      "The reference input set produces 66.67%. This case differs from that reference by -15.38 percentage points, or -23.08% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $240,000 and the higher input is $360,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 51.28% ratio describes the entered principal and selected basis. A lender's own value definition, qualifying costs and terms must be examined separately.",
       "The formula is loan/total*100. A division in that expression assigns meaning to the quantity in its denominator; a multiplication or subtraction does not create a denominator by analogy. Use the actual worked operations for this model instead of importing the interpretation of a similarly named percentage or yield."
@@ -1899,8 +1899,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "834257b0af0deb07f56f2c40c29cfac349cfe964aab5e7df96bdf5111c57508a",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "7947bc544243932ea4b8a8642e85a13e43e1a0009483bb7f7151046b7e6ece64",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -1914,7 +1914,7 @@
     "answer": "For percentage input convention in this loan-to-total-cost ratio model, the published input set produces 60.61% under this model. It uses loan principal of $300,000 and total project cost of $495,000, together with the other inputs shown below. Holding those other inputs fixed, the lower total project cost test gives 75.76%, while the higher test gives 50.51%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide principal by the combined project-cost basis you enter. This separates a total-cost ratio from a purchase-price ratio. In this case, total project cost is $495,000. This model has no percentage input. The displayed amounts and counts must be read in their own units; entering 20 does not instruct the model to apply twenty percent.",
-      "The reference input set produces 66.67%. This case differs from that reference by -6.06%, or -9.09% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total project cost alone.",
+      "The reference input set produces 66.67%. This case differs from that reference by -6.06 percentage points, or -9.09% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total project cost alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $396,000 and the higher input is $594,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 60.61% ratio describes the entered principal and selected basis. A lender's own value definition, qualifying costs and terms must be examined separately.",
       "Neither loan principal nor the other listed fields is a whole-percentage input in this model. For example, 300000 in the first field means $300,000. If another source expresses a percentage instead, obtain or derive the correctly defined amount rather than copying its percentage number into this field."
@@ -2026,8 +2026,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "b3b10513de31cef383333142c4f1c89e58db9060d946838c58d822c97b83eadb",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "efb0a1949c50e5d24b328f9dc3123bf24027e01bba172c2eeb9d7460a6467aed",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -2041,7 +2041,7 @@
     "answer": "For zero-value behavior in this loan-to-total-cost ratio model, the published input set produces 0% under this model. It uses loan principal of $0 and total project cost of $450,000, together with the other inputs shown below. Holding those other inputs fixed, the lower loan principal test gives 0%, while the higher test gives 0%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide principal by the combined project-cost basis you enter. This separates a total-cost ratio from a purchase-price ratio. In this case, loan principal is $0. A zero numerator can be meaningful while a zero denominator may be undefined. Follow the model-specific range and calculation rules rather than inserting a result by convention.",
-      "The reference input set produces 66.67%. This case differs from that reference by -66.67%, or -100% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
+      "The reference input set produces 66.67%. This case differs from that reference by -66.67 percentage points, or -100% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $0 and the higher input is $0. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 0% ratio describes the entered principal and selected basis. A lender's own value definition, qualifying costs and terms must be examined separately.",
       "The zero-valued field is loan principal. The remaining inputs stay visible, and the resulting 0% follows the model's own zero-handling rules. This is a deliberate arithmetic example; it is not permission to enter zero for an unpriced or unknown real obligation."
@@ -2153,8 +2153,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "c47189a16193272fff2e2de4595d6823e17d64b928eb38dab4bc79262a68d35d",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "0b38c79fabc9502f6e7ec9e9a86892fb4d4a1c182433bbaf759f8df75a4340b8",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -2168,7 +2168,7 @@
     "answer": "For negative-output meaning in this loan-to-total-cost ratio model, the published input set produces 26.67% under this model. It uses loan principal of $180,000 and total project cost of $675,000, together with the other inputs shown below. Holding those other inputs fixed, the lower total project cost test gives 33.33%, while the higher test gives 22.22%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide principal by the combined project-cost basis you enter. This separates a total-cost ratio from a purchase-price ratio. In this case, total project cost is $675,000. A negative result can be valid in a residual or change calculation. Interpret the sign within the model definition rather than silently replacing it with zero.",
-      "The reference input set produces 66.67%. This case differs from that reference by -40%, or -60% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total project cost alone.",
+      "The reference input set produces 66.67%. This case differs from that reference by -40 percentage points, or -60% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total project cost alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $540,000 and the higher input is $810,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 26.67% ratio describes the entered principal and selected basis. A lender's own value definition, qualifying costs and terms must be examined separately.",
       "This case returns 26.67%, not a negative result. Some models here permit negative residuals, while positive-contribution payback models impose a separate rule. Interpret the sign through this specific expression and its input constraints instead of assuming every model can produce the same kinds of outputs."
@@ -2280,8 +2280,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "539b7c5b506b0ff9c8dff02cb653c99b47f278f87b988434d252945e701f9c70",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "8a3bf9305ae2513119bcb199270eadf5b70c1aa74616fce0501e40a4c352214d",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -2295,7 +2295,7 @@
     "answer": "For cost inclusion boundary in this loan-to-total-cost ratio model, the published input set produces 48% under this model. It uses loan principal of $270,000 and total project cost of $562,500, together with the other inputs shown below. Holding those other inputs fixed, the lower loan principal test gives 38.4%, while the higher test gives 57.6%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide principal by the combined project-cost basis you enter. This separates a total-cost ratio from a purchase-price ratio. In this case, loan principal is $270,000. A calculated result includes only the inputs and operations actually shown. Costs or receipts outside this model require a separate schedule.",
-      "The reference input set produces 66.67%. This case differs from that reference by -18.67%, or -28% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
+      "The reference input set produces 66.67%. This case differs from that reference by -18.67 percentage points, or -28% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $216,000 and the higher input is $324,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 48% ratio describes the entered principal and selected basis. A lender's own value definition, qualifying costs and terms must be examined separately.",
       "The displayed inputs include loan principal, total project cost. Only those quantities enter loan/total*100. Before carrying 48% into a broader decision schedule, identify which additional receipts, costs, timing items or conditions the model description excludes rather than silently assuming they are already included."
@@ -2407,8 +2407,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "f0139b0f37ef77c77f4b28801e004bd0a4abbf405b33b5a7b817e9c4c021ceba",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "79a21fe1ae368337b2a742c6562e4e81b5bc433872e6d6274cf03190dd83ab87",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -2422,7 +2422,7 @@
     "answer": "For input precision in this loan-to-total-cost ratio model, the published input set produces 67.11% under this model. It uses loan principal of $301,110 and total project cost of $448,650, together with the other inputs shown below. Holding those other inputs fixed, the lower total project cost test gives 83.89%, while the higher test gives 55.93%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide principal by the combined project-cost basis you enter. This separates a total-cost ratio from a purchase-price ratio. In this case, total project cost is $448,650. Use input precision supported by the real record. Adding decimal places to an estimate makes the arithmetic more precise without making the estimate more certain.",
-      "The reference input set produces 66.67%. This case differs from that reference by 0.45%, or 0.67% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total project cost alone.",
+      "The reference input set produces 66.67%. This case differs from that reference by 0.45 percentage points, or 0.67% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total project cost alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $358,920 and the higher input is $538,380. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 67.11% ratio describes the entered principal and selected basis. A lender's own value definition, qualifying costs and terms must be examined separately.",
       "The raw focused input is 448650 USD. The model retains the supplied numeric precision through its calculation, while the formatted output is 67.11%. Precision should reflect the real source's unit and measurement basis; a more detailed decimal representation does not establish a more reliable underlying estimate."
@@ -2534,8 +2534,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "6b9efec4c2d512a9c96045a6e07cd16d18741d507cb6b597abfbd056b27dc745",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "46934a4efbad8f4e9fe632e797dde8c55769dd3a2e831ffcbbe30d2ba20e33fa",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -2549,7 +2549,7 @@
     "answer": "For output-unit interpretation in this loan-to-total-cost ratio model, the published input set produces 83.33% under this model. It uses loan principal of $300,000 and total project cost of $360,000, together with the other inputs shown below. Holding those other inputs fixed, the lower loan principal test gives 66.67%, while the higher test gives 100%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide principal by the combined project-cost basis you enter. This separates a total-cost ratio from a purchase-price ratio. In this case, loan principal is $300,000. Read the output unit alongside the answer. A total amount, a per-night amount, a percentage, a multiple and a period are not interchangeable measures.",
-      "The reference input set produces 66.67%. This case differs from that reference by 16.67%, or 25% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
+      "The reference input set produces 66.67%. This case differs from that reference by 16.67 percentage points, or 25% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $240,000 and the higher input is $360,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 83.33% ratio describes the entered principal and selected basis. A lender's own value definition, qualifying costs and terms must be examined separately.",
       "The answer unit is percent. The result 83.33% should therefore be read with that unit attached, just as $300,000 retains the first input's unit. Transferring only the number into a differently labeled output cell can create an apparent result that this calculation never produced."
@@ -2661,8 +2661,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "f91491ac9f7b1a47d2e3b7b028cfd2abddc24976de98e43f0dae0fbf898e8bbc",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "471c9bc2fa718ac2e43ccdb6319fa8411905aa1629a7f380055be5e27635e7cf",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -2676,7 +2676,7 @@
     "answer": "For scenario reproducibility in this loan-to-total-cost ratio model, the published input set produces 90% under this model. It uses loan principal of $405,000 and total project cost of $450,000, together with the other inputs shown below. Holding those other inputs fixed, the lower total project cost test gives 112.5%, while the higher test gives 75%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide principal by the combined project-cost basis you enter. This separates a total-cost ratio from a purchase-price ratio. In this case, total project cost is $450,000. Save the inputs with the result and formula. A screenshot of a headline answer alone is insufficient for another reviewer to reproduce the calculation.",
-      "The reference input set produces 66.67%. This case differs from that reference by 23.33%, or 35% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total project cost alone.",
+      "The reference input set produces 66.67%. This case differs from that reference by 23.33 percentage points, or 35% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total project cost alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $360,000 and the higher input is $540,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 90% ratio describes the entered principal and selected basis. A lender's own value definition, qualifying costs and terms must be examined separately.",
       "A reproducible handoff needs all 2 published values, the formula loan/total*100, and the 90% result together. The input table and export support that handoff. If only the headline answer is retained, another reviewer cannot tell whether a later difference comes from the values, definitions or calculation."
@@ -2788,8 +2788,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "1e0e787d69062db44c0064948483c9932af32fa14cef91c02e9d3e63598ca51e",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "601f68cb84b5e4744f6ef04cafdeb320033b07f575c810cf9d2a3611984efe19",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -2803,7 +2803,7 @@
     "answer": "For local change versus forecast in this loan-to-total-cost ratio model, the published input set produces 142.22% under this model. It uses loan principal of $480,000 and total project cost of $337,500, together with the other inputs shown below. Holding those other inputs fixed, the lower loan principal test gives 113.78%, while the higher test gives 170.67%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide principal by the combined project-cost basis you enter. This separates a total-cost ratio from a purchase-price ratio. In this case, loan principal is $480,000. The sensitivity rows answer a conditional mathematical question. They do not assign a likelihood to any of the alternate inputs.",
-      "The reference input set produces 66.67%. This case differs from that reference by 75.56%, or 113.33% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
+      "The reference input set produces 66.67%. This case differs from that reference by 75.56 percentage points, or 113.33% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $384,000 and the higher input is $576,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 142.22% result means the entered principal exceeds the selected denominator. It is a mathematical ratio from these inputs, not evidence that a lender would finance this amount or use the same basis.",
       "The lower focused test is 113.78%; the higher focused test is 170.67%. These two conditional outputs do not give a probability that loan principal will take either alternate value. The table describes how this equation responds, while the plausibility and source support of each assumption remain separate questions."
@@ -2915,8 +2915,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "c406df590363e780a74914e9e1d38ce3598d5a34649de254abcd261943357374",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "1adb466da3561082e965e15a701d9b10d63dc443ade0ce42a66b042968f163ab",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -2930,7 +2930,7 @@
     "answer": "For unpriced input treatment in this loan-to-total-cost ratio model, the published input set produces 59.65% under this model. It uses loan principal of $255,000 and total project cost of $427,500, together with the other inputs shown below. Holding those other inputs fixed, the lower total project cost test gives 74.56%, while the higher test gives 49.71%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide principal by the combined project-cost basis you enter. This separates a total-cost ratio from a purchase-price ratio. In this case, total project cost is $427,500. An unknown amount is not automatically zero. In real use, retain an unresolved source item rather than completing a model with an unsupported value.",
-      "The reference input set produces 66.67%. This case differs from that reference by -7.02%, or -10.53% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total project cost alone.",
+      "The reference input set produces 66.67%. This case differs from that reference by -7.02 percentage points, or -10.53% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total project cost alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $342,000 and the higher input is $513,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 59.65% ratio describes the entered principal and selected basis. A lender's own value definition, qualifying costs and terms must be examined separately.",
       "The example includes a stated value for every required field, including total project cost at $427,500. A real missing quote or incomplete record should remain unresolved in the source register. The existence of a valid number box does not supply evidence for filling it, particularly when zero would materially change the 59.65% result."
@@ -3042,8 +3042,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "7c4f703452ad1b983bd89bad8e14ea27cfb5ac1a91121ff1764572adde27e034",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "d10fc5bff1d9afe73e9367d31b5de1e4ecf3ba4842b41f17c369d6c7b4467610",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -3057,7 +3057,7 @@
     "answer": "For comparison-basis consistency in this loan-to-total-cost ratio model, the published input set produces 63.64% under this model. It uses loan principal of $315,000 and total project cost of $495,000, together with the other inputs shown below. Holding those other inputs fixed, the lower loan principal test gives 50.91%, while the higher test gives 76.36%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide principal by the combined project-cost basis you enter. This separates a total-cost ratio from a purchase-price ratio. In this case, loan principal is $315,000. Keep the same definitions when comparing this case with another. Similar labels can conceal different cost bases, periods or included components.",
-      "The reference input set produces 66.67%. This case differs from that reference by -3.03%, or -4.55% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
+      "The reference input set produces 66.67%. This case differs from that reference by -3.03 percentage points, or -4.55% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $252,000 and the higher input is $378,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 63.64% ratio describes the entered principal and selected basis. A lender's own value definition, qualifying costs and terms must be examined separately.",
       "The reference comparison uses 66.67% and the published case uses 63.64% under one fixed model definition. A source that includes different components, uses another period or changes an input's denominator is not on that same basis. Align those definitions before calling its result higher or lower than this case."
@@ -3169,8 +3169,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "fc46641e94b49676ce86dbcc2fe36a29f2c60bc751146875ba3f3ca21baf182a",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "ba180a48e42c5b2eb81aec7f36d05fbe280d2760f8f94aff4ba6b06fc3216d1e",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -3184,7 +3184,7 @@
     "answer": "For input-range constraint in this loan-to-total-cost ratio model, the published input set produces 174.36% under this model. It uses loan principal of $510,000 and total project cost of $292,500, together with the other inputs shown below. Holding those other inputs fixed, the lower total project cost test gives 217.95%, while the higher test gives 145.3%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide principal by the combined project-cost basis you enter. This separates a total-cost ratio from a purchase-price ratio. In this case, total project cost is $292,500. The form checks its stated input ranges, but a valid numerical range does not prove that an assumption is feasible for a real property or contract.",
-      "The reference input set produces 66.67%. This case differs from that reference by 107.69%, or 161.54% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total project cost alone.",
+      "The reference input set produces 66.67%. This case differs from that reference by 107.69 percentage points, or 161.54% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total project cost alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $234,000 and the higher input is $351,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 174.36% result means the entered principal exceeds the selected denominator. It is a mathematical ratio from these inputs, not evidence that a lender would finance this amount or use the same basis.",
       "For total project cost, the numerical form limits are 1 through 100000000 USD. The published $292,500 is within those limits, but that alone says nothing about a lender quote, operating permission, vendor availability or actual demand. Treat range validity as a calculation check rather than external approval."
@@ -3296,8 +3296,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "61c316352b69328b33e8d31138d15fc01a73dc0c2e83851cec8577529ad787e1",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "6ae8b466d221f0a3ce1a91a5a55ba3fc91e54ef100f5098efa3fd8e98cdb929a",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -3311,7 +3311,7 @@
     "answer": "For direction of the relationship in this loan-to-total-cost ratio model, the published input set produces 40% under this model. It uses loan principal of $180,000 and total project cost of $450,000, together with the other inputs shown below. Holding those other inputs fixed, the lower loan principal test gives 32%, while the higher test gives 48%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide principal by the combined project-cost basis you enter. This separates a total-cost ratio from a purchase-price ratio. In this case, loan principal is $180,000. Use the calculated lower and higher cases to inspect direction. A denominator change can move the result differently from a numerator or additive input.",
-      "The reference input set produces 66.67%. This case differs from that reference by -26.67%, or -40% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
+      "The reference input set produces 66.67%. This case differs from that reference by -26.67 percentage points, or -40% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $144,000 and the higher input is $216,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 40% ratio describes the entered principal and selected basis. A lender's own value definition, qualifying costs and terms must be examined separately.",
       "Relative to 40%, the lower focused case changes the output by -8% and the higher case changes it by 8%. Those signs show the local direction of this relationship for the selected inputs. Do not assume that an input appearing in a denominator behaves like one added to the numerator."
@@ -3423,8 +3423,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "b98dee57d2569f3a24e058d34db09903b7e799a98b2bcbda8f8d4a0d4b6d586c",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "ce55c0f31a1d21c1816c8e5078cb943d68626f82996c9d52dbc5cb41c782dbe9",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -3438,7 +3438,7 @@
     "answer": "For magnitude of the relationship in this loan-to-total-cost ratio model, the published input set produces 96% under this model. It uses loan principal of $540,000 and total project cost of $562,500, together with the other inputs shown below. Holding those other inputs fixed, the lower total project cost test gives 120%, while the higher test gives 80%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide principal by the combined project-cost basis you enter. This separates a total-cost ratio from a purchase-price ratio. In this case, total project cost is $562,500. Consider how large the output change is in its own units. A mathematically visible change may still be small relative to other unmodeled obligations.",
-      "The reference input set produces 66.67%. This case differs from that reference by 29.33%, or 44% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total project cost alone.",
+      "The reference input set produces 66.67%. This case differs from that reference by 29.33 percentage points, or 44% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total project cost alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $450,000 and the higher input is $675,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 96% ratio describes the entered principal and selected basis. A lender's own value definition, qualifying costs and terms must be examined separately.",
       "The headline answer is 96%. The focused lower and higher tests are 120% and 80%. Consider those changes in percent, rather than focusing only on whether the displayed number moved. Other unmodeled obligations may matter more than a small arithmetic movement, and the formula does not rank their importance."
@@ -3550,8 +3550,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "d54fe87e70a1ab538e24acc2d25094cee2c1d3e3d7147c23aa0d17ea71bda6e6",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "1a2bc80800354b9998359f7db68d0e279ccbf6cf0531b81b73d6b64c582f2ecb",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -3565,7 +3565,7 @@
     "answer": "For sensitivity symmetry in this loan-to-total-cost ratio model, the published input set produces 133.33% under this model. It uses loan principal of $300,000 and total project cost of $225,000, together with the other inputs shown below. Holding those other inputs fixed, the lower loan principal test gives 106.67%, while the higher test gives 160%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide principal by the combined project-cost basis you enter. This separates a total-cost ratio from a purchase-price ratio. In this case, loan principal is $300,000. Do not assume that an equal percentage decrease and increase in an input cause symmetric output changes. Ratios and payment formulas can behave nonlinearly.",
-      "The reference input set produces 66.67%. This case differs from that reference by 66.67%, or 100% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
+      "The reference input set produces 66.67%. This case differs from that reference by 66.67 percentage points, or 100% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $240,000 and the higher input is $360,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 133.33% result means the entered principal exceeds the selected denominator. It is a mathematical ratio from these inputs, not evidence that a lender would finance this amount or use the same basis.",
       "The lower input changes the output by -26.67%, while the higher input changes it by 26.67%. Their absolute magnitudes are 26.67% and 26.67%. They need not match: the equation, bounds and whole-unit rounding can make equal-looking input moves asymmetric."
@@ -3677,8 +3677,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "f1c49cc453bfcf495643d8c6d29c5ed149a2dd66090842872b226d539dc63f6e",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "9d0be31d356f39d0afa5ac9dc861700223207e2d9c8db791a889b2aa0ecf03d7",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -3692,7 +3692,7 @@
     "answer": "For reference-case limitations in this loan-to-total-cost ratio model, the published input set produces 64.17% under this model. It uses loan principal of $309,000 and total project cost of $481,500, together with the other inputs shown below. Holding those other inputs fixed, the lower total project cost test gives 80.22%, while the higher test gives 53.48%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide principal by the combined project-cost basis you enter. This separates a total-cost ratio from a purchase-price ratio. In this case, total project cost is $481,500. The default input set is a teaching reference. It is not a market average, underwriting recommendation or evidence that the same conditions can be obtained.",
-      "The reference input set produces 66.67%. This case differs from that reference by -2.49%, or -3.74% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total project cost alone.",
+      "The reference input set produces 66.67%. This case differs from that reference by -2.49 percentage points, or -3.74% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total project cost alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $385,200 and the higher input is $577,800. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 64.17% ratio describes the entered principal and selected basis. A lender's own value definition, qualifying costs and terms must be examined separately.",
       "The reference set begins with loan principal of $300,000 and total project cost of $450,000, producing 66.67%. These are disclosed teaching defaults. They are not independently observed market values or evidence that the case's 64.17% can be achieved for a particular purchase."
@@ -3804,8 +3804,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "e027df28e2887b9dd2dd0b14aca076ae5de1372221647f3152060eec01811408",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "3517b4e3c3c45454105adf6a2fb0232a901398c70e1f849d067327f43c075967",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -3819,7 +3819,7 @@
     "answer": "For input provenance in this loan-to-total-cost ratio model, the published input set produces 74.67% under this model. It uses loan principal of $336,000 and total project cost of $450,000, together with the other inputs shown below. Holding those other inputs fixed, the lower loan principal test gives 59.73%, while the higher test gives 89.6%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide principal by the combined project-cost basis you enter. This separates a total-cost ratio from a purchase-price ratio. In this case, loan principal is $336,000. For each real input, retain the source identity, observation date, definition and period. The calculator does not authenticate any of those records.",
-      "The reference input set produces 66.67%. This case differs from that reference by 8%, or 12% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
+      "The reference input set produces 66.67%. This case differs from that reference by 8 percentage points, or 12% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $268,800 and the higher input is $403,200. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 74.67% ratio describes the entered principal and selected basis. A lender's own value definition, qualifying costs and terms must be examined separately.",
       "For actual work, the evidence request should name loan principal, its USD unit, its observation date and its scope. The hypothetical $336,000 value only demonstrates the operation. A copied number without that provenance may remain reproducible mathematically while being unsupported for the real decision."
@@ -3931,8 +3931,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "e0a1593957d5b9a51c516b9164be0cd93f92ce442d75513ee41db1d8560e0489",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "67565731cb20219dba90896880a1cdab40984c4b393526c842622d8920bac2b2",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -3946,7 +3946,7 @@
     "answer": "For fixed-assumption scope in this loan-to-total-cost ratio model, the published input set produces 51.01% under this model. It uses loan principal of $264,000 and total project cost of $517,500, together with the other inputs shown below. Holding those other inputs fixed, the lower total project cost test gives 63.77%, while the higher test gives 42.51%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide principal by the combined project-cost basis you enter. This separates a total-cost ratio from a purchase-price ratio. In this case, total project cost is $517,500. In each sensitivity row, inputs other than the named field remain fixed. This is a deliberate test condition rather than a claim that those inputs are independent in practice.",
-      "The reference input set produces 66.67%. This case differs from that reference by -15.65%, or -23.48% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total project cost alone.",
+      "The reference input set produces 66.67%. This case differs from that reference by -15.65 percentage points, or -23.48% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total project cost alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $414,000 and the higher input is $621,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 51.01% ratio describes the entered principal and selected basis. A lender's own value definition, qualifying costs and terms must be examined separately.",
       "The focused test varies total project cost while keeping the remaining input vector fixed. In the full case, loan principal is $264,000 and total project cost is $517,500. That fixed-vector condition is what the sensitivity rows establish; it is not a statement that the underlying business variables will move independently."
@@ -4058,8 +4058,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "c8662da07b473dac784366ce5edc79f41c118897def24f86d6cb9f6564096e3b",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "cffae4a649bcf1f8e6b0f49258ec9da465682cc1536737d0672f17fa9cfad7a3",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -4073,7 +4073,7 @@
     "answer": "For model-exclusion check in this loan-to-total-cost ratio model, the published input set produces 52.17% under this model. It uses loan principal of $216,000 and total project cost of $414,000, together with the other inputs shown below. Holding those other inputs fixed, the lower loan principal test gives 41.74%, while the higher test gives 62.61%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide principal by the combined project-cost basis you enter. This separates a total-cost ratio from a purchase-price ratio. In this case, loan principal is $216,000. Read the stated exclusions before treating the result as a decision measure. Correct arithmetic cannot fill an omitted cost, condition or financing feature.",
-      "The reference input set produces 66.67%. This case differs from that reference by -14.49%, or -21.74% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
+      "The reference input set produces 66.67%. This case differs from that reference by -14.49 percentage points, or -21.74% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $172,800 and the higher input is $259,200. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 52.17% ratio describes the entered principal and selected basis. A lender's own value definition, qualifying costs and terms must be examined separately.",
       "The result is 52.17% from the displayed formula, and the model boundary is explicit: Define what belongs in total cost; financing eligibility can use different components. Review that boundary before labeling the number as profit, total cash required, total return or another broader measure. A more favorable name does not add quantities absent from the equation."
@@ -4185,8 +4185,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "84312e48d43188f61b6f57625d5c10091283f6d98a43e31928a2f61ed22895cd",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "060b1c44a11ce7a46715b8a2dea50263b1052c29827ec766141888eb0a730d2d",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -4200,7 +4200,7 @@
     "answer": "For alternative-input request in this loan-to-total-cost ratio model, the published input set produces 77.46% under this model. It uses loan principal of $366,000 and total project cost of $472,500, together with the other inputs shown below. Holding those other inputs fixed, the lower total project cost test gives 96.83%, while the higher test gives 64.55%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide principal by the combined project-cost basis you enter. This separates a total-cost ratio from a purchase-price ratio. In this case, total project cost is $472,500. Turn an uncertain input into a specific evidence request. Identify the exact field, unit and time basis needed to replace the example value.",
-      "The reference input set produces 66.67%. This case differs from that reference by 10.79%, or 16.19% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total project cost alone.",
+      "The reference input set produces 66.67%. This case differs from that reference by 10.79 percentage points, or 16.19% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total project cost alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $378,000 and the higher input is $567,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 77.46% ratio describes the entered principal and selected basis. A lender's own value definition, qualifying costs and terms must be examined separately.",
       "A precise follow-up for this case asks what supports total project cost at $472,500. The response should identify the relevant record, unit and period, not merely repeat the headline answer 77.46%. Replace the teaching value only after deciding how the new record's definition fits the model."
@@ -4312,8 +4312,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "e0fdd677ee54ae9375f363ada5188ae6952a64cfa273a71b5932369a232379ee",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "f995c2a5aff93180e4898cc4646b8a4c1333ac66b38799b10f9abd726644528b",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -4327,7 +4327,7 @@
     "answer": "For decision-margin context in this loan-to-total-cost ratio model, the published input set produces 107.41% under this model. It uses loan principal of $435,000 and total project cost of $405,000, together with the other inputs shown below. Holding those other inputs fixed, the lower loan principal test gives 85.93%, while the higher test gives 128.89%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide principal by the combined project-cost basis you enter. This separates a total-cost ratio from a purchase-price ratio. In this case, loan principal is $435,000. A favorable output does not establish the size of a complete decision margin. Check what the formula includes and what obligations remain outside it.",
-      "The reference input set produces 66.67%. This case differs from that reference by 40.74%, or 61.11% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
+      "The reference input set produces 66.67%. This case differs from that reference by 40.74 percentage points, or 61.11% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $348,000 and the higher input is $522,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 107.41% result means the entered principal exceeds the selected denominator. It is a mathematical ratio from these inputs, not evidence that a lender would finance this amount or use the same basis.",
       "The difference from the reference is 40.74% under this model's own definition. That difference is not automatically an all-in decision margin. Compare it with the excluded obligations and evidence gaps described for loan-to-total-cost ratio before assigning it an investment or operating meaning."
@@ -4439,8 +4439,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "bdecf9fb08d2aa18ef1f3329d74303733c429e0239e1858b8634fda35c5772ec",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "a88feda635863c8aed0c16e58ad1e0464b08e2aa39d33c8e20f584b7510c4492",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -4454,7 +4454,7 @@
     "answer": "For reconciliation to a source in this loan-to-total-cost ratio model, the published input set produces 83.72% under this model. It uses loan principal of $324,000 and total project cost of $387,000, together with the other inputs shown below. Holding those other inputs fixed, the lower total project cost test gives 104.65%, while the higher test gives 69.77%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide principal by the combined project-cost basis you enter. This separates a total-cost ratio from a purchase-price ratio. In this case, total project cost is $387,000. If a real statement differs from this calculation, first align definitions, periods and rounding. An unexplained difference is a question to investigate rather than proof of an error by another party.",
-      "The reference input set produces 66.67%. This case differs from that reference by 17.05%, or 25.58% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total project cost alone.",
+      "The reference input set produces 66.67%. This case differs from that reference by 17.05 percentage points, or 25.58% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total project cost alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $309,600 and the higher input is $464,400. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 83.72% ratio describes the entered principal and selected basis. A lender's own value definition, qualifying costs and terms must be examined separately.",
       "If a source reports something other than 83.72%, first compare its input values with the table here and its formula with loan/total*100. A difference in unit, period, included components or rounding can explain a mismatch without establishing that either publisher made a false statement."
@@ -4566,8 +4566,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "792a6074dc3a7f7c2d6c43b0646d65446c9e92349784ad9abb1d1dabc9a4a49b",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "1c54e6aab53918cb30e935133db5c1be1b3184085fdef0d0604a1f76c6635df9",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -4581,7 +4581,7 @@
     "answer": "For export and handoff in this loan-to-total-cost ratio model, the published input set produces 51.98% under this model. It uses loan principal of $276,000 and total project cost of $531,000, together with the other inputs shown below. Holding those other inputs fixed, the lower loan principal test gives 41.58%, while the higher test gives 62.37%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide principal by the combined project-cost basis you enter. This separates a total-cost ratio from a purchase-price ratio. In this case, loan principal is $276,000. An exported worksheet should retain the model, input set, result and limitations. Review personal notes before sharing the file with anyone else.",
-      "The reference input set produces 66.67%. This case differs from that reference by -14.69%, or -22.03% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
+      "The reference input set produces 66.67%. This case differs from that reference by -14.69 percentage points, or -22.03% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $220,800 and the higher input is $331,200. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 51.98% ratio describes the entered principal and selected basis. A lender's own value definition, qualifying costs and terms must be examined separately.",
       "Exporting this case should preserve loan principal of $276,000, total project cost of $531,000, the remaining inputs and the calculated result. If you add real source notes in the editable form, inspect the exported file before sharing it; this published article itself contains only hypothetical values."
@@ -4693,8 +4693,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "e85acd22d1fc37af65ab924e2e8bb1ea406aa83b697ae2dd627339dfb0529004",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "f82aac63105d7b97beaf842c471db93381c38774fc6f30f5d8c8b1cbf79c08f5",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -4708,7 +4708,7 @@
     "answer": "For boundary-case validation in this loan-to-total-cost ratio model, the published input set produces 76.54% under this model. It uses loan principal of $465,000 and total project cost of $607,500, together with the other inputs shown below. Holding those other inputs fixed, the lower total project cost test gives 95.68%, while the higher test gives 63.79%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide principal by the combined project-cost basis you enter. This separates a total-cost ratio from a purchase-price ratio. In this case, total project cost is $607,500. An invalid alternate scenario should display a reason rather than an invented numerical result. The sensitivity table preserves those constraints when they arise.",
-      "The reference input set produces 66.67%. This case differs from that reference by 9.88%, or 14.81% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total project cost alone.",
+      "The reference input set produces 66.67%. This case differs from that reference by 9.88 percentage points, or 14.81% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total project cost alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $486,000 and the higher input is $729,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 76.54% ratio describes the entered principal and selected basis. A lender's own value definition, qualifying costs and terms must be examined separately.",
       "All 4 displayed sensitivity tests satisfy the current numerical and model-specific rules. This does not validate the real-world assumptions. It means the alternate input sets can be evaluated by this particular equation without substituting an unavailable result."
@@ -4820,8 +4820,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "12b1a508a0e071d1f0e61e26444f36c7063cd0f3f6d2eaea7a6edfd50d493b80",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "bb8ab596313813fe0ecde6421da5dd4cfc0142bad30d86ed461bcbacc5552fbf",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -4835,7 +4835,7 @@
     "answer": "For revised-input audit trail in this loan-to-total-cost ratio model, the published input set produces 53.59% under this model. It uses loan principal of $246,000 and total project cost of $459,000, together with the other inputs shown below. Holding those other inputs fixed, the lower loan principal test gives 42.88%, while the higher test gives 64.31%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide principal by the combined project-cost basis you enter. This separates a total-cost ratio from a purchase-price ratio. In this case, loan principal is $246,000. When replacing an input, retain its previous value and source so the reason for a changed conclusion can be understood. Do not overwrite the history with only the final answer.",
-      "The reference input set produces 66.67%. This case differs from that reference by -13.07%, or -19.61% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
+      "The reference input set produces 66.67%. This case differs from that reference by -13.07 percentage points, or -19.61% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $196,800 and the higher input is $295,200. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 53.59% ratio describes the entered principal and selected basis. A lender's own value definition, qualifying costs and terms must be examined separately.",
       "As a revision exercise, replace only loan principal from $246,000 with the higher-test value $295,200. Retain both the original 53.59% and revised 64.31% outcomes with that changed field. This is a documented input revision, not a claim that a real record has changed."
@@ -4947,8 +4947,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "ec82c5256b9c2187887554b10189ec951e09d5965e1a53710dfe8d1837f7603b",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "39fd9666b17e65d90bfc9f268d7d80f7b57aba5a578631a15c68fcadfd12daba",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -4962,7 +4962,7 @@
     "answer": "For final interpretation in this loan-to-total-cost ratio model, the published input set produces 87.07% under this model. It uses loan principal of $384,000 and total project cost of $441,000, together with the other inputs shown below. Holding those other inputs fixed, the lower total project cost test gives 108.84%, while the higher test gives 72.56%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide principal by the combined project-cost basis you enter. This separates a total-cost ratio from a purchase-price ratio. In this case, total project cost is $441,000. State the result in a sentence containing its units and assumptions. Preserve the difference between a worked numerical answer and a verified property outcome.",
-      "The reference input set produces 66.67%. This case differs from that reference by 20.41%, or 30.61% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total project cost alone.",
+      "The reference input set produces 66.67%. This case differs from that reference by 20.41 percentage points, or 30.61% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total project cost alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $352,800 and the higher input is $529,200. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 87.07% ratio describes the entered principal and selected basis. A lender's own value definition, qualifying costs and terms must be examined separately.",
       "A complete final sentence would identify this as a loan-to-total-cost ratio calculation, state the 87.07% result in percent, and retain the disclosed inputs. That sentence should also preserve the model's exclusions. It must not turn a conditional teaching answer into a verified customer outcome or a guarantee."
@@ -5074,8 +5074,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "df034583f85fe9215e42050a0322e41e535a56bda46036ef4d58e5777977c935",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "e8f56db35e7126cb22cd2c9b9b4f755429ba18dbcfd6252f17d6e841561ead9f",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   }

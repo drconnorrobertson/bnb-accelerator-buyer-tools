@@ -9,7 +9,7 @@
     "answer": "For first-input sensitivity in this cash-on-cash percentage model, the published input set produces 6.4% under this model. It uses annual pre-tax cash flow of $8,000 and total cash invested of $125,000, together with the other inputs shown below. Holding those other inputs fixed, the lower annual pre-tax cash flow test gives 5.12%, while the higher test gives 7.68%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide pre-tax cash flow by all cash included in your investment definition. The denominator can include down payment, closing, setup, fees and committed reserves. In this case, annual pre-tax cash flow is $8,000. Hold every other input constant when inspecting the first input. A difference from a multi-input reference case cannot be attributed to that input alone.",
-      "The reference input set produces 8%. This case differs from that reference by -1.6%, or -20% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual pre-tax cash flow alone.",
+      "The reference input set produces 8%. This case differs from that reference by -1.6 percentage points, or -20% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual pre-tax cash flow alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $6,400 and the higher input is $9,600. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 6.4% answers the displayed cash-on-cash percentage question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "For the first field, the published annual pre-tax cash flow is $8,000. Its lower and higher sensitivity rows change that field alone, so those rows are the relevant comparison for its local arithmetic effect. The full reference-case difference may include total cash invested or other changed inputs and answers a different question."
@@ -121,8 +121,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "a20fd33dd44cf578954d97bd9d27711a26e66ed8853f7bbdd277bb653bea7308",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "90fc67e48911ff3fcc9458a3cdf5ad84c4ea91a6aeb83d4549d143966df07220",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -136,7 +136,7 @@
     "answer": "For second-input sensitivity in this cash-on-cash percentage model, the published input set produces 6.67% under this model. It uses annual pre-tax cash flow of $10,000 and total cash invested of $150,000, together with the other inputs shown below. Holding those other inputs fixed, the lower total cash invested test gives 8.33%, while the higher test gives 5.56%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide pre-tax cash flow by all cash included in your investment definition. The denominator can include down payment, closing, setup, fees and committed reserves. In this case, total cash invested is $150,000. Use the second input as a separate lever. A value can look small in isolation while materially affecting a product, ratio or residual.",
-      "The reference input set produces 8%. This case differs from that reference by -1.33%, or -16.67% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total cash invested alone.",
+      "The reference input set produces 8%. This case differs from that reference by -1.33 percentage points, or -16.67% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total cash invested alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $120,000 and the higher input is $180,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 6.67% answers the displayed cash-on-cash percentage question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "The second field is total cash invested, entered here as $150,000. Read its two sensitivity rows separately from the first field. This preserves the distinction between changing annual pre-tax cash flow and changing total cash invested, even when both adjustments happen to move the headline answer in the same direction."
@@ -248,8 +248,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "40ef62dd21c0dc42d7b82d3dcd3341a2760fb2087a46344ea6e060e4f5841fc8",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "731b7640ba88a46ad3f251cd117df01f3927481b317b79582166b2a8dd499ffc",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -263,7 +263,7 @@
     "answer": "For input units in this cash-on-cash percentage model, the published input set produces 7.06% under this model. It uses annual pre-tax cash flow of $7,500 and total cash invested of $106,250, together with the other inputs shown below. Holding those other inputs fixed, the lower annual pre-tax cash flow test gives 5.65%, while the higher test gives 8.47%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide pre-tax cash flow by all cash included in your investment definition. The denominator can include down payment, closing, setup, fees and committed reserves. In this case, annual pre-tax cash flow is $7,500. Read the units before performing the arithmetic. A room rate, a total amount, a percentage and a count are different inputs even when they contain similar numbers.",
-      "The reference input set produces 8%. This case differs from that reference by -0.94%, or -11.76% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual pre-tax cash flow alone.",
+      "The reference input set produces 8%. This case differs from that reference by -0.94 percentage points, or -11.76% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual pre-tax cash flow alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $6,000 and the higher input is $9,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 7.06% answers the displayed cash-on-cash percentage question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "The first two inputs use USD and USD, respectively. The raw values are 7500 and 106250. Keep those units attached when transferring this example into another worksheet; copying the numbers without the definitions can create a different mathematical question."
@@ -375,8 +375,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "bf8c82876ed0f670b61af079d59f77490f6f8caf2beeb972f39d471a93682df4",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "7d30c6158783c4b8e14d70f2671c47834183fe517544caa9dfc370af36cc6548",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -390,7 +390,7 @@
     "answer": "For reference-case comparison in this cash-on-cash percentage model, the published input set produces 8% under this model. It uses annual pre-tax cash flow of $10,000 and total cash invested of $125,000, together with the other inputs shown below. Holding those other inputs fixed, the lower total cash invested test gives 10%, while the higher test gives 6.67%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide pre-tax cash flow by all cash included in your investment definition. The denominator can include down payment, closing, setup, fees and committed reserves. In this case, total cash invested is $125,000. Compare the full input set with the model reference case. The reference is another hypothetical scenario, not a benchmark or a typical property result.",
-      "The reference input set produces 8%. This case differs from that reference by 0%, or 0% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total cash invested alone.",
+      "The reference input set produces 8%. This case differs from that reference by 0 percentage points, or 0% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total cash invested alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $100,000 and the higher input is $150,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 8% answers the displayed cash-on-cash percentage question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "All 2 inputs match the reference set, so 8% must equal 8%. This is a baseline consistency check. A disagreement under identical definitions and inputs would require checking the formula, precision or implementation before interpreting the result."
@@ -502,8 +502,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "cc45c2dc329dc21b5069b651b424b911ac8085dc618ad14e86bb8f9f6e7afb63",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "d34ad53c2d1673d34a34b85a73be46304806b584f7ea274d3f8cb159d6a984e6",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -517,7 +517,7 @@
     "answer": "For lower-input boundary in this cash-on-cash percentage model, the published input set produces 4% under this model. It uses annual pre-tax cash flow of $5,000 and total cash invested of $125,000, together with the other inputs shown below. Holding those other inputs fixed, the lower annual pre-tax cash flow test gives 3.2%, while the higher test gives 4.8%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide pre-tax cash flow by all cash included in your investment definition. The denominator can include down payment, closing, setup, fees and committed reserves. In this case, annual pre-tax cash flow is $5,000. Check the selected input at a lower value without changing the other assumptions. A lower input does not always mean a more conservative output.",
-      "The reference input set produces 8%. This case differs from that reference by -4%, or -50% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual pre-tax cash flow alone.",
+      "The reference input set produces 8%. This case differs from that reference by -4 percentage points, or -50% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual pre-tax cash flow alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $4,000 and the higher input is $6,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 4% answers the displayed cash-on-cash percentage question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "The selected annual pre-tax cash flow has an allowed numerical range from -10000000 to 100000000 USD. The lower sensitivity test uses $4,000 and returns 3.2%. That numerical range is a form constraint, not evidence that the alternate value can be obtained for a real project."
@@ -629,8 +629,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "b6046e6beba5bd2e66a3f7dd4155f9b6091ebe368e62f654c4718b945ca28dee",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "5be1944246d4aedfd52194edee066f70a6c23a7555e175776ddef686994b4b9a",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -644,7 +644,7 @@
     "answer": "For higher-input boundary in this cash-on-cash percentage model, the published input set produces 12% under this model. It uses annual pre-tax cash flow of $15,000 and total cash invested of $125,000, together with the other inputs shown below. Holding those other inputs fixed, the lower total cash invested test gives 15%, while the higher test gives 10%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide pre-tax cash flow by all cash included in your investment definition. The denominator can include down payment, closing, setup, fees and committed reserves. In this case, total cash invested is $125,000. Check the selected input at a higher value and preserve the other assumptions. Whether the output rises or falls depends on the formula.",
-      "The reference input set produces 8%. This case differs from that reference by 4%, or 50% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total cash invested alone.",
+      "The reference input set produces 8%. This case differs from that reference by 4 percentage points, or 50% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total cash invested alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $100,000 and the higher input is $150,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 12% answers the displayed cash-on-cash percentage question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "The higher total cash invested test uses $150,000 and gives 10%, compared with the published 12%. Retain the original input alongside the higher test so that the effect remains visible. A larger input is not automatically a better outcome; its position in this formula determines the direction."
@@ -756,8 +756,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "8342f898c0d8ded4c0c104ce3cf0c677d54693710c06a2d624eed5bea50b57f1",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "e71a26be681e733a73384070bcfd74865de5fe40c8755e19786ede0c5d8332fc",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -771,7 +771,7 @@
     "answer": "For displayed rounding in this cash-on-cash percentage model, the published input set produces 8% under this model. It uses annual pre-tax cash flow of $10,002 and total cash invested of $125,038, together with the other inputs shown below. Holding those other inputs fixed, the lower annual pre-tax cash flow test gives 6.4%, while the higher test gives 9.6%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide pre-tax cash flow by all cash included in your investment definition. The denominator can include down payment, closing, setup, fees and committed reserves. In this case, annual pre-tax cash flow is $10,002. Keep precision through the calculation and round the displayed result only at the end. A displayed dollar amount can conceal a smaller underlying difference.",
-      "The reference input set produces 8%. This case differs from that reference by -0.0008%, or -0.01% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual pre-tax cash flow alone.",
+      "The reference input set produces 8%. This case differs from that reference by -0.0008 percentage points, or -0.01% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual pre-tax cash flow alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $8,002 and the higher input is $12,002. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 8% answers the displayed cash-on-cash percentage question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "Before display rounding, the result is 7.9992002399 percent. The displayed result is 8%. Use the unrounded value when reproducing dependent arithmetic, and use the rounded figure only as a presentation of that result. A small difference near zero should not be confused with proof that the unrounded value is exactly zero."
@@ -883,8 +883,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "a8e35d6a00060015530e7e94203f27c3aa5e689eecaa64150f93b270ea86c312",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "61d88f0b99769edf53533f417ec6c4dd8dc8c5e44c84ec2821623e6da329f5bc",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -898,7 +898,7 @@
     "answer": "For formula sequence in this cash-on-cash percentage model, the published input set produces 11.76% under this model. It uses annual pre-tax cash flow of $12,500 and total cash invested of $106,250, together with the other inputs shown below. Holding those other inputs fixed, the lower total cash invested test gives 14.71%, while the higher test gives 9.8%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide pre-tax cash flow by all cash included in your investment definition. The denominator can include down payment, closing, setup, fees and committed reserves. In this case, total cash invested is $106,250. Follow the order of operations in the worked steps. Parentheses can change the meaning of a percentage adjustment or ratio.",
-      "The reference input set produces 8%. This case differs from that reference by 3.76%, or 47.06% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total cash invested alone.",
+      "The reference input set produces 8%. This case differs from that reference by 3.76 percentage points, or 47.06% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total cash invested alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $85,000 and the higher input is $127,500. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 11.76% answers the displayed cash-on-cash percentage question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "The disclosed expression is flow/cash*100. The worked operation list evaluates that expression using this case's values. Follow each intermediate line before comparing the final 11.76% with another source; changing the grouping or performing a percentage adjustment at a different point can describe a different calculation."
@@ -1010,8 +1010,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "96da9d7aa722aca553cda96623a5b62c5b856af652c52c9046e8d43484bb55a0",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "442eb313616ed140d303d0317eb03d413a5fa225db03a6c24fb8dfc709bb904f",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -1025,7 +1025,7 @@
     "answer": "For absolute change in this cash-on-cash percentage model, the published input set produces 8.4% under this model. It uses annual pre-tax cash flow of $10,500 and total cash invested of $125,000, together with the other inputs shown below. Holding those other inputs fixed, the lower annual pre-tax cash flow test gives 6.72%, while the higher test gives 10.08%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide pre-tax cash flow by all cash included in your investment definition. The denominator can include down payment, closing, setup, fees and committed reserves. In this case, annual pre-tax cash flow is $10,500. Measure the change in the output unit before describing it as a percentage. A dollar change and a percentage change answer different questions.",
-      "The reference input set produces 8%. This case differs from that reference by 0.4%, or 5% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual pre-tax cash flow alone.",
+      "The reference input set produces 8%. This case differs from that reference by 0.4 percentage points, or 5% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual pre-tax cash flow alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $8,400 and the higher input is $12,600. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 8.4% answers the displayed cash-on-cash percentage question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "The absolute difference from the reference is 0.4% in the model's output units. That difference compares 8.4% with 8%. Preserve the unit and sign before describing the change in words, especially when the output is a period or ratio rather than a cash amount."
@@ -1137,8 +1137,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "a227dc1d53f210ecb0c534dca0c61779561dae0765cd57624bff716f67f65ec4",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "0ec426dda268188aa60dd08a7c829b2f90a61c24d24814df40e16b5d648775b0",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -1152,7 +1152,7 @@
     "answer": "For relative change in this cash-on-cash percentage model, the published input set produces 9.78% under this model. It uses annual pre-tax cash flow of $11,000 and total cash invested of $112,500, together with the other inputs shown below. Holding those other inputs fixed, the lower total cash invested test gives 12.22%, while the higher test gives 8.15%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide pre-tax cash flow by all cash included in your investment definition. The denominator can include down payment, closing, setup, fees and committed reserves. In this case, total cash invested is $112,500. Use a nonzero reference before calculating a relative output change. A zero reference does not provide a finite percentage-change denominator.",
-      "The reference input set produces 8%. This case differs from that reference by 1.78%, or 22.22% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total cash invested alone.",
+      "The reference input set produces 8%. This case differs from that reference by 1.78 percentage points, or 22.22% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total cash invested alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $90,000 and the higher input is $135,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 9.78% answers the displayed cash-on-cash percentage question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "Using the absolute reference amount as the denominator, the change is 22.222222222%. This describes the movement from 8% to 9.78% under the full input set. It is separate from a percentage-point change in any one percent input."
@@ -1264,8 +1264,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "86c41ff2217c425804dcc04a28cbf1e00cb1ac83d7b0c1bd53250debe8a79add",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "56a5da44db86308b56e673aede95820b5c89e74f7a143b5b578092f4fd3c7150",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -1279,7 +1279,7 @@
     "answer": "For observed versus assumed inputs in this cash-on-cash percentage model, the published input set produces 7.6% under this model. It uses annual pre-tax cash flow of $9,500 and total cash invested of $125,000, together with the other inputs shown below. Holding those other inputs fixed, the lower annual pre-tax cash flow test gives 6.08%, while the higher test gives 9.12%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide pre-tax cash flow by all cash included in your investment definition. The denominator can include down payment, closing, setup, fees and committed reserves. In this case, annual pre-tax cash flow is $9,500. Every number here is a hypothetical input. In a real file, label each value observed, quoted, assumed or unresolved before relying on the result.",
-      "The reference input set produces 8%. This case differs from that reference by -0.4%, or -5% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual pre-tax cash flow alone.",
+      "The reference input set produces 8%. This case differs from that reference by -0.4 percentage points, or -5% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual pre-tax cash flow alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $7,600 and the higher input is $11,400. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 7.6% answers the displayed cash-on-cash percentage question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "There is no real source record behind the teaching value $9,500 for annual pre-tax cash flow. For actual use, retain a source reference and status for that field, then do the same for total cash invested. The calculation can be reproduced from assumed values while still lacking evidence that either value describes a real property."
@@ -1391,8 +1391,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "26fa50c00162d643f80dffd4b6d31e50e9a6994ade7a7f9f33f96c84da3b8ac3",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "319a5365691a126561947fa0e02969db026a20fd4311529abef176efd25ca739",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -1406,7 +1406,7 @@
     "answer": "For single-variable isolation in this cash-on-cash percentage model, the published input set produces 8.89% under this model. It uses annual pre-tax cash flow of $10,000 and total cash invested of $112,500, together with the other inputs shown below. Holding those other inputs fixed, the lower total cash invested test gives 11.11%, while the higher test gives 7.41%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide pre-tax cash flow by all cash included in your investment definition. The denominator can include down payment, closing, setup, fees and committed reserves. In this case, total cash invested is $112,500. The one-input sensitivity rows isolate one arithmetic effect. They do not establish how other assumptions would behave at the same time.",
-      "The reference input set produces 8%. This case differs from that reference by 0.89%, or 11.11% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total cash invested alone.",
+      "The reference input set produces 8%. This case differs from that reference by 0.89 percentage points, or 11.11% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total cash invested alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $90,000 and the higher input is $135,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 8.89% answers the displayed cash-on-cash percentage question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "For the focused field total cash invested, the lower test produces 11.11% and the higher test produces 7.41%. The other 1 inputs remain fixed in each row. This controlled comparison is what allows the local effect to be discussed without attributing simultaneous changes to the same field."
@@ -1518,8 +1518,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "d4e4fc623d8795ac13b3598b042f77916a5312904575a2c77cd2ec6707bf696e",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "60e0e1ae515b504aca974c46c3b9e6b546ff7f1d926b04da2ae95721efd80476",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -1533,7 +1533,7 @@
     "answer": "For multiple-input movement in this cash-on-cash percentage model, the published input set produces 12% under this model. It uses annual pre-tax cash flow of $12,000 and total cash invested of $100,000, together with the other inputs shown below. Holding those other inputs fixed, the lower annual pre-tax cash flow test gives 9.6%, while the higher test gives 14.4%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide pre-tax cash flow by all cash included in your investment definition. The denominator can include down payment, closing, setup, fees and committed reserves. In this case, annual pre-tax cash flow is $12,000. Several inputs differ from the reference in this scenario. The combined difference is attributable to that full input set rather than a single change.",
-      "The reference input set produces 8%. This case differs from that reference by 4%, or 50% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual pre-tax cash flow alone.",
+      "The reference input set produces 8%. This case differs from that reference by 4 percentage points, or 50% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual pre-tax cash flow alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $9,600 and the higher input is $14,400. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 12% answers the displayed cash-on-cash percentage question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "The case differs from the reference in 2 fields: Annual pre-tax cash flow $10,000 to $12,000; Total cash invested $125,000 to $100,000. Keep that list with the 4% output difference. The one-input tests are a separate analysis of individual changes, not a decomposition of every interaction in the full case."
@@ -1645,8 +1645,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "bfc5de7a82d01eabb0a238d6c5ac30d7375f3af7dd59a56991101e5de9adb62e",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "f74403530899805bc4acf439c4f710dcfc8f69007aa1c95a2184a4c7a4ccc644",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -1660,7 +1660,7 @@
     "answer": "For source-period alignment in this cash-on-cash percentage model, the published input set produces 5.09% under this model. It uses annual pre-tax cash flow of $7,000 and total cash invested of $137,500, together with the other inputs shown below. Holding those other inputs fixed, the lower total cash invested test gives 6.36%, while the higher test gives 4.24%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide pre-tax cash flow by all cash included in your investment definition. The denominator can include down payment, closing, setup, fees and committed reserves. In this case, total cash invested is $137,500. For real use, retain the time basis of every amount or count. A monthly figure and an annual figure need a visible conversion before they are compared.",
-      "The reference input set produces 8%. This case differs from that reference by -2.91%, or -36.36% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total cash invested alone.",
+      "The reference input set produces 8%. This case differs from that reference by -2.91 percentage points, or -36.36% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total cash invested alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $110,000 and the higher input is $165,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 5.09% answers the displayed cash-on-cash percentage question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "The source schedule should preserve the period implied by each field label. In this example the first two fields are annual pre-tax cash flow (USD) and total cash invested (USD). The model uses them as labeled; it cannot infer that a number copied from a monthly or partial-period source needs conversion before entry."
@@ -1772,8 +1772,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "13aef2792bbf7bf02f3f6a0d90cdc8ffc6da0df585788100ff0bf28abefe0e87",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "c9169ed118523c23e1ae7df626afaa54066e5be950bef0b0f9922b0290aadb9b",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -1787,7 +1787,7 @@
     "answer": "For denominator and scaling in this cash-on-cash percentage model, the published input set produces 6.15% under this model. It uses annual pre-tax cash flow of $10,000 and total cash invested of $162,500, together with the other inputs shown below. Holding those other inputs fixed, the lower annual pre-tax cash flow test gives 4.92%, while the higher test gives 7.38%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide pre-tax cash flow by all cash included in your investment definition. The denominator can include down payment, closing, setup, fees and committed reserves. In this case, annual pre-tax cash flow is $10,000. Inspect every division in the worked steps and name the quantity being divided by. If the formula contains no division, retain the actual multiplication or subtraction structure instead.",
-      "The reference input set produces 8%. This case differs from that reference by -1.85%, or -23.08% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual pre-tax cash flow alone.",
+      "The reference input set produces 8%. This case differs from that reference by -1.85 percentage points, or -23.08% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual pre-tax cash flow alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $8,000 and the higher input is $12,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 6.15% answers the displayed cash-on-cash percentage question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "The formula is flow/cash*100. A division in that expression assigns meaning to the quantity in its denominator; a multiplication or subtraction does not create a denominator by analogy. Use the actual worked operations for this model instead of importing the interpretation of a similarly named percentage or yield."
@@ -1899,8 +1899,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "8015d31acfeab867c2995b0e2840748003eda098749f37f793ff21d8fb15a6a9",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "91df2f2fe9bdcb4f1bffef378009ac736f2a1197a29131aa99a91d180eb737cd",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -1914,7 +1914,7 @@
     "answer": "For percentage input convention in this cash-on-cash percentage model, the published input set produces 7.27% under this model. It uses annual pre-tax cash flow of $10,000 and total cash invested of $137,500, together with the other inputs shown below. Holding those other inputs fixed, the lower total cash invested test gives 9.09%, while the higher test gives 6.06%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide pre-tax cash flow by all cash included in your investment definition. The denominator can include down payment, closing, setup, fees and committed reserves. In this case, total cash invested is $137,500. This model has no percentage input. The displayed amounts and counts must be read in their own units; entering 20 does not instruct the model to apply twenty percent.",
-      "The reference input set produces 8%. This case differs from that reference by -0.73%, or -9.09% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total cash invested alone.",
+      "The reference input set produces 8%. This case differs from that reference by -0.73 percentage points, or -9.09% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total cash invested alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $110,000 and the higher input is $165,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 7.27% answers the displayed cash-on-cash percentage question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "Neither annual pre-tax cash flow nor the other listed fields is a whole-percentage input in this model. For example, 10000 in the first field means $10,000. If another source expresses a percentage instead, obtain or derive the correctly defined amount rather than copying its percentage number into this field."
@@ -2026,8 +2026,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "6af8b5734ce686a592657ad6a912cede41d9620e60dd9877407f32333830d627",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "bf27aba1fbd29d9d67696fadc7bb2693d76e2d137f10d4e8521b1ae04c643036",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -2041,7 +2041,7 @@
     "answer": "For positive-input boundary in this cash-on-cash percentage model, the published input set produces 0% under this model. It uses annual pre-tax cash flow of $0 and total cash invested of $125,000, together with the other inputs shown below. Holding those other inputs fixed, the lower annual pre-tax cash flow test gives 0%, while the higher test gives 0%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide pre-tax cash flow by all cash included in your investment definition. The denominator can include down payment, closing, setup, fees and committed reserves. In this case, annual pre-tax cash flow is $0. A zero numerator can be meaningful while a zero denominator may be undefined. Follow the model-specific range and calculation rules rather than inserting a result by convention.",
-      "The reference input set produces 8%. This case differs from that reference by -8%, or -100% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual pre-tax cash flow alone.",
+      "The reference input set produces 8%. This case differs from that reference by -8 percentage points, or -100% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual pre-tax cash flow alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $0 and the higher input is $0. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 0% answers the displayed cash-on-cash percentage question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "The zero-valued field is annual pre-tax cash flow. The remaining inputs stay visible, and the resulting 0% follows the model's own zero-handling rules. This is a deliberate arithmetic example; it is not permission to enter zero for an unpriced or unknown real obligation."
@@ -2153,8 +2153,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "891ee01cb44361d8eab67883c15d2bbf2f305b58fb01ca9e99302e4e8e3bd577",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "bc858c32ee09d3653a32a2ff13056c000280fe2d2fcc894a05f616d8a4817cec",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -2168,7 +2168,7 @@
     "answer": "For negative-output meaning in this cash-on-cash percentage model, the published input set produces 3.2% under this model. It uses annual pre-tax cash flow of $6,000 and total cash invested of $187,500, together with the other inputs shown below. Holding those other inputs fixed, the lower total cash invested test gives 4%, while the higher test gives 2.67%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide pre-tax cash flow by all cash included in your investment definition. The denominator can include down payment, closing, setup, fees and committed reserves. In this case, total cash invested is $187,500. A negative result can be valid in a residual or change calculation. Interpret the sign within the model definition rather than silently replacing it with zero.",
-      "The reference input set produces 8%. This case differs from that reference by -4.8%, or -60% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total cash invested alone.",
+      "The reference input set produces 8%. This case differs from that reference by -4.8 percentage points, or -60% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total cash invested alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $150,000 and the higher input is $225,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 3.2% answers the displayed cash-on-cash percentage question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "This case returns 3.2%, not a negative result. Some models here permit negative residuals, while positive-contribution payback models impose a separate rule. Interpret the sign through this specific expression and its input constraints instead of assuming every model can produce the same kinds of outputs."
@@ -2280,8 +2280,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "5107497a6735f403e7cdd05fdaa71b81940d38f83ac06048d82edd2c4223ad0a",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "027ddfb8fb9fed3aa8cfab1378ea9e37e7df730a2c5e390789061476f824e275",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -2295,7 +2295,7 @@
     "answer": "For cost inclusion boundary in this cash-on-cash percentage model, the published input set produces 5.76% under this model. It uses annual pre-tax cash flow of $9,000 and total cash invested of $156,250, together with the other inputs shown below. Holding those other inputs fixed, the lower annual pre-tax cash flow test gives 4.61%, while the higher test gives 6.91%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide pre-tax cash flow by all cash included in your investment definition. The denominator can include down payment, closing, setup, fees and committed reserves. In this case, annual pre-tax cash flow is $9,000. A calculated result includes only the inputs and operations actually shown. Costs or receipts outside this model require a separate schedule.",
-      "The reference input set produces 8%. This case differs from that reference by -2.24%, or -28% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual pre-tax cash flow alone.",
+      "The reference input set produces 8%. This case differs from that reference by -2.24 percentage points, or -28% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual pre-tax cash flow alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $7,200 and the higher input is $10,800. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 5.76% answers the displayed cash-on-cash percentage question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "The displayed inputs include annual pre-tax cash flow, total cash invested. Only those quantities enter flow/cash*100. Before carrying 5.76% into a broader decision schedule, identify which additional receipts, costs, timing items or conditions the model description excludes rather than silently assuming they are already included."
@@ -2407,8 +2407,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "051fe14e814cb42a601a8ec3e03b5ffc1ac9f0b6b386267d04ef78ec7eb5adb2",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "21877d2de9d48b75993db60afa2e730231287c802bd69d9a9cf2b81d22137e8a",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -2422,7 +2422,7 @@
     "answer": "For input precision in this cash-on-cash percentage model, the published input set produces 8.05% under this model. It uses annual pre-tax cash flow of $10,037 and total cash invested of $124,625, together with the other inputs shown below. Holding those other inputs fixed, the lower total cash invested test gives 10.07%, while the higher test gives 6.71%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide pre-tax cash flow by all cash included in your investment definition. The denominator can include down payment, closing, setup, fees and committed reserves. In this case, total cash invested is $124,625. Use input precision supported by the real record. Adding decimal places to an estimate makes the arithmetic more precise without making the estimate more certain.",
-      "The reference input set produces 8%. This case differs from that reference by 0.05%, or 0.67% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total cash invested alone.",
+      "The reference input set produces 8%. This case differs from that reference by 0.05 percentage points, or 0.67% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total cash invested alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $99,700 and the higher input is $149,550. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 8.05% answers the displayed cash-on-cash percentage question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "The raw focused input is 124625 USD. The model retains the supplied numeric precision through its calculation, while the formatted output is 8.05%. Precision should reflect the real source's unit and measurement basis; a more detailed decimal representation does not establish a more reliable underlying estimate."
@@ -2534,8 +2534,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "c754d978903c4fff475c0ac4018047d6544397c298b951c5abe38b915a5f9630",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "3c52671da4914ff7a0f851005eb5c1d2f6feb6fdd2ffc201ff7b341c415e6cf7",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -2549,7 +2549,7 @@
     "answer": "For output-unit interpretation in this cash-on-cash percentage model, the published input set produces 10% under this model. It uses annual pre-tax cash flow of $10,000 and total cash invested of $100,000, together with the other inputs shown below. Holding those other inputs fixed, the lower annual pre-tax cash flow test gives 8%, while the higher test gives 12%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide pre-tax cash flow by all cash included in your investment definition. The denominator can include down payment, closing, setup, fees and committed reserves. In this case, annual pre-tax cash flow is $10,000. Read the output unit alongside the answer. A total amount, a per-night amount, a percentage, a multiple and a period are not interchangeable measures.",
-      "The reference input set produces 8%. This case differs from that reference by 2%, or 25% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual pre-tax cash flow alone.",
+      "The reference input set produces 8%. This case differs from that reference by 2 percentage points, or 25% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual pre-tax cash flow alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $8,000 and the higher input is $12,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 10% answers the displayed cash-on-cash percentage question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "The answer unit is percent. The result 10% should therefore be read with that unit attached, just as $10,000 retains the first input's unit. Transferring only the number into a differently labeled output cell can create an apparent result that this calculation never produced."
@@ -2661,8 +2661,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "f6719e22485587c85474070e835c63359ac64ae422a0b985e328f006f41fe9c4",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "8dea077748451bf203da9e4897e0a49cd5d491a51d7adee2538e310696f0f7b1",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -2676,7 +2676,7 @@
     "answer": "For scenario reproducibility in this cash-on-cash percentage model, the published input set produces 10.8% under this model. It uses annual pre-tax cash flow of $13,500 and total cash invested of $125,000, together with the other inputs shown below. Holding those other inputs fixed, the lower total cash invested test gives 13.5%, while the higher test gives 9%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide pre-tax cash flow by all cash included in your investment definition. The denominator can include down payment, closing, setup, fees and committed reserves. In this case, total cash invested is $125,000. Save the inputs with the result and formula. A screenshot of a headline answer alone is insufficient for another reviewer to reproduce the calculation.",
-      "The reference input set produces 8%. This case differs from that reference by 2.8%, or 35% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total cash invested alone.",
+      "The reference input set produces 8%. This case differs from that reference by 2.8 percentage points, or 35% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total cash invested alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $100,000 and the higher input is $150,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 10.8% answers the displayed cash-on-cash percentage question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "A reproducible handoff needs all 2 published values, the formula flow/cash*100, and the 10.8% result together. The input table and export support that handoff. If only the headline answer is retained, another reviewer cannot tell whether a later difference comes from the values, definitions or calculation."
@@ -2788,8 +2788,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "3038aa4ce8ef975fc4f92cbaff7f07140d155e7f902c6da61bd3689bb1dfebda",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "15addcb89dc5aaf29e76ee95837c922ccb7e4050d372db8e5db374d9870c2efd",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -2803,7 +2803,7 @@
     "answer": "For local change versus forecast in this cash-on-cash percentage model, the published input set produces 17.07% under this model. It uses annual pre-tax cash flow of $16,000 and total cash invested of $93,750, together with the other inputs shown below. Holding those other inputs fixed, the lower annual pre-tax cash flow test gives 13.65%, while the higher test gives 20.48%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide pre-tax cash flow by all cash included in your investment definition. The denominator can include down payment, closing, setup, fees and committed reserves. In this case, annual pre-tax cash flow is $16,000. The sensitivity rows answer a conditional mathematical question. They do not assign a likelihood to any of the alternate inputs.",
-      "The reference input set produces 8%. This case differs from that reference by 9.07%, or 113.33% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual pre-tax cash flow alone.",
+      "The reference input set produces 8%. This case differs from that reference by 9.07 percentage points, or 113.33% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual pre-tax cash flow alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $12,800 and the higher input is $19,200. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 17.07% answers the displayed cash-on-cash percentage question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "The lower focused test is 13.65%; the higher focused test is 20.48%. These two conditional outputs do not give a probability that annual pre-tax cash flow will take either alternate value. The table describes how this equation responds, while the plausibility and source support of each assumption remain separate questions."
@@ -2915,8 +2915,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "dd06fe1a7db7e16081685f7a4bee7dbe87074bb0b3a98821d6e7278b76095707",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "4316f44f6f624a91aef87f58637df08320eb5dbd641af13dd4a966c49e9013d1",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -2930,7 +2930,7 @@
     "answer": "For unpriced input treatment in this cash-on-cash percentage model, the published input set produces 7.16% under this model. It uses annual pre-tax cash flow of $8,500 and total cash invested of $118,750, together with the other inputs shown below. Holding those other inputs fixed, the lower total cash invested test gives 8.95%, while the higher test gives 5.96%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide pre-tax cash flow by all cash included in your investment definition. The denominator can include down payment, closing, setup, fees and committed reserves. In this case, total cash invested is $118,750. An unknown amount is not automatically zero. In real use, retain an unresolved source item rather than completing a model with an unsupported value.",
-      "The reference input set produces 8%. This case differs from that reference by -0.84%, or -10.53% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total cash invested alone.",
+      "The reference input set produces 8%. This case differs from that reference by -0.84 percentage points, or -10.53% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total cash invested alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $95,000 and the higher input is $142,500. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 7.16% answers the displayed cash-on-cash percentage question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "The example includes a stated value for every required field, including total cash invested at $118,750. A real missing quote or incomplete record should remain unresolved in the source register. The existence of a valid number box does not supply evidence for filling it, particularly when zero would materially change the 7.16% result."
@@ -3042,8 +3042,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "ac93cb423c8df5ca3a00e861aa1b930e34f8625602084adecccc08fc813e4c44",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "a41116c474ecadf4531a31c08e7ef34d2b8b758eac56c8af9fd2d636dcec7a9b",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -3057,7 +3057,7 @@
     "answer": "For comparison-basis consistency in this cash-on-cash percentage model, the published input set produces 7.64% under this model. It uses annual pre-tax cash flow of $10,500 and total cash invested of $137,500, together with the other inputs shown below. Holding those other inputs fixed, the lower annual pre-tax cash flow test gives 6.11%, while the higher test gives 9.16%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide pre-tax cash flow by all cash included in your investment definition. The denominator can include down payment, closing, setup, fees and committed reserves. In this case, annual pre-tax cash flow is $10,500. Keep the same definitions when comparing this case with another. Similar labels can conceal different cost bases, periods or included components.",
-      "The reference input set produces 8%. This case differs from that reference by -0.36%, or -4.55% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual pre-tax cash flow alone.",
+      "The reference input set produces 8%. This case differs from that reference by -0.36 percentage points, or -4.55% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual pre-tax cash flow alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $8,400 and the higher input is $12,600. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 7.64% answers the displayed cash-on-cash percentage question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "The reference comparison uses 8% and the published case uses 7.64% under one fixed model definition. A source that includes different components, uses another period or changes an input's denominator is not on that same basis. Align those definitions before calling its result higher or lower than this case."
@@ -3169,8 +3169,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "b89e9a108b1039956e86ad20020ad467d6b7942d4b50dcc9d45760ab5c2fcaf0",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "d82ac008f1c2afeaebea6b73f02cc69928d3b2647a1a144dd55ca199e6ace027",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -3184,7 +3184,7 @@
     "answer": "For input-range constraint in this cash-on-cash percentage model, the published input set produces 20.92% under this model. It uses annual pre-tax cash flow of $17,000 and total cash invested of $81,250, together with the other inputs shown below. Holding those other inputs fixed, the lower total cash invested test gives 26.15%, while the higher test gives 17.44%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide pre-tax cash flow by all cash included in your investment definition. The denominator can include down payment, closing, setup, fees and committed reserves. In this case, total cash invested is $81,250. The form checks its stated input ranges, but a valid numerical range does not prove that an assumption is feasible for a real property or contract.",
-      "The reference input set produces 8%. This case differs from that reference by 12.92%, or 161.54% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total cash invested alone.",
+      "The reference input set produces 8%. This case differs from that reference by 12.92 percentage points, or 161.54% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total cash invested alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $65,000 and the higher input is $97,500. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 20.92% answers the displayed cash-on-cash percentage question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "For total cash invested, the numerical form limits are 1 through 100000000 USD. The published $81,250 is within those limits, but that alone says nothing about a lender quote, operating permission, vendor availability or actual demand. Treat range validity as a calculation check rather than external approval."
@@ -3296,8 +3296,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "fb7e5c8664fc303f0fb5ac0e3cff928706a7e6071c3a1bed7fc0eec4f54018d6",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "ea69ebcc98e9509e1d05d834f3bc8af2bb378abbfcbd8293fb690e86a09809cb",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -3311,7 +3311,7 @@
     "answer": "For direction of the relationship in this cash-on-cash percentage model, the published input set produces 4.8% under this model. It uses annual pre-tax cash flow of $6,000 and total cash invested of $125,000, together with the other inputs shown below. Holding those other inputs fixed, the lower annual pre-tax cash flow test gives 3.84%, while the higher test gives 5.76%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide pre-tax cash flow by all cash included in your investment definition. The denominator can include down payment, closing, setup, fees and committed reserves. In this case, annual pre-tax cash flow is $6,000. Use the calculated lower and higher cases to inspect direction. A denominator change can move the result differently from a numerator or additive input.",
-      "The reference input set produces 8%. This case differs from that reference by -3.2%, or -40% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual pre-tax cash flow alone.",
+      "The reference input set produces 8%. This case differs from that reference by -3.2 percentage points, or -40% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual pre-tax cash flow alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $4,800 and the higher input is $7,200. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 4.8% answers the displayed cash-on-cash percentage question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "Relative to 4.8%, the lower focused case changes the output by -0.96% and the higher case changes it by 0.96%. Those signs show the local direction of this relationship for the selected inputs. Do not assume that an input appearing in a denominator behaves like one added to the numerator."
@@ -3423,8 +3423,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "a18e2410b5225290872649ccb98bbb858efba12d60cf50da9341dccf097c141b",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "46805d167ef31b12a80c1e1340e59d6fc044f38880bc6b741180bbabfd370b38",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -3438,7 +3438,7 @@
     "answer": "For magnitude of the relationship in this cash-on-cash percentage model, the published input set produces 11.52% under this model. It uses annual pre-tax cash flow of $18,000 and total cash invested of $156,250, together with the other inputs shown below. Holding those other inputs fixed, the lower total cash invested test gives 14.4%, while the higher test gives 9.6%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide pre-tax cash flow by all cash included in your investment definition. The denominator can include down payment, closing, setup, fees and committed reserves. In this case, total cash invested is $156,250. Consider how large the output change is in its own units. A mathematically visible change may still be small relative to other unmodeled obligations.",
-      "The reference input set produces 8%. This case differs from that reference by 3.52%, or 44% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total cash invested alone.",
+      "The reference input set produces 8%. This case differs from that reference by 3.52 percentage points, or 44% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total cash invested alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $125,000 and the higher input is $187,500. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 11.52% answers the displayed cash-on-cash percentage question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "The headline answer is 11.52%. The focused lower and higher tests are 14.4% and 9.6%. Consider those changes in percent, rather than focusing only on whether the displayed number moved. Other unmodeled obligations may matter more than a small arithmetic movement, and the formula does not rank their importance."
@@ -3550,8 +3550,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "21d13eb4d5258977bd472e5dfe44a9ccec47a087c812559d0baf0d95ff04564f",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "46f7ac90d506e68b4a5cf28737f6646fab2e56e737e36cdd632b641f9589b4ab",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -3565,7 +3565,7 @@
     "answer": "For sensitivity symmetry in this cash-on-cash percentage model, the published input set produces 16% under this model. It uses annual pre-tax cash flow of $10,000 and total cash invested of $62,500, together with the other inputs shown below. Holding those other inputs fixed, the lower annual pre-tax cash flow test gives 12.8%, while the higher test gives 19.2%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide pre-tax cash flow by all cash included in your investment definition. The denominator can include down payment, closing, setup, fees and committed reserves. In this case, annual pre-tax cash flow is $10,000. Do not assume that an equal percentage decrease and increase in an input cause symmetric output changes. Ratios and payment formulas can behave nonlinearly.",
-      "The reference input set produces 8%. This case differs from that reference by 8%, or 100% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual pre-tax cash flow alone.",
+      "The reference input set produces 8%. This case differs from that reference by 8 percentage points, or 100% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual pre-tax cash flow alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $8,000 and the higher input is $12,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 16% answers the displayed cash-on-cash percentage question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "The lower input changes the output by -3.2%, while the higher input changes it by 3.2%. Their absolute magnitudes are 3.2% and 3.2%. They need not match: the equation, bounds and whole-unit rounding can make equal-looking input moves asymmetric."
@@ -3677,8 +3677,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "6af04477fa7b22486873e639ef16dcb3644bbe602c059bfa5e851c741301c406",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "558fec8221b643d1af09f2f534f90900eb9144da656fe82633fd64ccc3b2a9ed",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -3692,7 +3692,7 @@
     "answer": "For reference-case limitations in this cash-on-cash percentage model, the published input set produces 7.7% under this model. It uses annual pre-tax cash flow of $10,300 and total cash invested of $133,750, together with the other inputs shown below. Holding those other inputs fixed, the lower total cash invested test gives 9.63%, while the higher test gives 6.42%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide pre-tax cash flow by all cash included in your investment definition. The denominator can include down payment, closing, setup, fees and committed reserves. In this case, total cash invested is $133,750. The default input set is a teaching reference. It is not a market average, underwriting recommendation or evidence that the same conditions can be obtained.",
-      "The reference input set produces 8%. This case differs from that reference by -0.3%, or -3.74% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total cash invested alone.",
+      "The reference input set produces 8%. This case differs from that reference by -0.3 percentage points, or -3.74% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total cash invested alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $107,000 and the higher input is $160,500. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 7.7% answers the displayed cash-on-cash percentage question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "The reference set begins with annual pre-tax cash flow of $10,000 and total cash invested of $125,000, producing 8%. These are disclosed teaching defaults. They are not independently observed market values or evidence that the case's 7.7% can be achieved for a particular purchase."
@@ -3804,8 +3804,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "c5f045490ae78d37ca8d4b71ef25a6a46f269d495ffda6973e11d46094381bd5",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "9636dbd59e0e00fd4085f997cf079abc97d9e3845c4af3755afcabbf198b8ac5",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -3819,7 +3819,7 @@
     "answer": "For input provenance in this cash-on-cash percentage model, the published input set produces 8.96% under this model. It uses annual pre-tax cash flow of $11,200 and total cash invested of $125,000, together with the other inputs shown below. Holding those other inputs fixed, the lower annual pre-tax cash flow test gives 7.17%, while the higher test gives 10.75%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide pre-tax cash flow by all cash included in your investment definition. The denominator can include down payment, closing, setup, fees and committed reserves. In this case, annual pre-tax cash flow is $11,200. For each real input, retain the source identity, observation date, definition and period. The calculator does not authenticate any of those records.",
-      "The reference input set produces 8%. This case differs from that reference by 0.96%, or 12% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual pre-tax cash flow alone.",
+      "The reference input set produces 8%. This case differs from that reference by 0.96 percentage points, or 12% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual pre-tax cash flow alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $8,960 and the higher input is $13,440. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 8.96% answers the displayed cash-on-cash percentage question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "For actual work, the evidence request should name annual pre-tax cash flow, its USD unit, its observation date and its scope. The hypothetical $11,200 value only demonstrates the operation. A copied number without that provenance may remain reproducible mathematically while being unsupported for the real decision."
@@ -3931,8 +3931,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "f316bff3d545702798a107ab44fa71efb96dde9fc4ee28472a5b03f2cc098b48",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "eaf266dda90b78475869365c5027ed668828041319a4e1274d795a7e95fc7a40",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -3946,7 +3946,7 @@
     "answer": "For fixed-assumption scope in this cash-on-cash percentage model, the published input set produces 6.12% under this model. It uses annual pre-tax cash flow of $8,800 and total cash invested of $143,750, together with the other inputs shown below. Holding those other inputs fixed, the lower total cash invested test gives 7.65%, while the higher test gives 5.1%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide pre-tax cash flow by all cash included in your investment definition. The denominator can include down payment, closing, setup, fees and committed reserves. In this case, total cash invested is $143,750. In each sensitivity row, inputs other than the named field remain fixed. This is a deliberate test condition rather than a claim that those inputs are independent in practice.",
-      "The reference input set produces 8%. This case differs from that reference by -1.88%, or -23.48% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total cash invested alone.",
+      "The reference input set produces 8%. This case differs from that reference by -1.88 percentage points, or -23.48% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total cash invested alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $115,000 and the higher input is $172,500. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 6.12% answers the displayed cash-on-cash percentage question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "The focused test varies total cash invested while keeping the remaining input vector fixed. In the full case, annual pre-tax cash flow is $8,800 and total cash invested is $143,750. That fixed-vector condition is what the sensitivity rows establish; it is not a statement that the underlying business variables will move independently."
@@ -4058,8 +4058,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "39897032563794d5d24c5cd771b2c85b805219180a6d56441d22d4f6e356d9f6",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "bdbd996a7599fc9fb8d28f90cb54fb3b98304b41972e3a4b63a5774635701eaf",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -4073,7 +4073,7 @@
     "answer": "For model-exclusion check in this cash-on-cash percentage model, the published input set produces 6.26% under this model. It uses annual pre-tax cash flow of $7,200 and total cash invested of $115,000, together with the other inputs shown below. Holding those other inputs fixed, the lower annual pre-tax cash flow test gives 5.01%, while the higher test gives 7.51%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide pre-tax cash flow by all cash included in your investment definition. The denominator can include down payment, closing, setup, fees and committed reserves. In this case, annual pre-tax cash flow is $7,200. Read the stated exclusions before treating the result as a decision measure. Correct arithmetic cannot fill an omitted cost, condition or financing feature.",
-      "The reference input set produces 8%. This case differs from that reference by -1.74%, or -21.74% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual pre-tax cash flow alone.",
+      "The reference input set produces 8%. This case differs from that reference by -1.74 percentage points, or -21.74% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual pre-tax cash flow alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $5,760 and the higher input is $8,640. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 6.26% answers the displayed cash-on-cash percentage question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "The result is 6.26% from the displayed formula, and the model boundary is explicit: The result depends on your cash-flow definition and is not a total investment return. Review that boundary before labeling the number as profit, total cash required, total return or another broader measure. A more favorable name does not add quantities absent from the equation."
@@ -4185,8 +4185,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "7140992fbb9a3d6eb495cf743eb50021b01ea5b24d88581dad98cfd2d83f835f",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "eb3b06e63e10e3a62292dd4a730aa633ff522650104ece926e3ce81c7aac5501",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -4200,7 +4200,7 @@
     "answer": "For alternative-input request in this cash-on-cash percentage model, the published input set produces 9.3% under this model. It uses annual pre-tax cash flow of $12,200 and total cash invested of $131,250, together with the other inputs shown below. Holding those other inputs fixed, the lower total cash invested test gives 11.62%, while the higher test gives 7.75%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide pre-tax cash flow by all cash included in your investment definition. The denominator can include down payment, closing, setup, fees and committed reserves. In this case, total cash invested is $131,250. Turn an uncertain input into a specific evidence request. Identify the exact field, unit and time basis needed to replace the example value.",
-      "The reference input set produces 8%. This case differs from that reference by 1.3%, or 16.19% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total cash invested alone.",
+      "The reference input set produces 8%. This case differs from that reference by 1.3 percentage points, or 16.19% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total cash invested alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $105,000 and the higher input is $157,500. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 9.3% answers the displayed cash-on-cash percentage question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "A precise follow-up for this case asks what supports total cash invested at $131,250. The response should identify the relevant record, unit and period, not merely repeat the headline answer 9.3%. Replace the teaching value only after deciding how the new record's definition fits the model."
@@ -4312,8 +4312,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "83ee1887d2a44169446a7609ac5762d1617d6bf3216dadd1b1d6c41160555932",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "b3884f1d43d68bf5d414849c2ce9427d3ac9757edbe0c2fe9ed59a6dc1937b67",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -4327,7 +4327,7 @@
     "answer": "For decision-margin context in this cash-on-cash percentage model, the published input set produces 12.89% under this model. It uses annual pre-tax cash flow of $14,500 and total cash invested of $112,500, together with the other inputs shown below. Holding those other inputs fixed, the lower annual pre-tax cash flow test gives 10.31%, while the higher test gives 15.47%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide pre-tax cash flow by all cash included in your investment definition. The denominator can include down payment, closing, setup, fees and committed reserves. In this case, annual pre-tax cash flow is $14,500. A favorable output does not establish the size of a complete decision margin. Check what the formula includes and what obligations remain outside it.",
-      "The reference input set produces 8%. This case differs from that reference by 4.89%, or 61.11% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual pre-tax cash flow alone.",
+      "The reference input set produces 8%. This case differs from that reference by 4.89 percentage points, or 61.11% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual pre-tax cash flow alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $11,600 and the higher input is $17,400. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 12.89% answers the displayed cash-on-cash percentage question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "The difference from the reference is 4.89% under this model's own definition. That difference is not automatically an all-in decision margin. Compare it with the excluded obligations and evidence gaps described for cash-on-cash percentage before assigning it an investment or operating meaning."
@@ -4439,8 +4439,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "757496f0f9b4312899c23a50a075113aa0be836bbc4b74298d2f0522494a80b3",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "4d49896a7649b9083fe175b60cbd5036bd0f1b2cefd4dc6c5e44974bc15c5a82",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -4454,7 +4454,7 @@
     "answer": "For reconciliation to a source in this cash-on-cash percentage model, the published input set produces 10.05% under this model. It uses annual pre-tax cash flow of $10,800 and total cash invested of $107,500, together with the other inputs shown below. Holding those other inputs fixed, the lower total cash invested test gives 12.56%, while the higher test gives 8.37%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide pre-tax cash flow by all cash included in your investment definition. The denominator can include down payment, closing, setup, fees and committed reserves. In this case, total cash invested is $107,500. If a real statement differs from this calculation, first align definitions, periods and rounding. An unexplained difference is a question to investigate rather than proof of an error by another party.",
-      "The reference input set produces 8%. This case differs from that reference by 2.05%, or 25.58% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total cash invested alone.",
+      "The reference input set produces 8%. This case differs from that reference by 2.05 percentage points, or 25.58% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total cash invested alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $86,000 and the higher input is $129,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 10.05% answers the displayed cash-on-cash percentage question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "If a source reports something other than 10.05%, first compare its input values with the table here and its formula with flow/cash*100. A difference in unit, period, included components or rounding can explain a mismatch without establishing that either publisher made a false statement."
@@ -4566,8 +4566,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "299b4584cc4c79bc7c05cd5df276d4cfea34430c59f7eb67f36422b1cacc2d6b",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "29afb18d8eeb0cc954ac890421babb2295a809ccc913c50b5b9d8d452ba15465",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -4581,7 +4581,7 @@
     "answer": "For export and handoff in this cash-on-cash percentage model, the published input set produces 6.24% under this model. It uses annual pre-tax cash flow of $9,200 and total cash invested of $147,500, together with the other inputs shown below. Holding those other inputs fixed, the lower annual pre-tax cash flow test gives 4.99%, while the higher test gives 7.48%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide pre-tax cash flow by all cash included in your investment definition. The denominator can include down payment, closing, setup, fees and committed reserves. In this case, annual pre-tax cash flow is $9,200. An exported worksheet should retain the model, input set, result and limitations. Review personal notes before sharing the file with anyone else.",
-      "The reference input set produces 8%. This case differs from that reference by -1.76%, or -22.03% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual pre-tax cash flow alone.",
+      "The reference input set produces 8%. This case differs from that reference by -1.76 percentage points, or -22.03% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual pre-tax cash flow alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $7,360 and the higher input is $11,040. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 6.24% answers the displayed cash-on-cash percentage question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "Exporting this case should preserve annual pre-tax cash flow of $9,200, total cash invested of $147,500, the remaining inputs and the calculated result. If you add real source notes in the editable form, inspect the exported file before sharing it; this published article itself contains only hypothetical values."
@@ -4693,8 +4693,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "1d80c5040b61f99f680d61f9192b60e0c12bd60769f3ffab731ec3cd33bed3f6",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "dec73ef331361fb037e2c714ee99988f658eec9df7f45763354d174ccabda089",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -4708,7 +4708,7 @@
     "answer": "For boundary-case validation in this cash-on-cash percentage model, the published input set produces 9.19% under this model. It uses annual pre-tax cash flow of $15,500 and total cash invested of $168,750, together with the other inputs shown below. Holding those other inputs fixed, the lower total cash invested test gives 11.48%, while the higher test gives 7.65%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide pre-tax cash flow by all cash included in your investment definition. The denominator can include down payment, closing, setup, fees and committed reserves. In this case, total cash invested is $168,750. An invalid alternate scenario should display a reason rather than an invented numerical result. The sensitivity table preserves those constraints when they arise.",
-      "The reference input set produces 8%. This case differs from that reference by 1.19%, or 14.81% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total cash invested alone.",
+      "The reference input set produces 8%. This case differs from that reference by 1.19 percentage points, or 14.81% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total cash invested alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $135,000 and the higher input is $202,500. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 9.19% answers the displayed cash-on-cash percentage question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "All 4 displayed sensitivity tests satisfy the current numerical and model-specific rules. This does not validate the real-world assumptions. It means the alternate input sets can be evaluated by this particular equation without substituting an unavailable result."
@@ -4820,8 +4820,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "f4e0bacd4dc33c94ad6880f8e5a52f6daffb586eb2ee983c0cff403245327e58",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "bc18531fdb20537bab6ff99c1d4acf101c7472d102ff32014116a3922d66c25c",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -4835,7 +4835,7 @@
     "answer": "For revised-input audit trail in this cash-on-cash percentage model, the published input set produces 6.43% under this model. It uses annual pre-tax cash flow of $8,200 and total cash invested of $127,500, together with the other inputs shown below. Holding those other inputs fixed, the lower annual pre-tax cash flow test gives 5.15%, while the higher test gives 7.72%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide pre-tax cash flow by all cash included in your investment definition. The denominator can include down payment, closing, setup, fees and committed reserves. In this case, annual pre-tax cash flow is $8,200. When replacing an input, retain its previous value and source so the reason for a changed conclusion can be understood. Do not overwrite the history with only the final answer.",
-      "The reference input set produces 8%. This case differs from that reference by -1.57%, or -19.61% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual pre-tax cash flow alone.",
+      "The reference input set produces 8%. This case differs from that reference by -1.57 percentage points, or -19.61% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual pre-tax cash flow alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $6,560 and the higher input is $9,840. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 6.43% answers the displayed cash-on-cash percentage question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "As a revision exercise, replace only annual pre-tax cash flow from $8,200 with the higher-test value $9,840. Retain both the original 6.43% and revised 7.72% outcomes with that changed field. This is a documented input revision, not a claim that a real record has changed."
@@ -4947,8 +4947,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "b731ae208743c5aa22246db60268fec7d552b457bf80cfc308d9f32dcc864789",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "49e91d1e4dd819b589ce15a2ce7b0719b35e684ae4e8a4bd6e35aa8cc53cd20f",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -4962,7 +4962,7 @@
     "answer": "For final interpretation in this cash-on-cash percentage model, the published input set produces 10.45% under this model. It uses annual pre-tax cash flow of $12,800 and total cash invested of $122,500, together with the other inputs shown below. Holding those other inputs fixed, the lower total cash invested test gives 13.06%, while the higher test gives 8.71%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Divide pre-tax cash flow by all cash included in your investment definition. The denominator can include down payment, closing, setup, fees and committed reserves. In this case, total cash invested is $122,500. State the result in a sentence containing its units and assumptions. Preserve the difference between a worked numerical answer and a verified property outcome.",
-      "The reference input set produces 8%. This case differs from that reference by 2.45%, or 30.61% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total cash invested alone.",
+      "The reference input set produces 8%. This case differs from that reference by 2.45 percentage points, or 30.61% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to total cash invested alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $98,000 and the higher input is $147,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 10.45% answers the displayed cash-on-cash percentage question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "A complete final sentence would identify this as a cash-on-cash percentage calculation, state the 10.45% result in percent, and retain the disclosed inputs. That sentence should also preserve the model's exclusions. It must not turn a conditional teaching answer into a verified customer outcome or a guarantee."
@@ -5074,8 +5074,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "f355bb9c323eb812da0a66687a58eddb5380bcb027616a7e5114ff3e540425bc",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "3a352259924207a887cdb0f8bb45df53f7c062b1d10de1a90ff77c021a45d356",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   }

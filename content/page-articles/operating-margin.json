@@ -9,7 +9,7 @@
     "answer": "For first-input sensitivity in this operating margin model, the published input set produces 37.5% under this model. It uses annual room revenue of $40,000 and annual operating cost of $25,000, together with the other inputs shown below. Holding those other inputs fixed, the lower annual room revenue test gives 21.88%, while the higher test gives 47.92%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Subtract the entered operating costs from room revenue and divide by revenue. The margin describes the cost definition you supply, not a standardized property valuation. In this case, annual room revenue is $40,000. Hold every other input constant when inspecting the first input. A difference from a multi-input reference case cannot be attributed to that input alone.",
-      "The reference input set produces 50%. This case differs from that reference by -12.5%, or -25% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual room revenue alone.",
+      "The reference input set produces 50%. This case differs from that reference by -12.5 percentage points, or -25% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual room revenue alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $32,000 and the higher input is $48,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 37.5% answers the displayed operating margin question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "For the first field, the published annual room revenue is $40,000. Its lower and higher sensitivity rows change that field alone, so those rows are the relevant comparison for its local arithmetic effect. The full reference-case difference may include annual operating cost or other changed inputs and answers a different question."
@@ -126,8 +126,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "469ef69b1f47caa5d7c8c64e2703db53a97bd6622bc6da64db7de3e444bfbd9f",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "430742d81ea3c1ddfd6a36d831563639dad257dab40b14c6e9b766a0b49b7e1d",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -141,7 +141,7 @@
     "answer": "For second-input sensitivity in this operating margin model, the published input set produces 40% under this model. It uses annual room revenue of $50,000 and annual operating cost of $30,000, together with the other inputs shown below. Holding those other inputs fixed, the lower annual operating cost test gives 52%, while the higher test gives 28%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Subtract the entered operating costs from room revenue and divide by revenue. The margin describes the cost definition you supply, not a standardized property valuation. In this case, annual operating cost is $30,000. Use the second input as a separate lever. A value can look small in isolation while materially affecting a product, ratio or residual.",
-      "The reference input set produces 50%. This case differs from that reference by -10%, or -20% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating cost alone.",
+      "The reference input set produces 50%. This case differs from that reference by -10 percentage points, or -20% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating cost alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $24,000 and the higher input is $36,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 40% answers the displayed operating margin question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "The second field is annual operating cost, entered here as $30,000. Read its two sensitivity rows separately from the first field. This preserves the distinction between changing annual room revenue and changing annual operating cost, even when both adjustments happen to move the headline answer in the same direction."
@@ -258,8 +258,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "7c729f3f6e29008124fbe5d9f7809056b3d644c1757037305ab520f774a892f4",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "2f0f1b02c403368624bd271d6b3e78ff4316775195538f5735b25726f874cde1",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -273,7 +273,7 @@
     "answer": "For input units in this operating margin model, the published input set produces 43.33% under this model. It uses annual room revenue of $37,500 and annual operating cost of $21,250, together with the other inputs shown below. Holding those other inputs fixed, the lower annual room revenue test gives 29.17%, while the higher test gives 52.78%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Subtract the entered operating costs from room revenue and divide by revenue. The margin describes the cost definition you supply, not a standardized property valuation. In this case, annual room revenue is $37,500. Read the units before performing the arithmetic. A room rate, a total amount, a percentage and a count are different inputs even when they contain similar numbers.",
-      "The reference input set produces 50%. This case differs from that reference by -6.67%, or -13.33% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual room revenue alone.",
+      "The reference input set produces 50%. This case differs from that reference by -6.67 percentage points, or -13.33% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual room revenue alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $30,000 and the higher input is $45,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 43.33% answers the displayed operating margin question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "The first two inputs use USD and USD, respectively. The raw values are 37500 and 21250. Keep those units attached when transferring this example into another worksheet; copying the numbers without the definitions can create a different mathematical question."
@@ -390,8 +390,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "7f634c814242808821c1ddd9bd66ee1699939bae4faa64713ae51bb0e1a88ee8",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "007266e07b2c61f3848dc62d779f6d3616f8c87baea653f70a9164320a76c3dd",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -405,7 +405,7 @@
     "answer": "For reference-case comparison in this operating margin model, the published input set produces 50% under this model. It uses annual room revenue of $50,000 and annual operating cost of $25,000, together with the other inputs shown below. Holding those other inputs fixed, the lower annual operating cost test gives 60%, while the higher test gives 40%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Subtract the entered operating costs from room revenue and divide by revenue. The margin describes the cost definition you supply, not a standardized property valuation. In this case, annual operating cost is $25,000. Compare the full input set with the model reference case. The reference is another hypothetical scenario, not a benchmark or a typical property result.",
-      "The reference input set produces 50%. This case differs from that reference by 0%, or 0% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating cost alone.",
+      "The reference input set produces 50%. This case differs from that reference by 0 percentage points, or 0% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating cost alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $20,000 and the higher input is $30,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 50% answers the displayed operating margin question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "All 2 inputs match the reference set, so 50% must equal 50%. This is a baseline consistency check. A disagreement under identical definitions and inputs would require checking the formula, precision or implementation before interpreting the result."
@@ -522,8 +522,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "61326cd06f416490a411e4733dc49c14e4c5d117bcce5ab0291bd08b75320c11",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "18cb327415f2ec4c6a4d4393cb792894478a24f8c488d64732f861efb7a6c787",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -537,7 +537,7 @@
     "answer": "For lower-input boundary in this operating margin model, the published input set produces 0% under this model. It uses annual room revenue of $25,000 and annual operating cost of $25,000, together with the other inputs shown below. Holding those other inputs fixed, the lower annual room revenue test gives -25%, while the higher test gives 16.67%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Subtract the entered operating costs from room revenue and divide by revenue. The margin describes the cost definition you supply, not a standardized property valuation. In this case, annual room revenue is $25,000. Check the selected input at a lower value without changing the other assumptions. A lower input does not always mean a more conservative output.",
-      "The reference input set produces 50%. This case differs from that reference by -50%, or -100% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual room revenue alone.",
+      "The reference input set produces 50%. This case differs from that reference by -50 percentage points, or -100% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual room revenue alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $20,000 and the higher input is $30,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 0% answers the displayed operating margin question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "The selected annual room revenue has an allowed numerical range from 1 to 100000000 USD. The lower sensitivity test uses $20,000 and returns -25%. That numerical range is a form constraint, not evidence that the alternate value can be obtained for a real project."
@@ -654,8 +654,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "8d181e06046978b2ab006df311996b048957cf0ec95cbdb89cd78b00a9fb2bb2",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "8e001f949c8064b439f2332f5b0c14c7ae915aff11f5bf196fd919c4a0d9582e",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -669,7 +669,7 @@
     "answer": "For higher-input boundary in this operating margin model, the published input set produces 66.67% under this model. It uses annual room revenue of $75,000 and annual operating cost of $25,000, together with the other inputs shown below. Holding those other inputs fixed, the lower annual operating cost test gives 73.33%, while the higher test gives 60%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Subtract the entered operating costs from room revenue and divide by revenue. The margin describes the cost definition you supply, not a standardized property valuation. In this case, annual operating cost is $25,000. Check the selected input at a higher value and preserve the other assumptions. Whether the output rises or falls depends on the formula.",
-      "The reference input set produces 50%. This case differs from that reference by 16.67%, or 33.33% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating cost alone.",
+      "The reference input set produces 50%. This case differs from that reference by 16.67 percentage points, or 33.33% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating cost alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $20,000 and the higher input is $30,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 66.67% answers the displayed operating margin question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "The higher annual operating cost test uses $30,000 and gives 60%, compared with the published 66.67%. Retain the original input alongside the higher test so that the effect remains visible. A larger input is not automatically a better outcome; its position in this formula determines the direction."
@@ -786,8 +786,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "04ffb8f40330628ea0e74293014dcab0cdbb9d6de0c9f7348cfa41ce71afc6d1",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "349b431e85ac68bf33778691e6106ffa28d0113297de0f9b98118fd3ef6d49f7",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -801,7 +801,7 @@
     "answer": "For displayed rounding in this operating margin model, the published input set produces 50% under this model. It uses annual room revenue of $50,010 and annual operating cost of $25,008, together with the other inputs shown below. Holding those other inputs fixed, the lower annual room revenue test gives 37.49%, while the higher test gives 58.33%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Subtract the entered operating costs from room revenue and divide by revenue. The margin describes the cost definition you supply, not a standardized property valuation. In this case, annual room revenue is $50,010. Keep precision through the calculation and round the displayed result only at the end. A displayed dollar amount can conceal a smaller underlying difference.",
-      "The reference input set produces 50%. This case differs from that reference by -0.004999%, or -0.01% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual room revenue alone.",
+      "The reference input set produces 50%. This case differs from that reference by -0.004999 percentage points, or -0.01% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual room revenue alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $40,008 and the higher input is $60,012. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 50% answers the displayed operating margin question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "Before display rounding, the result is 49.995001 percent. The displayed result is 50%. Use the unrounded value when reproducing dependent arithmetic, and use the rounded figure only as a presentation of that result. A small difference near zero should not be confused with proof that the unrounded value is exactly zero."
@@ -918,8 +918,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "153ccfb9c893014c2c8c7da23c89fdb18a29366c90e7cdabfe87044a3ce70be1",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "306ceee6c94539280f986f2424bd9e05aedf73c3ca6ff03255af2c80f4f062bc",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -933,7 +933,7 @@
     "answer": "For formula sequence in this operating margin model, the published input set produces 66% under this model. It uses annual room revenue of $62,500 and annual operating cost of $21,250, together with the other inputs shown below. Holding those other inputs fixed, the lower annual operating cost test gives 72.8%, while the higher test gives 59.2%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Subtract the entered operating costs from room revenue and divide by revenue. The margin describes the cost definition you supply, not a standardized property valuation. In this case, annual operating cost is $21,250. Follow the order of operations in the worked steps. Parentheses can change the meaning of a percentage adjustment or ratio.",
-      "The reference input set produces 50%. This case differs from that reference by 16%, or 32% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating cost alone.",
+      "The reference input set produces 50%. This case differs from that reference by 16 percentage points, or 32% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating cost alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $17,000 and the higher input is $25,500. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 66% answers the displayed operating margin question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "The disclosed expression is (revenue-cost)/revenue*100. The worked operation list evaluates that expression using this case's values. Follow each intermediate line before comparing the final 66% with another source; changing the grouping or performing a percentage adjustment at a different point can describe a different calculation."
@@ -1050,8 +1050,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "ff74db13d6149dc4cd139056907d3893d134bfd322d62a205f637d7f3aea4e3f",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "0d16b32b61ca1d54d1e4b47d8ac77c8d373fb350d5add1053f095562c2a90010",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -1065,7 +1065,7 @@
     "answer": "For absolute change in this operating margin model, the published input set produces 52.38% under this model. It uses annual room revenue of $52,500 and annual operating cost of $25,000, together with the other inputs shown below. Holding those other inputs fixed, the lower annual room revenue test gives 40.48%, while the higher test gives 60.32%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Subtract the entered operating costs from room revenue and divide by revenue. The margin describes the cost definition you supply, not a standardized property valuation. In this case, annual room revenue is $52,500. Measure the change in the output unit before describing it as a percentage. A dollar change and a percentage change answer different questions.",
-      "The reference input set produces 50%. This case differs from that reference by 2.38%, or 4.76% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual room revenue alone.",
+      "The reference input set produces 50%. This case differs from that reference by 2.38 percentage points, or 4.76% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual room revenue alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $42,000 and the higher input is $63,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 52.38% answers the displayed operating margin question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "The absolute difference from the reference is 2.38% in the model's output units. That difference compares 52.38% with 50%. Preserve the unit and sign before describing the change in words, especially when the output is a period or ratio rather than a cash amount."
@@ -1182,8 +1182,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "74853a0bff61c1c757ea205d5a40a318947f4568445ac9f9961c5fc48dd06266",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "070601f76650b93d73cbc80b4d26e3eff4cafa52467bb7481149d092c33ff965",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -1197,7 +1197,7 @@
     "answer": "For relative change in this operating margin model, the published input set produces 59.09% under this model. It uses annual room revenue of $55,000 and annual operating cost of $22,500, together with the other inputs shown below. Holding those other inputs fixed, the lower annual operating cost test gives 67.27%, while the higher test gives 50.91%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Subtract the entered operating costs from room revenue and divide by revenue. The margin describes the cost definition you supply, not a standardized property valuation. In this case, annual operating cost is $22,500. Use a nonzero reference before calculating a relative output change. A zero reference does not provide a finite percentage-change denominator.",
-      "The reference input set produces 50%. This case differs from that reference by 9.09%, or 18.18% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating cost alone.",
+      "The reference input set produces 50%. This case differs from that reference by 9.09 percentage points, or 18.18% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating cost alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $18,000 and the higher input is $27,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 59.09% answers the displayed operating margin question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "Using the absolute reference amount as the denominator, the change is 18.181818182%. This describes the movement from 50% to 59.09% under the full input set. It is separate from a percentage-point change in any one percent input."
@@ -1314,8 +1314,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "55d5f5c65b3a8f422598f73e0050ad916ee946ff6ee4cf0e9bf40e73a7a61782",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "e83974677ee590311b14a437c18bbdb24643a75061cb39d2ec6c0470199f94b7",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -1329,7 +1329,7 @@
     "answer": "For observed versus assumed inputs in this operating margin model, the published input set produces 47.37% under this model. It uses annual room revenue of $47,500 and annual operating cost of $25,000, together with the other inputs shown below. Holding those other inputs fixed, the lower annual room revenue test gives 34.21%, while the higher test gives 56.14%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Subtract the entered operating costs from room revenue and divide by revenue. The margin describes the cost definition you supply, not a standardized property valuation. In this case, annual room revenue is $47,500. Every number here is a hypothetical input. In a real file, label each value observed, quoted, assumed or unresolved before relying on the result.",
-      "The reference input set produces 50%. This case differs from that reference by -2.63%, or -5.26% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual room revenue alone.",
+      "The reference input set produces 50%. This case differs from that reference by -2.63 percentage points, or -5.26% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual room revenue alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $38,000 and the higher input is $57,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 47.37% answers the displayed operating margin question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "There is no real source record behind the teaching value $47,500 for annual room revenue. For actual use, retain a source reference and status for that field, then do the same for annual operating cost. The calculation can be reproduced from assumed values while still lacking evidence that either value describes a real property."
@@ -1446,8 +1446,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "358269c9cb3ca7f32064b73cfe2059f2aa22c095db6ffad36cd3a70347780781",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "c24425b1d18e239fb331b137761a3a7c992049201ab68414608cef6cedb56bc5",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -1461,7 +1461,7 @@
     "answer": "For single-variable isolation in this operating margin model, the published input set produces 55% under this model. It uses annual room revenue of $50,000 and annual operating cost of $22,500, together with the other inputs shown below. Holding those other inputs fixed, the lower annual operating cost test gives 64%, while the higher test gives 46%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Subtract the entered operating costs from room revenue and divide by revenue. The margin describes the cost definition you supply, not a standardized property valuation. In this case, annual operating cost is $22,500. The one-input sensitivity rows isolate one arithmetic effect. They do not establish how other assumptions would behave at the same time.",
-      "The reference input set produces 50%. This case differs from that reference by 5%, or 10% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating cost alone.",
+      "The reference input set produces 50%. This case differs from that reference by 5 percentage points, or 10% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating cost alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $18,000 and the higher input is $27,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 55% answers the displayed operating margin question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "For the focused field annual operating cost, the lower test produces 64% and the higher test produces 46%. The other 1 inputs remain fixed in each row. This controlled comparison is what allows the local effect to be discussed without attributing simultaneous changes to the same field."
@@ -1578,8 +1578,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "3759aae07e980b6447553244d2648f30a0ae5a80fee374f50dcde21d70d8c57d",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "85600ea74f5872be275d8b2846342a102ce687c11e1196d03b99d7f99d9c31d3",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -1593,7 +1593,7 @@
     "answer": "For multiple-input movement in this operating margin model, the published input set produces 66.67% under this model. It uses annual room revenue of $60,000 and annual operating cost of $20,000, together with the other inputs shown below. Holding those other inputs fixed, the lower annual room revenue test gives 58.33%, while the higher test gives 72.22%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Subtract the entered operating costs from room revenue and divide by revenue. The margin describes the cost definition you supply, not a standardized property valuation. In this case, annual room revenue is $60,000. Several inputs differ from the reference in this scenario. The combined difference is attributable to that full input set rather than a single change.",
-      "The reference input set produces 50%. This case differs from that reference by 16.67%, or 33.33% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual room revenue alone.",
+      "The reference input set produces 50%. This case differs from that reference by 16.67 percentage points, or 33.33% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual room revenue alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $48,000 and the higher input is $72,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 66.67% answers the displayed operating margin question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "The case differs from the reference in 2 fields: Annual room revenue $50,000 to $60,000; Annual operating cost $25,000 to $20,000. Keep that list with the 16.67% output difference. The one-input tests are a separate analysis of individual changes, not a decomposition of every interaction in the full case."
@@ -1710,8 +1710,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "9fc5f7386ce76d4d482c74cdccc603d9eaecba0fe15a2365e27094290bb2ade7",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "c99bac9110fa3ae99b2325dd05497671c7d165d5eef10576c17b405f367417bc",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -1725,7 +1725,7 @@
     "answer": "For source-period alignment in this operating margin model, the published input set produces 21.43% under this model. It uses annual room revenue of $35,000 and annual operating cost of $27,500, together with the other inputs shown below. Holding those other inputs fixed, the lower annual operating cost test gives 37.14%, while the higher test gives 5.71%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Subtract the entered operating costs from room revenue and divide by revenue. The margin describes the cost definition you supply, not a standardized property valuation. In this case, annual operating cost is $27,500. For real use, retain the time basis of every amount or count. A monthly figure and an annual figure need a visible conversion before they are compared.",
-      "The reference input set produces 50%. This case differs from that reference by -28.57%, or -57.14% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating cost alone.",
+      "The reference input set produces 50%. This case differs from that reference by -28.57 percentage points, or -57.14% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating cost alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $22,000 and the higher input is $33,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 21.43% answers the displayed operating margin question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "The source schedule should preserve the period implied by each field label. In this example the first two fields are annual room revenue (USD) and annual operating cost (USD). The model uses them as labeled; it cannot infer that a number copied from a monthly or partial-period source needs conversion before entry."
@@ -1842,8 +1842,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "e35276ddc9f50658ed123606e4ebf710dc172d9712bc5845e186fdc023c1cb75",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "f67f76e3158d300271e050b5db881e8a4e5114a99f79d42dcc1547d118ca9a94",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -1857,7 +1857,7 @@
     "answer": "For denominator and scaling in this operating margin model, the published input set produces 35% under this model. It uses annual room revenue of $50,000 and annual operating cost of $32,500, together with the other inputs shown below. Holding those other inputs fixed, the lower annual room revenue test gives 18.75%, while the higher test gives 45.83%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Subtract the entered operating costs from room revenue and divide by revenue. The margin describes the cost definition you supply, not a standardized property valuation. In this case, annual room revenue is $50,000. Inspect every division in the worked steps and name the quantity being divided by. If the formula contains no division, retain the actual multiplication or subtraction structure instead.",
-      "The reference input set produces 50%. This case differs from that reference by -15%, or -30% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual room revenue alone.",
+      "The reference input set produces 50%. This case differs from that reference by -15 percentage points, or -30% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual room revenue alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $40,000 and the higher input is $60,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 35% answers the displayed operating margin question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "The formula is (revenue-cost)/revenue*100. A division in that expression assigns meaning to the quantity in its denominator; a multiplication or subtraction does not create a denominator by analogy. Use the actual worked operations for this model instead of importing the interpretation of a similarly named percentage or yield."
@@ -1974,8 +1974,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "d8617fb5fc54d865b205c76f62ea99794ca72dfb9e33c80721227a5e89efa306",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "322df1c47d540394d39f0155ffdbf54ef4b620b5243b6b3823e56ba2e3565950",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -1989,7 +1989,7 @@
     "answer": "For percentage input convention in this operating margin model, the published input set produces 45% under this model. It uses annual room revenue of $50,000 and annual operating cost of $27,500, together with the other inputs shown below. Holding those other inputs fixed, the lower annual operating cost test gives 56%, while the higher test gives 34%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Subtract the entered operating costs from room revenue and divide by revenue. The margin describes the cost definition you supply, not a standardized property valuation. In this case, annual operating cost is $27,500. This model has no percentage input. The displayed amounts and counts must be read in their own units; entering 20 does not instruct the model to apply twenty percent.",
-      "The reference input set produces 50%. This case differs from that reference by -5%, or -10% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating cost alone.",
+      "The reference input set produces 50%. This case differs from that reference by -5 percentage points, or -10% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating cost alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $22,000 and the higher input is $33,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 45% answers the displayed operating margin question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "Neither annual room revenue nor the other listed fields is a whole-percentage input in this model. For example, 50000 in the first field means $50,000. If another source expresses a percentage instead, obtain or derive the correctly defined amount rather than copying its percentage number into this field."
@@ -2106,8 +2106,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "77cc41812cb12d715a9d6deae6ca97d21effd312eb71729fc2834271b5bbad1b",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "693b4ae40eaddfc22fbdcb069e25b40424e584c300b8374edbd0b95d82d88564",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -2121,7 +2121,7 @@
     "answer": "For zero-value behavior in this operating margin model, the published input set produces 100% under this model. It uses annual room revenue of $1 and annual operating cost of $0, together with the other inputs shown below. Holding those other inputs fixed, the lower annual room revenue test gives 100%, while the higher test gives 100%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Subtract the entered operating costs from room revenue and divide by revenue. The margin describes the cost definition you supply, not a standardized property valuation. In this case, annual room revenue is $1. A zero numerator can be meaningful while a zero denominator may be undefined. Follow the model-specific range and calculation rules rather than inserting a result by convention.",
-      "The reference input set produces 50%. This case differs from that reference by 50%, or 100% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual room revenue alone.",
+      "The reference input set produces 50%. This case differs from that reference by 50 percentage points, or 100% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual room revenue alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $1 and the higher input is $1. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 100% answers the displayed operating margin question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "The zero-valued field is annual operating cost. The remaining inputs stay visible, and the resulting 100% follows the model's own zero-handling rules. This is a deliberate arithmetic example; it is not permission to enter zero for an unpriced or unknown real obligation."
@@ -2238,8 +2238,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "8dbc5ae898f69446b9385d03c5134a3aac05203efc8dda469dd4ef634cc6605e",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "1028e7b241322070f99ef619324ad0a110f3f2d80e185309e36d5038a1519361",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -2253,7 +2253,7 @@
     "answer": "For negative-output meaning in this operating margin model, the published input set produces -25% under this model. It uses annual room revenue of $30,000 and annual operating cost of $37,500, together with the other inputs shown below. Holding those other inputs fixed, the lower annual operating cost test gives 0%, while the higher test gives -50%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Subtract the entered operating costs from room revenue and divide by revenue. The margin describes the cost definition you supply, not a standardized property valuation. In this case, annual operating cost is $37,500. A negative result can be valid in a residual or change calculation. Interpret the sign within the model definition rather than silently replacing it with zero.",
-      "The reference input set produces 50%. This case differs from that reference by -75%, or -150% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating cost alone.",
+      "The reference input set produces 50%. This case differs from that reference by -75 percentage points, or -150% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating cost alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $30,000 and the higher input is $45,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated -25% answers the displayed operating margin question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "The output is -25%, and its negative sign is part of the answer. Trace the subtractions or signed inputs to see why the modeled deductions or decreases exceed the starting amount. Replacing it with zero would conceal the shortfall or change actually produced by this input set."
@@ -2370,8 +2370,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "8108ddd6199818575000835a2a22fd01d99979f3fc7d7f91cbed59515d059680",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "6895767e1c49a60b905d06c473bc45b47d5845ddc9b9bac5555f487642b22982",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -2385,7 +2385,7 @@
     "answer": "For cost inclusion boundary in this operating margin model, the published input set produces 30.56% under this model. It uses annual room revenue of $45,000 and annual operating cost of $31,250, together with the other inputs shown below. Holding those other inputs fixed, the lower annual room revenue test gives 13.19%, while the higher test gives 42.13%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Subtract the entered operating costs from room revenue and divide by revenue. The margin describes the cost definition you supply, not a standardized property valuation. In this case, annual room revenue is $45,000. A calculated result includes only the inputs and operations actually shown. Costs or receipts outside this model require a separate schedule.",
-      "The reference input set produces 50%. This case differs from that reference by -19.44%, or -38.89% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual room revenue alone.",
+      "The reference input set produces 50%. This case differs from that reference by -19.44 percentage points, or -38.89% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual room revenue alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $36,000 and the higher input is $54,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 30.56% answers the displayed operating margin question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "The displayed inputs include annual room revenue, annual operating cost. Only those quantities enter (revenue-cost)/revenue*100. Before carrying 30.56% into a broader decision schedule, identify which additional receipts, costs, timing items or conditions the model description excludes rather than silently assuming they are already included."
@@ -2502,8 +2502,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "9d2646308ee5b1c4eb0e5e5c0b5364e58e733bb6aa72451bf31090c4712b22a2",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "5a08881518b1f7b407b507e44e0541c1c03acee94cca5bf07d0923bf7b8b17cf",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -2517,7 +2517,7 @@
     "answer": "For input precision in this operating margin model, the published input set produces 50.33% under this model. It uses annual room revenue of $50,185 and annual operating cost of $24,925, together with the other inputs shown below. Holding those other inputs fixed, the lower annual operating cost test gives 60.27%, while the higher test gives 40.4%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Subtract the entered operating costs from room revenue and divide by revenue. The margin describes the cost definition you supply, not a standardized property valuation. In this case, annual operating cost is $24,925. Use input precision supported by the real record. Adding decimal places to an estimate makes the arithmetic more precise without making the estimate more certain.",
-      "The reference input set produces 50%. This case differs from that reference by 0.33%, or 0.67% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating cost alone.",
+      "The reference input set produces 50%. This case differs from that reference by 0.33 percentage points, or 0.67% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating cost alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $19,940 and the higher input is $29,910. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 50.33% answers the displayed operating margin question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "The raw focused input is 24925 USD. The model retains the supplied numeric precision through its calculation, while the formatted output is 50.33%. Precision should reflect the real source's unit and measurement basis; a more detailed decimal representation does not establish a more reliable underlying estimate."
@@ -2634,8 +2634,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "636ecb9e9f7e9c4be84b13256f412c7720df95a68a5ae2213c02ae59cfe6f3b6",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "2d03e58f68ee78c12a950977122f9160eca859965b1fe0906a86f905de696ea8",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -2649,7 +2649,7 @@
     "answer": "For output-unit interpretation in this operating margin model, the published input set produces 60% under this model. It uses annual room revenue of $50,000 and annual operating cost of $20,000, together with the other inputs shown below. Holding those other inputs fixed, the lower annual room revenue test gives 50%, while the higher test gives 66.67%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Subtract the entered operating costs from room revenue and divide by revenue. The margin describes the cost definition you supply, not a standardized property valuation. In this case, annual room revenue is $50,000. Read the output unit alongside the answer. A total amount, a per-night amount, a percentage, a multiple and a period are not interchangeable measures.",
-      "The reference input set produces 50%. This case differs from that reference by 10%, or 20% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual room revenue alone.",
+      "The reference input set produces 50%. This case differs from that reference by 10 percentage points, or 20% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual room revenue alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $40,000 and the higher input is $60,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 60% answers the displayed operating margin question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "The answer unit is percent. The result 60% should therefore be read with that unit attached, just as $50,000 retains the first input's unit. Transferring only the number into a differently labeled output cell can create an apparent result that this calculation never produced."
@@ -2766,8 +2766,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "38b61ec49150e8cb953cf507523c8dab40ad382cf099cd65951d199eebe2d4f6",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "c92d66a7f3e8c42f9113e00813f956b53ec6e6ace58294fc8babb6b9617835aa",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -2781,7 +2781,7 @@
     "answer": "For scenario reproducibility in this operating margin model, the published input set produces 62.96% under this model. It uses annual room revenue of $67,500 and annual operating cost of $25,000, together with the other inputs shown below. Holding those other inputs fixed, the lower annual operating cost test gives 70.37%, while the higher test gives 55.56%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Subtract the entered operating costs from room revenue and divide by revenue. The margin describes the cost definition you supply, not a standardized property valuation. In this case, annual operating cost is $25,000. Save the inputs with the result and formula. A screenshot of a headline answer alone is insufficient for another reviewer to reproduce the calculation.",
-      "The reference input set produces 50%. This case differs from that reference by 12.96%, or 25.93% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating cost alone.",
+      "The reference input set produces 50%. This case differs from that reference by 12.96 percentage points, or 25.93% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating cost alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $20,000 and the higher input is $30,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 62.96% answers the displayed operating margin question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "A reproducible handoff needs all 2 published values, the formula (revenue-cost)/revenue*100, and the 62.96% result together. The input table and export support that handoff. If only the headline answer is retained, another reviewer cannot tell whether a later difference comes from the values, definitions or calculation."
@@ -2898,8 +2898,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "d485bf28734c9e5173fab4fd3b2d3be28ad457cf88846bb51a6a6a93010e6366",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "8ec38eced9a0f8e88ee32be3e78470dd16d97b2e6d6ba4e6723ded194b3cf5a2",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -2913,7 +2913,7 @@
     "answer": "For local change versus forecast in this operating margin model, the published input set produces 76.56% under this model. It uses annual room revenue of $80,000 and annual operating cost of $18,750, together with the other inputs shown below. Holding those other inputs fixed, the lower annual room revenue test gives 70.7%, while the higher test gives 80.47%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Subtract the entered operating costs from room revenue and divide by revenue. The margin describes the cost definition you supply, not a standardized property valuation. In this case, annual room revenue is $80,000. The sensitivity rows answer a conditional mathematical question. They do not assign a likelihood to any of the alternate inputs.",
-      "The reference input set produces 50%. This case differs from that reference by 26.56%, or 53.13% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual room revenue alone.",
+      "The reference input set produces 50%. This case differs from that reference by 26.56 percentage points, or 53.13% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual room revenue alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $64,000 and the higher input is $96,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 76.56% answers the displayed operating margin question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "The lower focused test is 70.7%; the higher focused test is 80.47%. These two conditional outputs do not give a probability that annual room revenue will take either alternate value. The table describes how this equation responds, while the plausibility and source support of each assumption remain separate questions."
@@ -3030,8 +3030,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "5cbeb9ab139fad77366d2a92a46b021072b73a305b329e98552074524dd9a635",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "2fba0964bab85c9676f491ccaeb9754376f3109cd39f86d97c9d2d2fbe17e50e",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -3045,7 +3045,7 @@
     "answer": "For unpriced input treatment in this operating margin model, the published input set produces 44.12% under this model. It uses annual room revenue of $42,500 and annual operating cost of $23,750, together with the other inputs shown below. Holding those other inputs fixed, the lower annual operating cost test gives 55.29%, while the higher test gives 32.94%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Subtract the entered operating costs from room revenue and divide by revenue. The margin describes the cost definition you supply, not a standardized property valuation. In this case, annual operating cost is $23,750. An unknown amount is not automatically zero. In real use, retain an unresolved source item rather than completing a model with an unsupported value.",
-      "The reference input set produces 50%. This case differs from that reference by -5.88%, or -11.76% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating cost alone.",
+      "The reference input set produces 50%. This case differs from that reference by -5.88 percentage points, or -11.76% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating cost alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $19,000 and the higher input is $28,500. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 44.12% answers the displayed operating margin question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "The example includes a stated value for every required field, including annual operating cost at $23,750. A real missing quote or incomplete record should remain unresolved in the source register. The existence of a valid number box does not supply evidence for filling it, particularly when zero would materially change the 44.12% result."
@@ -3162,8 +3162,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "79da88a3a2cb800ed6362ec494e747a130123bff5a0d0550a9a08a3228a927bf",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "12946b256521a8fc14e6e41bed0ae11fd5414d769bc3aa83b68e005bfd8ea396",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -3177,7 +3177,7 @@
     "answer": "For comparison-basis consistency in this operating margin model, the published input set produces 47.62% under this model. It uses annual room revenue of $52,500 and annual operating cost of $27,500, together with the other inputs shown below. Holding those other inputs fixed, the lower annual room revenue test gives 34.52%, while the higher test gives 56.35%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Subtract the entered operating costs from room revenue and divide by revenue. The margin describes the cost definition you supply, not a standardized property valuation. In this case, annual room revenue is $52,500. Keep the same definitions when comparing this case with another. Similar labels can conceal different cost bases, periods or included components.",
-      "The reference input set produces 50%. This case differs from that reference by -2.38%, or -4.76% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual room revenue alone.",
+      "The reference input set produces 50%. This case differs from that reference by -2.38 percentage points, or -4.76% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual room revenue alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $42,000 and the higher input is $63,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 47.62% answers the displayed operating margin question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "The reference comparison uses 50% and the published case uses 47.62% under one fixed model definition. A source that includes different components, uses another period or changes an input's denominator is not on that same basis. Align those definitions before calling its result higher or lower than this case."
@@ -3294,8 +3294,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "15b79b3349bf9fa02977d86033d7786b4903b7144f50f8096ccc7083f9c7a7c0",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "f0185884da630dacc9bf6988261e73baf18de46a3c2e1806bb14da41c15d4082",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -3309,7 +3309,7 @@
     "answer": "For input-range constraint in this operating margin model, the published input set produces 80.88% under this model. It uses annual room revenue of $85,000 and annual operating cost of $16,250, together with the other inputs shown below. Holding those other inputs fixed, the lower annual operating cost test gives 84.71%, while the higher test gives 77.06%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Subtract the entered operating costs from room revenue and divide by revenue. The margin describes the cost definition you supply, not a standardized property valuation. In this case, annual operating cost is $16,250. The form checks its stated input ranges, but a valid numerical range does not prove that an assumption is feasible for a real property or contract.",
-      "The reference input set produces 50%. This case differs from that reference by 30.88%, or 61.76% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating cost alone.",
+      "The reference input set produces 50%. This case differs from that reference by 30.88 percentage points, or 61.76% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating cost alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $13,000 and the higher input is $19,500. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 80.88% answers the displayed operating margin question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "For annual operating cost, the numerical form limits are 0 through 100000000 USD. The published $16,250 is within those limits, but that alone says nothing about a lender quote, operating permission, vendor availability or actual demand. Treat range validity as a calculation check rather than external approval."
@@ -3426,8 +3426,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "3f2fbfb144f2327a9c396bb64b355b0a7ec1366ef95a28c536bf0084817477cc",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "844892caf4964b28d5b2fc87450623f2b87f467b31919832f4ca79f1b6f4b754",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -3441,7 +3441,7 @@
     "answer": "For direction of the relationship in this operating margin model, the published input set produces 16.67% under this model. It uses annual room revenue of $30,000 and annual operating cost of $25,000, together with the other inputs shown below. Holding those other inputs fixed, the lower annual room revenue test gives -4.17%, while the higher test gives 30.56%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Subtract the entered operating costs from room revenue and divide by revenue. The margin describes the cost definition you supply, not a standardized property valuation. In this case, annual room revenue is $30,000. Use the calculated lower and higher cases to inspect direction. A denominator change can move the result differently from a numerator or additive input.",
-      "The reference input set produces 50%. This case differs from that reference by -33.33%, or -66.67% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual room revenue alone.",
+      "The reference input set produces 50%. This case differs from that reference by -33.33 percentage points, or -66.67% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual room revenue alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $24,000 and the higher input is $36,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 16.67% answers the displayed operating margin question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "Relative to 16.67%, the lower focused case changes the output by -20.83% and the higher case changes it by 13.89%. Those signs show the local direction of this relationship for the selected inputs. Do not assume that an input appearing in a denominator behaves like one added to the numerator."
@@ -3558,8 +3558,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "511751eb72450f012dbf623880fe72c8acbc75ffac26cd0a21bdecf40e9d4c90",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "338f2d330b89b79c953e14373bab9ec7ddbf805b19f4d4d4d7f2530698014961",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -3573,7 +3573,7 @@
     "answer": "For magnitude of the relationship in this operating margin model, the published input set produces 65.28% under this model. It uses annual room revenue of $90,000 and annual operating cost of $31,250, together with the other inputs shown below. Holding those other inputs fixed, the lower annual operating cost test gives 72.22%, while the higher test gives 58.33%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Subtract the entered operating costs from room revenue and divide by revenue. The margin describes the cost definition you supply, not a standardized property valuation. In this case, annual operating cost is $31,250. Consider how large the output change is in its own units. A mathematically visible change may still be small relative to other unmodeled obligations.",
-      "The reference input set produces 50%. This case differs from that reference by 15.28%, or 30.56% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating cost alone.",
+      "The reference input set produces 50%. This case differs from that reference by 15.28 percentage points, or 30.56% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating cost alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $25,000 and the higher input is $37,500. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 65.28% answers the displayed operating margin question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "The headline answer is 65.28%. The focused lower and higher tests are 72.22% and 58.33%. Consider those changes in percent, rather than focusing only on whether the displayed number moved. Other unmodeled obligations may matter more than a small arithmetic movement, and the formula does not rank their importance."
@@ -3690,8 +3690,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "4e0dd73f67f8bc80d8fdc1862e1d9ba93f981d1dbb822cc0af83fab52686f679",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "77b11cd5655343d3f4ee3d57b8e8d54e3ffa55cdd23acb1b4c77790b4ddd9912",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -3705,7 +3705,7 @@
     "answer": "For sensitivity symmetry in this operating margin model, the published input set produces 75% under this model. It uses annual room revenue of $50,000 and annual operating cost of $12,500, together with the other inputs shown below. Holding those other inputs fixed, the lower annual room revenue test gives 68.75%, while the higher test gives 79.17%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Subtract the entered operating costs from room revenue and divide by revenue. The margin describes the cost definition you supply, not a standardized property valuation. In this case, annual room revenue is $50,000. Do not assume that an equal percentage decrease and increase in an input cause symmetric output changes. Ratios and payment formulas can behave nonlinearly.",
-      "The reference input set produces 50%. This case differs from that reference by 25%, or 50% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual room revenue alone.",
+      "The reference input set produces 50%. This case differs from that reference by 25 percentage points, or 50% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual room revenue alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $40,000 and the higher input is $60,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 75% answers the displayed operating margin question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "The lower input changes the output by -6.25%, while the higher input changes it by 4.17%. Their absolute magnitudes are 6.25% and 4.17%. They need not match: the equation, bounds and whole-unit rounding can make equal-looking input moves asymmetric."
@@ -3822,8 +3822,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "3411cadbe8ca63994c3ebcbaf01c28f505a2b36c9f7ea0d698a4257ee56af5ab",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "be726a7d2c6c3b37a4f779e43f81ea00b4ff36838782c67c9c387a83cddbb12b",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -3837,7 +3837,7 @@
     "answer": "For reference-case limitations in this operating margin model, the published input set produces 48.06% under this model. It uses annual room revenue of $51,500 and annual operating cost of $26,750, together with the other inputs shown below. Holding those other inputs fixed, the lower annual operating cost test gives 58.45%, while the higher test gives 37.67%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Subtract the entered operating costs from room revenue and divide by revenue. The margin describes the cost definition you supply, not a standardized property valuation. In this case, annual operating cost is $26,750. The default input set is a teaching reference. It is not a market average, underwriting recommendation or evidence that the same conditions can be obtained.",
-      "The reference input set produces 50%. This case differs from that reference by -1.94%, or -3.88% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating cost alone.",
+      "The reference input set produces 50%. This case differs from that reference by -1.94 percentage points, or -3.88% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating cost alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $21,400 and the higher input is $32,100. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 48.06% answers the displayed operating margin question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "The reference set begins with annual room revenue of $50,000 and annual operating cost of $25,000, producing 50%. These are disclosed teaching defaults. They are not independently observed market values or evidence that the case's 48.06% can be achieved for a particular purchase."
@@ -3954,8 +3954,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "a84d35bbbeb170ba49b5faf1ccc80c14d4d6c7cbd15b3dfdd66a868056e8b81d",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "b3e5c96efb1a8f1cddc7769da4be4d6001ae78a72d4bfb8bc186ff77a7dfc8a6",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -3969,7 +3969,7 @@
     "answer": "For input provenance in this operating margin model, the published input set produces 55.36% under this model. It uses annual room revenue of $56,000 and annual operating cost of $25,000, together with the other inputs shown below. Holding those other inputs fixed, the lower annual room revenue test gives 44.2%, while the higher test gives 62.8%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Subtract the entered operating costs from room revenue and divide by revenue. The margin describes the cost definition you supply, not a standardized property valuation. In this case, annual room revenue is $56,000. For each real input, retain the source identity, observation date, definition and period. The calculator does not authenticate any of those records.",
-      "The reference input set produces 50%. This case differs from that reference by 5.36%, or 10.71% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual room revenue alone.",
+      "The reference input set produces 50%. This case differs from that reference by 5.36 percentage points, or 10.71% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual room revenue alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $44,800 and the higher input is $67,200. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 55.36% answers the displayed operating margin question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "For actual work, the evidence request should name annual room revenue, its USD unit, its observation date and its scope. The hypothetical $56,000 value only demonstrates the operation. A copied number without that provenance may remain reproducible mathematically while being unsupported for the real decision."
@@ -4086,8 +4086,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "37b446c688d47a5822ec42e3077161972561a37d4d024f15db10cf0dfa58931a",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "d8207171c174ecc312547a0b0391bea639e7e15f53393308f8d615857d870f60",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -4101,7 +4101,7 @@
     "answer": "For fixed-assumption scope in this operating margin model, the published input set produces 34.66% under this model. It uses annual room revenue of $44,000 and annual operating cost of $28,750, together with the other inputs shown below. Holding those other inputs fixed, the lower annual operating cost test gives 47.73%, while the higher test gives 21.59%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Subtract the entered operating costs from room revenue and divide by revenue. The margin describes the cost definition you supply, not a standardized property valuation. In this case, annual operating cost is $28,750. In each sensitivity row, inputs other than the named field remain fixed. This is a deliberate test condition rather than a claim that those inputs are independent in practice.",
-      "The reference input set produces 50%. This case differs from that reference by -15.34%, or -30.68% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating cost alone.",
+      "The reference input set produces 50%. This case differs from that reference by -15.34 percentage points, or -30.68% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating cost alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $23,000 and the higher input is $34,500. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 34.66% answers the displayed operating margin question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "The focused test varies annual operating cost while keeping the remaining input vector fixed. In the full case, annual room revenue is $44,000 and annual operating cost is $28,750. That fixed-vector condition is what the sensitivity rows establish; it is not a statement that the underlying business variables will move independently."
@@ -4218,8 +4218,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "05c47acf7426068327471a12e90a92a37c67822b18ce5ba63cae9451fbe72aea",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "b2519af5daa7ad124ff4c01d2b01891d6fea56e01bdfe05101530dda1c728a04",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -4233,7 +4233,7 @@
     "answer": "For model-exclusion check in this operating margin model, the published input set produces 36.11% under this model. It uses annual room revenue of $36,000 and annual operating cost of $23,000, together with the other inputs shown below. Holding those other inputs fixed, the lower annual room revenue test gives 20.14%, while the higher test gives 46.76%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Subtract the entered operating costs from room revenue and divide by revenue. The margin describes the cost definition you supply, not a standardized property valuation. In this case, annual room revenue is $36,000. Read the stated exclusions before treating the result as a decision measure. Correct arithmetic cannot fill an omitted cost, condition or financing feature.",
-      "The reference input set produces 50%. This case differs from that reference by -13.89%, or -27.78% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual room revenue alone.",
+      "The reference input set produces 50%. This case differs from that reference by -13.89 percentage points, or -27.78% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual room revenue alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $28,800 and the higher input is $43,200. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 36.11% answers the displayed operating margin question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "The result is 36.11% from the displayed formula, and the model boundary is explicit: Debt service, income tax and irregular capital work are outside the entered operating-cost amount unless you explicitly include them. Review that boundary before labeling the number as profit, total cash required, total return or another broader measure. A more favorable name does not add quantities absent from the equation."
@@ -4350,8 +4350,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "db81bff7ba3a58fc841a557a39dc03b48dcd8898f48fc100ba809b3070afecb7",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "680a2e871cea503d12e5c884e090bdb1b0d26caf6d6a7e9a97f4ff767a4fe547",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -4365,7 +4365,7 @@
     "answer": "For alternative-input request in this operating margin model, the published input set produces 56.97% under this model. It uses annual room revenue of $61,000 and annual operating cost of $26,250, together with the other inputs shown below. Holding those other inputs fixed, the lower annual operating cost test gives 65.57%, while the higher test gives 48.36%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Subtract the entered operating costs from room revenue and divide by revenue. The margin describes the cost definition you supply, not a standardized property valuation. In this case, annual operating cost is $26,250. Turn an uncertain input into a specific evidence request. Identify the exact field, unit and time basis needed to replace the example value.",
-      "The reference input set produces 50%. This case differs from that reference by 6.97%, or 13.93% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating cost alone.",
+      "The reference input set produces 50%. This case differs from that reference by 6.97 percentage points, or 13.93% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating cost alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $21,000 and the higher input is $31,500. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 56.97% answers the displayed operating margin question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "A precise follow-up for this case asks what supports annual operating cost at $26,250. The response should identify the relevant record, unit and period, not merely repeat the headline answer 56.97%. Replace the teaching value only after deciding how the new record's definition fits the model."
@@ -4482,8 +4482,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "665709cef7d758bd37cb466c868fe90ae324a88e355517c117a1484974ed5a90",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "b741189662cc3e1400f7d62740087210aab6b041f1b909844000701df30e7768",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -4497,7 +4497,7 @@
     "answer": "For decision-margin context in this operating margin model, the published input set produces 68.97% under this model. It uses annual room revenue of $72,500 and annual operating cost of $22,500, together with the other inputs shown below. Holding those other inputs fixed, the lower annual room revenue test gives 61.21%, while the higher test gives 74.14%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Subtract the entered operating costs from room revenue and divide by revenue. The margin describes the cost definition you supply, not a standardized property valuation. In this case, annual room revenue is $72,500. A favorable output does not establish the size of a complete decision margin. Check what the formula includes and what obligations remain outside it.",
-      "The reference input set produces 50%. This case differs from that reference by 18.97%, or 37.93% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual room revenue alone.",
+      "The reference input set produces 50%. This case differs from that reference by 18.97 percentage points, or 37.93% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual room revenue alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $58,000 and the higher input is $87,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 68.97% answers the displayed operating margin question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "The difference from the reference is 18.97% under this model's own definition. That difference is not automatically an all-in decision margin. Compare it with the excluded obligations and evidence gaps described for operating margin before assigning it an investment or operating meaning."
@@ -4614,8 +4614,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "64c4b8104538e577ecf8625f5204f215bc9028d5a474453c4f84e7ab166f0824",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "ef2d7d1ea2a2dd31da05c1360f011ae2290d6fb1181caca11589756676a1a41f",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -4629,7 +4629,7 @@
     "answer": "For reconciliation to a source in this operating margin model, the published input set produces 60.19% under this model. It uses annual room revenue of $54,000 and annual operating cost of $21,500, together with the other inputs shown below. Holding those other inputs fixed, the lower annual operating cost test gives 68.15%, while the higher test gives 52.22%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Subtract the entered operating costs from room revenue and divide by revenue. The margin describes the cost definition you supply, not a standardized property valuation. In this case, annual operating cost is $21,500. If a real statement differs from this calculation, first align definitions, periods and rounding. An unexplained difference is a question to investigate rather than proof of an error by another party.",
-      "The reference input set produces 50%. This case differs from that reference by 10.19%, or 20.37% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating cost alone.",
+      "The reference input set produces 50%. This case differs from that reference by 10.19 percentage points, or 20.37% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating cost alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $17,200 and the higher input is $25,800. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 60.19% answers the displayed operating margin question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "If a source reports something other than 60.19%, first compare its input values with the table here and its formula with (revenue-cost)/revenue*100. A difference in unit, period, included components or rounding can explain a mismatch without establishing that either publisher made a false statement."
@@ -4746,8 +4746,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "ab8d73ed05b52f83b9074d77f9356954adf39c0f6fcfd7cda4da546c673b6290",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "02b3f609f0d56895e3c0bb73e0b1533f5beeafa7ed9ce1953204466f65d100fa",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -4761,7 +4761,7 @@
     "answer": "For export and handoff in this operating margin model, the published input set produces 35.87% under this model. It uses annual room revenue of $46,000 and annual operating cost of $29,500, together with the other inputs shown below. Holding those other inputs fixed, the lower annual room revenue test gives 19.84%, while the higher test gives 46.56%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Subtract the entered operating costs from room revenue and divide by revenue. The margin describes the cost definition you supply, not a standardized property valuation. In this case, annual room revenue is $46,000. An exported worksheet should retain the model, input set, result and limitations. Review personal notes before sharing the file with anyone else.",
-      "The reference input set produces 50%. This case differs from that reference by -14.13%, or -28.26% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual room revenue alone.",
+      "The reference input set produces 50%. This case differs from that reference by -14.13 percentage points, or -28.26% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual room revenue alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $36,800 and the higher input is $55,200. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 35.87% answers the displayed operating margin question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "Exporting this case should preserve annual room revenue of $46,000, annual operating cost of $29,500, the remaining inputs and the calculated result. If you add real source notes in the editable form, inspect the exported file before sharing it; this published article itself contains only hypothetical values."
@@ -4878,8 +4878,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "cb3f973134c4c7162e0c93228933c6e517df5b73e20f443e608b1f0904b97647",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "255597114c05110626beac5c2a2779d2d7b16fc41edbc2d80352cd50703d8b7b",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -4893,7 +4893,7 @@
     "answer": "For boundary-case validation in this operating margin model, the published input set produces 56.45% under this model. It uses annual room revenue of $77,500 and annual operating cost of $33,750, together with the other inputs shown below. Holding those other inputs fixed, the lower annual operating cost test gives 65.16%, while the higher test gives 47.74%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Subtract the entered operating costs from room revenue and divide by revenue. The margin describes the cost definition you supply, not a standardized property valuation. In this case, annual operating cost is $33,750. An invalid alternate scenario should display a reason rather than an invented numerical result. The sensitivity table preserves those constraints when they arise.",
-      "The reference input set produces 50%. This case differs from that reference by 6.45%, or 12.9% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating cost alone.",
+      "The reference input set produces 50%. This case differs from that reference by 6.45 percentage points, or 12.9% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating cost alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $27,000 and the higher input is $40,500. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 56.45% answers the displayed operating margin question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "All 4 displayed sensitivity tests satisfy the current numerical and model-specific rules. This does not validate the real-world assumptions. It means the alternate input sets can be evaluated by this particular equation without substituting an unavailable result."
@@ -5010,8 +5010,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "524d99e27092f858464143e74b2625777b0101e11aa7c8e28436c91745e27d45",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "643d705d433705d9d4d66dc1442cccb6a13279ae0e3ac4cc95a8229dae414e03",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -5025,7 +5025,7 @@
     "answer": "For revised-input audit trail in this operating margin model, the published input set produces 37.8% under this model. It uses annual room revenue of $41,000 and annual operating cost of $25,500, together with the other inputs shown below. Holding those other inputs fixed, the lower annual room revenue test gives 22.26%, while the higher test gives 48.17%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Subtract the entered operating costs from room revenue and divide by revenue. The margin describes the cost definition you supply, not a standardized property valuation. In this case, annual room revenue is $41,000. When replacing an input, retain its previous value and source so the reason for a changed conclusion can be understood. Do not overwrite the history with only the final answer.",
-      "The reference input set produces 50%. This case differs from that reference by -12.2%, or -24.39% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual room revenue alone.",
+      "The reference input set produces 50%. This case differs from that reference by -12.2 percentage points, or -24.39% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual room revenue alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $32,800 and the higher input is $49,200. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 37.8% answers the displayed operating margin question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "As a revision exercise, replace only annual room revenue from $41,000 with the higher-test value $49,200. Retain both the original 37.8% and revised 48.17% outcomes with that changed field. This is a documented input revision, not a claim that a real record has changed."
@@ -5142,8 +5142,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "cc30756f3fcf101993c28b36dfc878743aa7f895dd97aab34dbd7da18ec79b8e",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "ee8ce259785c21169a24cea08d02d14af7c1356bd1b9faad9ea4781718e74dac",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -5157,7 +5157,7 @@
     "answer": "For final interpretation in this operating margin model, the published input set produces 61.72% under this model. It uses annual room revenue of $64,000 and annual operating cost of $24,500, together with the other inputs shown below. Holding those other inputs fixed, the lower annual operating cost test gives 69.38%, while the higher test gives 54.06%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "Subtract the entered operating costs from room revenue and divide by revenue. The margin describes the cost definition you supply, not a standardized property valuation. In this case, annual operating cost is $24,500. State the result in a sentence containing its units and assumptions. Preserve the difference between a worked numerical answer and a verified property outcome.",
-      "The reference input set produces 50%. This case differs from that reference by 11.72%, or 23.44% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating cost alone.",
+      "The reference input set produces 50%. This case differs from that reference by 11.72 percentage points, or 23.44% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating cost alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $19,600 and the higher input is $29,400. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 61.72% answers the displayed operating margin question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "A complete final sentence would identify this as a operating margin calculation, state the 61.72% result in percent, and retain the disclosed inputs. That sentence should also preserve the model's exclusions. It must not turn a conditional teaching answer into a verified customer outcome or a guarantee."
@@ -5274,8 +5274,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "2242af3cb2d14911886fe772157f8e02dc6e570b51e101416f504d76b2635ec8",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "f646ccb7520e8b76243dc261eeaac5f44e1491381cff0bcb8ec1be0e6af5bfe5",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   }

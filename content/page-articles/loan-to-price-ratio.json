@@ -9,7 +9,7 @@
     "answer": "For first-input sensitivity in this loan-to-price ratio model, the published input set produces 60% under this model. It uses loan principal of $240,000 and purchase price of $400,000, together with the other inputs shown below. Holding those other inputs fixed, the lower loan principal test gives 48%, while the higher test gives 72%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "The ratio divides the entered loan principal by the purchase price. It describes leverage against that price without assuming an appraised value. In this case, loan principal is $240,000. Hold every other input constant when inspecting the first input. A difference from a multi-input reference case cannot be attributed to that input alone.",
-      "The reference input set produces 75%. This case differs from that reference by -15%, or -20% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
+      "The reference input set produces 75%. This case differs from that reference by -15 percentage points, or -20% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $192,000 and the higher input is $288,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 60% ratio describes the entered principal and selected basis. A lender's own value definition, qualifying costs and terms must be examined separately.",
       "For the first field, the published loan principal is $240,000. Its lower and higher sensitivity rows change that field alone, so those rows are the relevant comparison for its local arithmetic effect. The full reference-case difference may include purchase price or other changed inputs and answers a different question."
@@ -121,8 +121,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "e65d3c2e89f18d32898ee1227e3bf7bcf6912eb2da256b5492aed7999f2c0a85",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "c0ddc3a7a52c101010f7d1af7f5a9fa584f274f8198547ca92d4ed650e81f557",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -136,7 +136,7 @@
     "answer": "For second-input sensitivity in this loan-to-price ratio model, the published input set produces 62.5% under this model. It uses loan principal of $300,000 and purchase price of $480,000, together with the other inputs shown below. Holding those other inputs fixed, the lower purchase price test gives 78.13%, while the higher test gives 52.08%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "The ratio divides the entered loan principal by the purchase price. It describes leverage against that price without assuming an appraised value. In this case, purchase price is $480,000. Use the second input as a separate lever. A value can look small in isolation while materially affecting a product, ratio or residual.",
-      "The reference input set produces 75%. This case differs from that reference by -12.5%, or -16.67% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
+      "The reference input set produces 75%. This case differs from that reference by -12.5 percentage points, or -16.67% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $384,000 and the higher input is $576,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 62.5% ratio describes the entered principal and selected basis. A lender's own value definition, qualifying costs and terms must be examined separately.",
       "The second field is purchase price, entered here as $480,000. Read its two sensitivity rows separately from the first field. This preserves the distinction between changing loan principal and changing purchase price, even when both adjustments happen to move the headline answer in the same direction."
@@ -248,8 +248,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "e30c08e45bb2e0961af44a1eef8187b624b973fd09c793c96b525249032823f4",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "1091f037bfefd6fcbe867cec74b49ae31b467cc503d8b76ab9c963f3fd31baf7",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -263,7 +263,7 @@
     "answer": "For input units in this loan-to-price ratio model, the published input set produces 66.18% under this model. It uses loan principal of $225,000 and purchase price of $340,000, together with the other inputs shown below. Holding those other inputs fixed, the lower loan principal test gives 52.94%, while the higher test gives 79.41%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "The ratio divides the entered loan principal by the purchase price. It describes leverage against that price without assuming an appraised value. In this case, loan principal is $225,000. Read the units before performing the arithmetic. A room rate, a total amount, a percentage and a count are different inputs even when they contain similar numbers.",
-      "The reference input set produces 75%. This case differs from that reference by -8.82%, or -11.76% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
+      "The reference input set produces 75%. This case differs from that reference by -8.82 percentage points, or -11.76% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $180,000 and the higher input is $270,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 66.18% ratio describes the entered principal and selected basis. A lender's own value definition, qualifying costs and terms must be examined separately.",
       "The first two inputs use USD and USD, respectively. The raw values are 225000 and 340000. Keep those units attached when transferring this example into another worksheet; copying the numbers without the definitions can create a different mathematical question."
@@ -375,8 +375,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "55983b9976739d71bcff2170f0db9055bc5ca78c07880afb56b12293b521c265",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "6862c29aef350a7bc344f1f54cce78ecfc774e8a94bd8a6ba382b3f813ad45bd",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -390,7 +390,7 @@
     "answer": "For reference-case comparison in this loan-to-price ratio model, the published input set produces 75% under this model. It uses loan principal of $300,000 and purchase price of $400,000, together with the other inputs shown below. Holding those other inputs fixed, the lower purchase price test gives 93.75%, while the higher test gives 62.5%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "The ratio divides the entered loan principal by the purchase price. It describes leverage against that price without assuming an appraised value. In this case, purchase price is $400,000. Compare the full input set with the model reference case. The reference is another hypothetical scenario, not a benchmark or a typical property result.",
-      "The reference input set produces 75%. This case differs from that reference by 0%, or 0% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
+      "The reference input set produces 75%. This case differs from that reference by 0 percentage points, or 0% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $320,000 and the higher input is $480,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 75% ratio describes the entered principal and selected basis. A lender's own value definition, qualifying costs and terms must be examined separately.",
       "All 2 inputs match the reference set, so 75% must equal 75%. This is a baseline consistency check. A disagreement under identical definitions and inputs would require checking the formula, precision or implementation before interpreting the result."
@@ -502,8 +502,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "300d651b2b4b6745696ce7f241839d9275205db31f43836bbeb1f3e26a893589",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "052643446daeb0d48bb590dd218ef74a5724c5246000b942565f51e2ce121703",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -517,7 +517,7 @@
     "answer": "For lower-input boundary in this loan-to-price ratio model, the published input set produces 37.5% under this model. It uses loan principal of $150,000 and purchase price of $400,000, together with the other inputs shown below. Holding those other inputs fixed, the lower loan principal test gives 30%, while the higher test gives 45%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "The ratio divides the entered loan principal by the purchase price. It describes leverage against that price without assuming an appraised value. In this case, loan principal is $150,000. Check the selected input at a lower value without changing the other assumptions. A lower input does not always mean a more conservative output.",
-      "The reference input set produces 75%. This case differs from that reference by -37.5%, or -50% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
+      "The reference input set produces 75%. This case differs from that reference by -37.5 percentage points, or -50% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $120,000 and the higher input is $180,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 37.5% ratio describes the entered principal and selected basis. A lender's own value definition, qualifying costs and terms must be examined separately.",
       "The selected loan principal has an allowed numerical range from 0 to 100000000 USD. The lower sensitivity test uses $120,000 and returns 30%. That numerical range is a form constraint, not evidence that the alternate value can be obtained for a real project."
@@ -629,8 +629,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "786afc8890deac7240aedbe67abe26748f2f3b8949b661969a202df83c387f48",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "354fdf3459f8358ddb87d097e75c27b11184ab3306a0d066b51db7773c8cd5e7",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -644,7 +644,7 @@
     "answer": "For higher-input boundary in this loan-to-price ratio model, the published input set produces 112.5% under this model. It uses loan principal of $450,000 and purchase price of $400,000, together with the other inputs shown below. Holding those other inputs fixed, the lower purchase price test gives 140.63%, while the higher test gives 93.75%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "The ratio divides the entered loan principal by the purchase price. It describes leverage against that price without assuming an appraised value. In this case, purchase price is $400,000. Check the selected input at a higher value and preserve the other assumptions. Whether the output rises or falls depends on the formula.",
-      "The reference input set produces 75%. This case differs from that reference by 37.5%, or 50% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
+      "The reference input set produces 75%. This case differs from that reference by 37.5 percentage points, or 50% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $320,000 and the higher input is $480,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 112.5% result means the entered principal exceeds the selected denominator. It is a mathematical ratio from these inputs, not evidence that a lender would finance this amount or use the same basis.",
       "The higher purchase price test uses $480,000 and gives 93.75%, compared with the published 112.5%. Retain the original input alongside the higher test so that the effect remains visible. A larger input is not automatically a better outcome; its position in this formula determines the direction."
@@ -756,8 +756,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "45e90b68639cc61a82d1838af85cb4bc484c4050c71f857cabc85b3f841e9c6c",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "32bb56e0849492296d1650f30d462fe96173b9a79eb79395ff9811b9173ec9ba",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -771,7 +771,7 @@
     "answer": "For displayed rounding in this loan-to-price ratio model, the published input set produces 74.99% under this model. It uses loan principal of $300,060 and purchase price of $400,120, together with the other inputs shown below. Holding those other inputs fixed, the lower loan principal test gives 59.99%, while the higher test gives 89.99%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "The ratio divides the entered loan principal by the purchase price. It describes leverage against that price without assuming an appraised value. In this case, loan principal is $300,060. Keep precision through the calculation and round the displayed result only at the end. A displayed dollar amount can conceal a smaller underlying difference.",
-      "The reference input set produces 75%. This case differs from that reference by -0.007498%, or -0.01% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
+      "The reference input set produces 75%. This case differs from that reference by -0.007498 percentage points, or -0.01% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $240,048 and the higher input is $360,072. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 74.99% ratio describes the entered principal and selected basis. A lender's own value definition, qualifying costs and terms must be examined separately.",
       "Before display rounding, the result is 74.992502249 percent. The displayed result is 74.99%. Use the unrounded value when reproducing dependent arithmetic, and use the rounded figure only as a presentation of that result. A small difference near zero should not be confused with proof that the unrounded value is exactly zero."
@@ -883,8 +883,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "788fe2c294f6ad0a5b87dd15f4b6da106343c2499284fc88d04eda2cca206474",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "0d78f0bea5d163e9fa1c7c0757c07105126fcffd9b87df2b757edc254c5201b6",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -898,7 +898,7 @@
     "answer": "For formula sequence in this loan-to-price ratio model, the published input set produces 110.29% under this model. It uses loan principal of $375,000 and purchase price of $340,000, together with the other inputs shown below. Holding those other inputs fixed, the lower purchase price test gives 137.87%, while the higher test gives 91.91%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "The ratio divides the entered loan principal by the purchase price. It describes leverage against that price without assuming an appraised value. In this case, purchase price is $340,000. Follow the order of operations in the worked steps. Parentheses can change the meaning of a percentage adjustment or ratio.",
-      "The reference input set produces 75%. This case differs from that reference by 35.29%, or 47.06% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
+      "The reference input set produces 75%. This case differs from that reference by 35.29 percentage points, or 47.06% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $272,000 and the higher input is $408,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 110.29% result means the entered principal exceeds the selected denominator. It is a mathematical ratio from these inputs, not evidence that a lender would finance this amount or use the same basis.",
       "The disclosed expression is loan/price*100. The worked operation list evaluates that expression using this case's values. Follow each intermediate line before comparing the final 110.29% with another source; changing the grouping or performing a percentage adjustment at a different point can describe a different calculation."
@@ -1010,8 +1010,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "ca170fdeb1294b1f9a4e206a9eceb8cba7ab89b422bec08acc88a07be9bceebc",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "4538fb0b8b3b131ce04f0a6812c4b81d43c6805c0b94a502401d10ad46bc30e2",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -1025,7 +1025,7 @@
     "answer": "For absolute change in this loan-to-price ratio model, the published input set produces 78.75% under this model. It uses loan principal of $315,000 and purchase price of $400,000, together with the other inputs shown below. Holding those other inputs fixed, the lower loan principal test gives 63%, while the higher test gives 94.5%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "The ratio divides the entered loan principal by the purchase price. It describes leverage against that price without assuming an appraised value. In this case, loan principal is $315,000. Measure the change in the output unit before describing it as a percentage. A dollar change and a percentage change answer different questions.",
-      "The reference input set produces 75%. This case differs from that reference by 3.75%, or 5% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
+      "The reference input set produces 75%. This case differs from that reference by 3.75 percentage points, or 5% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $252,000 and the higher input is $378,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 78.75% ratio describes the entered principal and selected basis. A lender's own value definition, qualifying costs and terms must be examined separately.",
       "The absolute difference from the reference is 3.75% in the model's output units. That difference compares 78.75% with 75%. Preserve the unit and sign before describing the change in words, especially when the output is a period or ratio rather than a cash amount."
@@ -1137,8 +1137,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "f4ff20ac89d5edebcd2689a75aab75a72ba9bcd2aba7ab676a4eb7a5f83bd36b",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "81106df42d5932718aef968f738eef4a0421180f705b6cdc9eb7bee6233f7f79",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -1152,7 +1152,7 @@
     "answer": "For relative change in this loan-to-price ratio model, the published input set produces 91.67% under this model. It uses loan principal of $330,000 and purchase price of $360,000, together with the other inputs shown below. Holding those other inputs fixed, the lower purchase price test gives 114.58%, while the higher test gives 76.39%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "The ratio divides the entered loan principal by the purchase price. It describes leverage against that price without assuming an appraised value. In this case, purchase price is $360,000. Use a nonzero reference before calculating a relative output change. A zero reference does not provide a finite percentage-change denominator.",
-      "The reference input set produces 75%. This case differs from that reference by 16.67%, or 22.22% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
+      "The reference input set produces 75%. This case differs from that reference by 16.67 percentage points, or 22.22% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $288,000 and the higher input is $432,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 91.67% ratio describes the entered principal and selected basis. A lender's own value definition, qualifying costs and terms must be examined separately.",
       "Using the absolute reference amount as the denominator, the change is 22.222222222%. This describes the movement from 75% to 91.67% under the full input set. It is separate from a percentage-point change in any one percent input."
@@ -1264,8 +1264,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "f369e98769d40e77541dc74ed4e1b59f0d92c7d0eb0740a70c8e03efd38603b4",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "0ecc38d57db704370c18a91e086d7576970ceb4d9cbe660defb02d7088dbcfe1",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -1279,7 +1279,7 @@
     "answer": "For observed versus assumed inputs in this loan-to-price ratio model, the published input set produces 71.25% under this model. It uses loan principal of $285,000 and purchase price of $400,000, together with the other inputs shown below. Holding those other inputs fixed, the lower loan principal test gives 57%, while the higher test gives 85.5%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "The ratio divides the entered loan principal by the purchase price. It describes leverage against that price without assuming an appraised value. In this case, loan principal is $285,000. Every number here is a hypothetical input. In a real file, label each value observed, quoted, assumed or unresolved before relying on the result.",
-      "The reference input set produces 75%. This case differs from that reference by -3.75%, or -5% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
+      "The reference input set produces 75%. This case differs from that reference by -3.75 percentage points, or -5% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $228,000 and the higher input is $342,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 71.25% ratio describes the entered principal and selected basis. A lender's own value definition, qualifying costs and terms must be examined separately.",
       "There is no real source record behind the teaching value $285,000 for loan principal. For actual use, retain a source reference and status for that field, then do the same for purchase price. The calculation can be reproduced from assumed values while still lacking evidence that either value describes a real property."
@@ -1391,8 +1391,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "f028ec9638066de5f98b720201a1531670dfc7da082ebd17049bf27e96782332",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "90b68816ccefae082e94e00b64e460b7646f983033df0250992fc6f7781c4c80",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -1406,7 +1406,7 @@
     "answer": "For single-variable isolation in this loan-to-price ratio model, the published input set produces 83.33% under this model. It uses loan principal of $300,000 and purchase price of $360,000, together with the other inputs shown below. Holding those other inputs fixed, the lower purchase price test gives 104.17%, while the higher test gives 69.44%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "The ratio divides the entered loan principal by the purchase price. It describes leverage against that price without assuming an appraised value. In this case, purchase price is $360,000. The one-input sensitivity rows isolate one arithmetic effect. They do not establish how other assumptions would behave at the same time.",
-      "The reference input set produces 75%. This case differs from that reference by 8.33%, or 11.11% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
+      "The reference input set produces 75%. This case differs from that reference by 8.33 percentage points, or 11.11% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $288,000 and the higher input is $432,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 83.33% ratio describes the entered principal and selected basis. A lender's own value definition, qualifying costs and terms must be examined separately.",
       "For the focused field purchase price, the lower test produces 104.17% and the higher test produces 69.44%. The other 1 inputs remain fixed in each row. This controlled comparison is what allows the local effect to be discussed without attributing simultaneous changes to the same field."
@@ -1518,8 +1518,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "dac4d98bd2aae65c1b6e816a9bc2997b4018857043f09234420b03f359f7d828",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "07691e50a1b310f5ea5e687df5ff4a63504d9206cd778d155fb482be18d38427",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -1533,7 +1533,7 @@
     "answer": "For multiple-input movement in this loan-to-price ratio model, the published input set produces 112.5% under this model. It uses loan principal of $360,000 and purchase price of $320,000, together with the other inputs shown below. Holding those other inputs fixed, the lower loan principal test gives 90%, while the higher test gives 135%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "The ratio divides the entered loan principal by the purchase price. It describes leverage against that price without assuming an appraised value. In this case, loan principal is $360,000. Several inputs differ from the reference in this scenario. The combined difference is attributable to that full input set rather than a single change.",
-      "The reference input set produces 75%. This case differs from that reference by 37.5%, or 50% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
+      "The reference input set produces 75%. This case differs from that reference by 37.5 percentage points, or 50% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $288,000 and the higher input is $432,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 112.5% result means the entered principal exceeds the selected denominator. It is a mathematical ratio from these inputs, not evidence that a lender would finance this amount or use the same basis.",
       "The case differs from the reference in 2 fields: Loan principal $300,000 to $360,000; Purchase price $400,000 to $320,000. Keep that list with the 37.5% output difference. The one-input tests are a separate analysis of individual changes, not a decomposition of every interaction in the full case."
@@ -1645,8 +1645,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "4c6bb7115442d08b7be7d08cfe123a127abbe39441e6ff3c78e3be822c67febc",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "66f7cdb23ef76ef4e890cb7c48de6ba47b19a26d67036350e97e7350fcda4743",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -1660,7 +1660,7 @@
     "answer": "For source-period alignment in this loan-to-price ratio model, the published input set produces 47.73% under this model. It uses loan principal of $210,000 and purchase price of $440,000, together with the other inputs shown below. Holding those other inputs fixed, the lower purchase price test gives 59.66%, while the higher test gives 39.77%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "The ratio divides the entered loan principal by the purchase price. It describes leverage against that price without assuming an appraised value. In this case, purchase price is $440,000. For real use, retain the time basis of every amount or count. A monthly figure and an annual figure need a visible conversion before they are compared.",
-      "The reference input set produces 75%. This case differs from that reference by -27.27%, or -36.36% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
+      "The reference input set produces 75%. This case differs from that reference by -27.27 percentage points, or -36.36% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $352,000 and the higher input is $528,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 47.73% ratio describes the entered principal and selected basis. A lender's own value definition, qualifying costs and terms must be examined separately.",
       "The source schedule should preserve the period implied by each field label. In this example the first two fields are loan principal (USD) and purchase price (USD). The model uses them as labeled; it cannot infer that a number copied from a monthly or partial-period source needs conversion before entry."
@@ -1772,8 +1772,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "19070c59bbb0e206b4c0705df447071ee798ebed05526dd7fa120f4de3654f30",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "e3228b6268791b665948ae38dd4b345ff77213d4594bfa3a8e0eeb202381f6a1",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -1787,7 +1787,7 @@
     "answer": "For denominator and scaling in this loan-to-price ratio model, the published input set produces 57.69% under this model. It uses loan principal of $300,000 and purchase price of $520,000, together with the other inputs shown below. Holding those other inputs fixed, the lower loan principal test gives 46.15%, while the higher test gives 69.23%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "The ratio divides the entered loan principal by the purchase price. It describes leverage against that price without assuming an appraised value. In this case, loan principal is $300,000. Inspect every division in the worked steps and name the quantity being divided by. If the formula contains no division, retain the actual multiplication or subtraction structure instead.",
-      "The reference input set produces 75%. This case differs from that reference by -17.31%, or -23.08% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
+      "The reference input set produces 75%. This case differs from that reference by -17.31 percentage points, or -23.08% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $240,000 and the higher input is $360,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 57.69% ratio describes the entered principal and selected basis. A lender's own value definition, qualifying costs and terms must be examined separately.",
       "The formula is loan/price*100. A division in that expression assigns meaning to the quantity in its denominator; a multiplication or subtraction does not create a denominator by analogy. Use the actual worked operations for this model instead of importing the interpretation of a similarly named percentage or yield."
@@ -1899,8 +1899,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "e1af3b9fda1e2cc29850b5986eb8bdee9c777a3ca17bdc7168b09ee239ff1f06",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "b7ebb2a827ffca8ff23cad57a6d2924a88202f5032e71ef36f2a041e7bd2319f",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -1914,7 +1914,7 @@
     "answer": "For percentage input convention in this loan-to-price ratio model, the published input set produces 68.18% under this model. It uses loan principal of $300,000 and purchase price of $440,000, together with the other inputs shown below. Holding those other inputs fixed, the lower purchase price test gives 85.23%, while the higher test gives 56.82%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "The ratio divides the entered loan principal by the purchase price. It describes leverage against that price without assuming an appraised value. In this case, purchase price is $440,000. This model has no percentage input. The displayed amounts and counts must be read in their own units; entering 20 does not instruct the model to apply twenty percent.",
-      "The reference input set produces 75%. This case differs from that reference by -6.82%, or -9.09% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
+      "The reference input set produces 75%. This case differs from that reference by -6.82 percentage points, or -9.09% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $352,000 and the higher input is $528,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 68.18% ratio describes the entered principal and selected basis. A lender's own value definition, qualifying costs and terms must be examined separately.",
       "Neither loan principal nor the other listed fields is a whole-percentage input in this model. For example, 300000 in the first field means $300,000. If another source expresses a percentage instead, obtain or derive the correctly defined amount rather than copying its percentage number into this field."
@@ -2026,8 +2026,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "f9a8d5102ac98fc6d608dc42c792359124bca16c42783312388b38ece313305b",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "a83e8ad78195c33aef0122c21a1e95b5988b6ac6960ce5c06610e6787b3fb6be",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -2041,7 +2041,7 @@
     "answer": "For zero-value behavior in this loan-to-price ratio model, the published input set produces 0% under this model. It uses loan principal of $0 and purchase price of $400,000, together with the other inputs shown below. Holding those other inputs fixed, the lower loan principal test gives 0%, while the higher test gives 0%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "The ratio divides the entered loan principal by the purchase price. It describes leverage against that price without assuming an appraised value. In this case, loan principal is $0. A zero numerator can be meaningful while a zero denominator may be undefined. Follow the model-specific range and calculation rules rather than inserting a result by convention.",
-      "The reference input set produces 75%. This case differs from that reference by -75%, or -100% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
+      "The reference input set produces 75%. This case differs from that reference by -75 percentage points, or -100% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $0 and the higher input is $0. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 0% ratio describes the entered principal and selected basis. A lender's own value definition, qualifying costs and terms must be examined separately.",
       "The zero-valued field is loan principal. The remaining inputs stay visible, and the resulting 0% follows the model's own zero-handling rules. This is a deliberate arithmetic example; it is not permission to enter zero for an unpriced or unknown real obligation."
@@ -2153,8 +2153,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "044b97b5a524d96bcba35862992ebac9ed03e2a6afde94359d39a5ae5bd0f5fc",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "e1d9f95395845a72f5515e33f515990574c813bc6d3669e68e789633d8f0610f",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -2168,7 +2168,7 @@
     "answer": "For negative-output meaning in this loan-to-price ratio model, the published input set produces 30% under this model. It uses loan principal of $180,000 and purchase price of $600,000, together with the other inputs shown below. Holding those other inputs fixed, the lower purchase price test gives 37.5%, while the higher test gives 25%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "The ratio divides the entered loan principal by the purchase price. It describes leverage against that price without assuming an appraised value. In this case, purchase price is $600,000. A negative result can be valid in a residual or change calculation. Interpret the sign within the model definition rather than silently replacing it with zero.",
-      "The reference input set produces 75%. This case differs from that reference by -45%, or -60% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
+      "The reference input set produces 75%. This case differs from that reference by -45 percentage points, or -60% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $480,000 and the higher input is $720,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 30% ratio describes the entered principal and selected basis. A lender's own value definition, qualifying costs and terms must be examined separately.",
       "This case returns 30%, not a negative result. Some models here permit negative residuals, while positive-contribution payback models impose a separate rule. Interpret the sign through this specific expression and its input constraints instead of assuming every model can produce the same kinds of outputs."
@@ -2280,8 +2280,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "65a4828b432b1ae26a2c2eec7641b2bc359de992d6b8c118003e347fbdd697d2",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "14a44501f06900272a00d92f198f316b34eb72caff316e54a88e110e16f539fa",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -2295,7 +2295,7 @@
     "answer": "For cost inclusion boundary in this loan-to-price ratio model, the published input set produces 54% under this model. It uses loan principal of $270,000 and purchase price of $500,000, together with the other inputs shown below. Holding those other inputs fixed, the lower loan principal test gives 43.2%, while the higher test gives 64.8%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "The ratio divides the entered loan principal by the purchase price. It describes leverage against that price without assuming an appraised value. In this case, loan principal is $270,000. A calculated result includes only the inputs and operations actually shown. Costs or receipts outside this model require a separate schedule.",
-      "The reference input set produces 75%. This case differs from that reference by -21%, or -28% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
+      "The reference input set produces 75%. This case differs from that reference by -21 percentage points, or -28% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $216,000 and the higher input is $324,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 54% ratio describes the entered principal and selected basis. A lender's own value definition, qualifying costs and terms must be examined separately.",
       "The displayed inputs include loan principal, purchase price. Only those quantities enter loan/price*100. Before carrying 54% into a broader decision schedule, identify which additional receipts, costs, timing items or conditions the model description excludes rather than silently assuming they are already included."
@@ -2407,8 +2407,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "1e13cfb36d8706e3d6eb329d50246b4a1dd024f2220cd0c9b456b7ad5967ba2c",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "2d7ea4fa7ff0598f5db8f4b406702e420320d05bad69f3658adb83c1c767df83",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -2422,7 +2422,7 @@
     "answer": "For input precision in this loan-to-price ratio model, the published input set produces 75.5% under this model. It uses loan principal of $301,110 and purchase price of $398,800, together with the other inputs shown below. Holding those other inputs fixed, the lower purchase price test gives 94.38%, while the higher test gives 62.92%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "The ratio divides the entered loan principal by the purchase price. It describes leverage against that price without assuming an appraised value. In this case, purchase price is $398,800. Use input precision supported by the real record. Adding decimal places to an estimate makes the arithmetic more precise without making the estimate more certain.",
-      "The reference input set produces 75%. This case differs from that reference by 0.5%, or 0.67% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
+      "The reference input set produces 75%. This case differs from that reference by 0.5 percentage points, or 0.67% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $319,040 and the higher input is $478,560. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 75.5% ratio describes the entered principal and selected basis. A lender's own value definition, qualifying costs and terms must be examined separately.",
       "The raw focused input is 398800 USD. The model retains the supplied numeric precision through its calculation, while the formatted output is 75.5%. Precision should reflect the real source's unit and measurement basis; a more detailed decimal representation does not establish a more reliable underlying estimate."
@@ -2534,8 +2534,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "e70cf09c5f98614b354ae4b29bb727e925f69c561e3cf97a5d7bc777e935f1a9",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "cf366dbed6f1786e7b8d9c8f5997ee1d294b89d0583e93fe8563abded7a26d0b",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -2549,7 +2549,7 @@
     "answer": "For output-unit interpretation in this loan-to-price ratio model, the published input set produces 93.75% under this model. It uses loan principal of $300,000 and purchase price of $320,000, together with the other inputs shown below. Holding those other inputs fixed, the lower loan principal test gives 75%, while the higher test gives 112.5%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "The ratio divides the entered loan principal by the purchase price. It describes leverage against that price without assuming an appraised value. In this case, loan principal is $300,000. Read the output unit alongside the answer. A total amount, a per-night amount, a percentage, a multiple and a period are not interchangeable measures.",
-      "The reference input set produces 75%. This case differs from that reference by 18.75%, or 25% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
+      "The reference input set produces 75%. This case differs from that reference by 18.75 percentage points, or 25% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $240,000 and the higher input is $360,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 93.75% ratio describes the entered principal and selected basis. A lender's own value definition, qualifying costs and terms must be examined separately.",
       "The answer unit is percent. The result 93.75% should therefore be read with that unit attached, just as $300,000 retains the first input's unit. Transferring only the number into a differently labeled output cell can create an apparent result that this calculation never produced."
@@ -2661,8 +2661,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "0e8651e37b8aa68736430cce6cfce4d015fe2095727f135a57276869276fca1f",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "d7afc21592235b0b9966a5eace10927bbcbb9d25c6243b85f169e642eb6f6d84",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -2676,7 +2676,7 @@
     "answer": "For scenario reproducibility in this loan-to-price ratio model, the published input set produces 101.25% under this model. It uses loan principal of $405,000 and purchase price of $400,000, together with the other inputs shown below. Holding those other inputs fixed, the lower purchase price test gives 126.56%, while the higher test gives 84.38%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "The ratio divides the entered loan principal by the purchase price. It describes leverage against that price without assuming an appraised value. In this case, purchase price is $400,000. Save the inputs with the result and formula. A screenshot of a headline answer alone is insufficient for another reviewer to reproduce the calculation.",
-      "The reference input set produces 75%. This case differs from that reference by 26.25%, or 35% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
+      "The reference input set produces 75%. This case differs from that reference by 26.25 percentage points, or 35% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $320,000 and the higher input is $480,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 101.25% result means the entered principal exceeds the selected denominator. It is a mathematical ratio from these inputs, not evidence that a lender would finance this amount or use the same basis.",
       "A reproducible handoff needs all 2 published values, the formula loan/price*100, and the 101.25% result together. The input table and export support that handoff. If only the headline answer is retained, another reviewer cannot tell whether a later difference comes from the values, definitions or calculation."
@@ -2788,8 +2788,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "0d0a483274cbdf1ec5df3e64ca6d051decbe73f6fd9dce427c2c68ae784f708c",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "eab5824ee688c9f448c9fa24526ea44cef26412b0c1db69350ea548aafff2d47",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -2803,7 +2803,7 @@
     "answer": "For local change versus forecast in this loan-to-price ratio model, the published input set produces 160% under this model. It uses loan principal of $480,000 and purchase price of $300,000, together with the other inputs shown below. Holding those other inputs fixed, the lower loan principal test gives 128%, while the higher test gives 192%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "The ratio divides the entered loan principal by the purchase price. It describes leverage against that price without assuming an appraised value. In this case, loan principal is $480,000. The sensitivity rows answer a conditional mathematical question. They do not assign a likelihood to any of the alternate inputs.",
-      "The reference input set produces 75%. This case differs from that reference by 85%, or 113.33% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
+      "The reference input set produces 75%. This case differs from that reference by 85 percentage points, or 113.33% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $384,000 and the higher input is $576,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 160% result means the entered principal exceeds the selected denominator. It is a mathematical ratio from these inputs, not evidence that a lender would finance this amount or use the same basis.",
       "The lower focused test is 128%; the higher focused test is 192%. These two conditional outputs do not give a probability that loan principal will take either alternate value. The table describes how this equation responds, while the plausibility and source support of each assumption remain separate questions."
@@ -2915,8 +2915,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "0573a70409a77e88fbfb62ef5c27b8ba26970a7ac2a28108e1c3bea1ed44e5d3",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "55a0756a7867381628879e64ab38eb8c15beeaff5e27bf3db3003e8530aac94e",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -2930,7 +2930,7 @@
     "answer": "For unpriced input treatment in this loan-to-price ratio model, the published input set produces 67.11% under this model. It uses loan principal of $255,000 and purchase price of $380,000, together with the other inputs shown below. Holding those other inputs fixed, the lower purchase price test gives 83.88%, while the higher test gives 55.92%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "The ratio divides the entered loan principal by the purchase price. It describes leverage against that price without assuming an appraised value. In this case, purchase price is $380,000. An unknown amount is not automatically zero. In real use, retain an unresolved source item rather than completing a model with an unsupported value.",
-      "The reference input set produces 75%. This case differs from that reference by -7.89%, or -10.53% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
+      "The reference input set produces 75%. This case differs from that reference by -7.89 percentage points, or -10.53% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $304,000 and the higher input is $456,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 67.11% ratio describes the entered principal and selected basis. A lender's own value definition, qualifying costs and terms must be examined separately.",
       "The example includes a stated value for every required field, including purchase price at $380,000. A real missing quote or incomplete record should remain unresolved in the source register. The existence of a valid number box does not supply evidence for filling it, particularly when zero would materially change the 67.11% result."
@@ -3042,8 +3042,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "dc63af7d3c554fac5108f799f71e57a041e2b36ce7332464bf02cd3e0e744f22",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "3721594016f7f9af3fbc1d655861e18a287b62d96c6285feae1dd7fbe7ac3911",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -3057,7 +3057,7 @@
     "answer": "For comparison-basis consistency in this loan-to-price ratio model, the published input set produces 71.59% under this model. It uses loan principal of $315,000 and purchase price of $440,000, together with the other inputs shown below. Holding those other inputs fixed, the lower loan principal test gives 57.27%, while the higher test gives 85.91%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "The ratio divides the entered loan principal by the purchase price. It describes leverage against that price without assuming an appraised value. In this case, loan principal is $315,000. Keep the same definitions when comparing this case with another. Similar labels can conceal different cost bases, periods or included components.",
-      "The reference input set produces 75%. This case differs from that reference by -3.41%, or -4.55% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
+      "The reference input set produces 75%. This case differs from that reference by -3.41 percentage points, or -4.55% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $252,000 and the higher input is $378,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 71.59% ratio describes the entered principal and selected basis. A lender's own value definition, qualifying costs and terms must be examined separately.",
       "The reference comparison uses 75% and the published case uses 71.59% under one fixed model definition. A source that includes different components, uses another period or changes an input's denominator is not on that same basis. Align those definitions before calling its result higher or lower than this case."
@@ -3169,8 +3169,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "0a4abb0dbd7ccc23d5356e93e2433ac28011f3e79ecbd6c493537f6a30be4615",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "bf55c1b58894de442b254938798c70392b3851653dac9e90a8c2e8c4dfc66d0d",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -3184,7 +3184,7 @@
     "answer": "For input-range constraint in this loan-to-price ratio model, the published input set produces 196.15% under this model. It uses loan principal of $510,000 and purchase price of $260,000, together with the other inputs shown below. Holding those other inputs fixed, the lower purchase price test gives 245.19%, while the higher test gives 163.46%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "The ratio divides the entered loan principal by the purchase price. It describes leverage against that price without assuming an appraised value. In this case, purchase price is $260,000. The form checks its stated input ranges, but a valid numerical range does not prove that an assumption is feasible for a real property or contract.",
-      "The reference input set produces 75%. This case differs from that reference by 121.15%, or 161.54% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
+      "The reference input set produces 75%. This case differs from that reference by 121.15 percentage points, or 161.54% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $208,000 and the higher input is $312,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 196.15% result means the entered principal exceeds the selected denominator. It is a mathematical ratio from these inputs, not evidence that a lender would finance this amount or use the same basis.",
       "For purchase price, the numerical form limits are 1 through 100000000 USD. The published $260,000 is within those limits, but that alone says nothing about a lender quote, operating permission, vendor availability or actual demand. Treat range validity as a calculation check rather than external approval."
@@ -3296,8 +3296,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "a88f46cb1781e7db340c9351682280ff26a0106aa27f1394e3a27b97897c0f1f",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "82dceb6d5575bb11de381aa414152b8d174cbe757593a71316815bb7ce45e6d3",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -3311,7 +3311,7 @@
     "answer": "For direction of the relationship in this loan-to-price ratio model, the published input set produces 45% under this model. It uses loan principal of $180,000 and purchase price of $400,000, together with the other inputs shown below. Holding those other inputs fixed, the lower loan principal test gives 36%, while the higher test gives 54%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "The ratio divides the entered loan principal by the purchase price. It describes leverage against that price without assuming an appraised value. In this case, loan principal is $180,000. Use the calculated lower and higher cases to inspect direction. A denominator change can move the result differently from a numerator or additive input.",
-      "The reference input set produces 75%. This case differs from that reference by -30%, or -40% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
+      "The reference input set produces 75%. This case differs from that reference by -30 percentage points, or -40% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $144,000 and the higher input is $216,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 45% ratio describes the entered principal and selected basis. A lender's own value definition, qualifying costs and terms must be examined separately.",
       "Relative to 45%, the lower focused case changes the output by -9% and the higher case changes it by 9%. Those signs show the local direction of this relationship for the selected inputs. Do not assume that an input appearing in a denominator behaves like one added to the numerator."
@@ -3423,8 +3423,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "9d830acbeb26e5c2362a16a5d58e76eaba6bc90a12414b4608a62b960825690c",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "78d5de6568e596c5f988d784e225f6ad38065798313395a6b6222b7087525faf",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -3438,7 +3438,7 @@
     "answer": "For magnitude of the relationship in this loan-to-price ratio model, the published input set produces 108% under this model. It uses loan principal of $540,000 and purchase price of $500,000, together with the other inputs shown below. Holding those other inputs fixed, the lower purchase price test gives 135%, while the higher test gives 90%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "The ratio divides the entered loan principal by the purchase price. It describes leverage against that price without assuming an appraised value. In this case, purchase price is $500,000. Consider how large the output change is in its own units. A mathematically visible change may still be small relative to other unmodeled obligations.",
-      "The reference input set produces 75%. This case differs from that reference by 33%, or 44% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
+      "The reference input set produces 75%. This case differs from that reference by 33 percentage points, or 44% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $400,000 and the higher input is $600,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 108% result means the entered principal exceeds the selected denominator. It is a mathematical ratio from these inputs, not evidence that a lender would finance this amount or use the same basis.",
       "The headline answer is 108%. The focused lower and higher tests are 135% and 90%. Consider those changes in percent, rather than focusing only on whether the displayed number moved. Other unmodeled obligations may matter more than a small arithmetic movement, and the formula does not rank their importance."
@@ -3550,8 +3550,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "f71003e067f211241a038848dd0d45cb343b62bfca98a01752a3a3e7015e6599",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "44ccc2b59c4a5415d8d0da1e6abc47b9a7bfcb2fcf6f81d3b863b9ac47bc6b78",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -3565,7 +3565,7 @@
     "answer": "For sensitivity symmetry in this loan-to-price ratio model, the published input set produces 150% under this model. It uses loan principal of $300,000 and purchase price of $200,000, together with the other inputs shown below. Holding those other inputs fixed, the lower loan principal test gives 120%, while the higher test gives 180%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "The ratio divides the entered loan principal by the purchase price. It describes leverage against that price without assuming an appraised value. In this case, loan principal is $300,000. Do not assume that an equal percentage decrease and increase in an input cause symmetric output changes. Ratios and payment formulas can behave nonlinearly.",
-      "The reference input set produces 75%. This case differs from that reference by 75%, or 100% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
+      "The reference input set produces 75%. This case differs from that reference by 75 percentage points, or 100% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $240,000 and the higher input is $360,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 150% result means the entered principal exceeds the selected denominator. It is a mathematical ratio from these inputs, not evidence that a lender would finance this amount or use the same basis.",
       "The lower input changes the output by -30%, while the higher input changes it by 30%. Their absolute magnitudes are 30% and 30%. They need not match: the equation, bounds and whole-unit rounding can make equal-looking input moves asymmetric."
@@ -3677,8 +3677,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "2d34497a1abb62228d949d600f3f2e73a684221b63ff33cf14c5fab278c72d51",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "07e7959eea64de9680458e9649de598950e315e12cf7b06abb87386c921021f8",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -3692,7 +3692,7 @@
     "answer": "For reference-case limitations in this loan-to-price ratio model, the published input set produces 72.2% under this model. It uses loan principal of $309,000 and purchase price of $428,000, together with the other inputs shown below. Holding those other inputs fixed, the lower purchase price test gives 90.25%, while the higher test gives 60.16%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "The ratio divides the entered loan principal by the purchase price. It describes leverage against that price without assuming an appraised value. In this case, purchase price is $428,000. The default input set is a teaching reference. It is not a market average, underwriting recommendation or evidence that the same conditions can be obtained.",
-      "The reference input set produces 75%. This case differs from that reference by -2.8%, or -3.74% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
+      "The reference input set produces 75%. This case differs from that reference by -2.8 percentage points, or -3.74% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $342,400 and the higher input is $513,600. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 72.2% ratio describes the entered principal and selected basis. A lender's own value definition, qualifying costs and terms must be examined separately.",
       "The reference set begins with loan principal of $300,000 and purchase price of $400,000, producing 75%. These are disclosed teaching defaults. They are not independently observed market values or evidence that the case's 72.2% can be achieved for a particular purchase."
@@ -3804,8 +3804,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "7b7fe52347c96f8f17b1c9bc62433b05f77d6d83aaa34688708a1d5a80ae0639",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "762902e8a25d13d2c47f68d724a0c6890437ddd6a5c32d0aa494d223f85efb0f",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -3819,7 +3819,7 @@
     "answer": "For input provenance in this loan-to-price ratio model, the published input set produces 84% under this model. It uses loan principal of $336,000 and purchase price of $400,000, together with the other inputs shown below. Holding those other inputs fixed, the lower loan principal test gives 67.2%, while the higher test gives 100.8%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "The ratio divides the entered loan principal by the purchase price. It describes leverage against that price without assuming an appraised value. In this case, loan principal is $336,000. For each real input, retain the source identity, observation date, definition and period. The calculator does not authenticate any of those records.",
-      "The reference input set produces 75%. This case differs from that reference by 9%, or 12% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
+      "The reference input set produces 75%. This case differs from that reference by 9 percentage points, or 12% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $268,800 and the higher input is $403,200. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 84% ratio describes the entered principal and selected basis. A lender's own value definition, qualifying costs and terms must be examined separately.",
       "For actual work, the evidence request should name loan principal, its USD unit, its observation date and its scope. The hypothetical $336,000 value only demonstrates the operation. A copied number without that provenance may remain reproducible mathematically while being unsupported for the real decision."
@@ -3931,8 +3931,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "e3954f940753a0c702754ec1ea7d7c3f436ed53a1a598ca5c98e5198cdb87522",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "97b98633dea7a6a278900a5769225e2be32f0fc9b1d2da5fd712012cea376cd0",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -3946,7 +3946,7 @@
     "answer": "For fixed-assumption scope in this loan-to-price ratio model, the published input set produces 57.39% under this model. It uses loan principal of $264,000 and purchase price of $460,000, together with the other inputs shown below. Holding those other inputs fixed, the lower purchase price test gives 71.74%, while the higher test gives 47.83%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "The ratio divides the entered loan principal by the purchase price. It describes leverage against that price without assuming an appraised value. In this case, purchase price is $460,000. In each sensitivity row, inputs other than the named field remain fixed. This is a deliberate test condition rather than a claim that those inputs are independent in practice.",
-      "The reference input set produces 75%. This case differs from that reference by -17.61%, or -23.48% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
+      "The reference input set produces 75%. This case differs from that reference by -17.61 percentage points, or -23.48% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $368,000 and the higher input is $552,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 57.39% ratio describes the entered principal and selected basis. A lender's own value definition, qualifying costs and terms must be examined separately.",
       "The focused test varies purchase price while keeping the remaining input vector fixed. In the full case, loan principal is $264,000 and purchase price is $460,000. That fixed-vector condition is what the sensitivity rows establish; it is not a statement that the underlying business variables will move independently."
@@ -4058,8 +4058,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "66042d268ef85a7f339dbf48bf6271753400ff409e2eed9e0404cfd59c6c0693",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "a06a29246573a38aa34d42b1c731548bb9b3b7bae1b73fc0efe4140d34d17e85",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -4073,7 +4073,7 @@
     "answer": "For model-exclusion check in this loan-to-price ratio model, the published input set produces 58.7% under this model. It uses loan principal of $216,000 and purchase price of $368,000, together with the other inputs shown below. Holding those other inputs fixed, the lower loan principal test gives 46.96%, while the higher test gives 70.43%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "The ratio divides the entered loan principal by the purchase price. It describes leverage against that price without assuming an appraised value. In this case, loan principal is $216,000. Read the stated exclusions before treating the result as a decision measure. Correct arithmetic cannot fill an omitted cost, condition or financing feature.",
-      "The reference input set produces 75%. This case differs from that reference by -16.3%, or -21.74% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
+      "The reference input set produces 75%. This case differs from that reference by -16.3 percentage points, or -21.74% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $172,800 and the higher input is $259,200. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 58.7% ratio describes the entered principal and selected basis. A lender's own value definition, qualifying costs and terms must be examined separately.",
       "The result is 58.7% from the displayed formula, and the model boundary is explicit: A lender may use an appraised value, other basis or different loan amount. This calculation does not establish permitted leverage. Review that boundary before labeling the number as profit, total cash required, total return or another broader measure. A more favorable name does not add quantities absent from the equation."
@@ -4185,8 +4185,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "c7eb2e195b92a89291baa8c28f9049a88575a838b182499a83385c57a5b67129",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "f7ef930f713c7636e3398d2f4d2d6dbf46689a06e1814c760b71cad126df70cd",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -4200,7 +4200,7 @@
     "answer": "For alternative-input request in this loan-to-price ratio model, the published input set produces 87.14% under this model. It uses loan principal of $366,000 and purchase price of $420,000, together with the other inputs shown below. Holding those other inputs fixed, the lower purchase price test gives 108.93%, while the higher test gives 72.62%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "The ratio divides the entered loan principal by the purchase price. It describes leverage against that price without assuming an appraised value. In this case, purchase price is $420,000. Turn an uncertain input into a specific evidence request. Identify the exact field, unit and time basis needed to replace the example value.",
-      "The reference input set produces 75%. This case differs from that reference by 12.14%, or 16.19% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
+      "The reference input set produces 75%. This case differs from that reference by 12.14 percentage points, or 16.19% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $336,000 and the higher input is $504,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 87.14% ratio describes the entered principal and selected basis. A lender's own value definition, qualifying costs and terms must be examined separately.",
       "A precise follow-up for this case asks what supports purchase price at $420,000. The response should identify the relevant record, unit and period, not merely repeat the headline answer 87.14%. Replace the teaching value only after deciding how the new record's definition fits the model."
@@ -4312,8 +4312,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "665ce396cef18e53e4c11281aa8f842e6a0f61dced01dccb85c1c5afd2e19e7c",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "6d51135733517b558aaa1be22f25aa939cd32ac60f3df1e7bdd2b1bd65dbb7d2",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -4327,7 +4327,7 @@
     "answer": "For decision-margin context in this loan-to-price ratio model, the published input set produces 120.83% under this model. It uses loan principal of $435,000 and purchase price of $360,000, together with the other inputs shown below. Holding those other inputs fixed, the lower loan principal test gives 96.67%, while the higher test gives 145%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "The ratio divides the entered loan principal by the purchase price. It describes leverage against that price without assuming an appraised value. In this case, loan principal is $435,000. A favorable output does not establish the size of a complete decision margin. Check what the formula includes and what obligations remain outside it.",
-      "The reference input set produces 75%. This case differs from that reference by 45.83%, or 61.11% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
+      "The reference input set produces 75%. This case differs from that reference by 45.83 percentage points, or 61.11% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $348,000 and the higher input is $522,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 120.83% result means the entered principal exceeds the selected denominator. It is a mathematical ratio from these inputs, not evidence that a lender would finance this amount or use the same basis.",
       "The difference from the reference is 45.83% under this model's own definition. That difference is not automatically an all-in decision margin. Compare it with the excluded obligations and evidence gaps described for loan-to-price ratio before assigning it an investment or operating meaning."
@@ -4439,8 +4439,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "ed7146ced6229206a497b67f8e0ec0cb104b10781d7f63bea154ae842a9f8fd7",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "46718c68adf4bf260db2f988044a39706f277dadf6fe8ad807301e3edb90461d",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -4454,7 +4454,7 @@
     "answer": "For reconciliation to a source in this loan-to-price ratio model, the published input set produces 94.19% under this model. It uses loan principal of $324,000 and purchase price of $344,000, together with the other inputs shown below. Holding those other inputs fixed, the lower purchase price test gives 117.73%, while the higher test gives 78.49%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "The ratio divides the entered loan principal by the purchase price. It describes leverage against that price without assuming an appraised value. In this case, purchase price is $344,000. If a real statement differs from this calculation, first align definitions, periods and rounding. An unexplained difference is a question to investigate rather than proof of an error by another party.",
-      "The reference input set produces 75%. This case differs from that reference by 19.19%, or 25.58% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
+      "The reference input set produces 75%. This case differs from that reference by 19.19 percentage points, or 25.58% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $275,200 and the higher input is $412,800. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 94.19% ratio describes the entered principal and selected basis. A lender's own value definition, qualifying costs and terms must be examined separately.",
       "If a source reports something other than 94.19%, first compare its input values with the table here and its formula with loan/price*100. A difference in unit, period, included components or rounding can explain a mismatch without establishing that either publisher made a false statement."
@@ -4566,8 +4566,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "92232f39aba6895a6c6f75c0400c8b7a8d9137936a094d33c8342eb34afaf84c",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "c19a64ee55310d914987c992474e35f9e01a8dbed65afd5f4bacdd91378389ce",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -4581,7 +4581,7 @@
     "answer": "For export and handoff in this loan-to-price ratio model, the published input set produces 58.47% under this model. It uses loan principal of $276,000 and purchase price of $472,000, together with the other inputs shown below. Holding those other inputs fixed, the lower loan principal test gives 46.78%, while the higher test gives 70.17%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "The ratio divides the entered loan principal by the purchase price. It describes leverage against that price without assuming an appraised value. In this case, loan principal is $276,000. An exported worksheet should retain the model, input set, result and limitations. Review personal notes before sharing the file with anyone else.",
-      "The reference input set produces 75%. This case differs from that reference by -16.53%, or -22.03% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
+      "The reference input set produces 75%. This case differs from that reference by -16.53 percentage points, or -22.03% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $220,800 and the higher input is $331,200. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 58.47% ratio describes the entered principal and selected basis. A lender's own value definition, qualifying costs and terms must be examined separately.",
       "Exporting this case should preserve loan principal of $276,000, purchase price of $472,000, the remaining inputs and the calculated result. If you add real source notes in the editable form, inspect the exported file before sharing it; this published article itself contains only hypothetical values."
@@ -4693,8 +4693,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "cbb67bc3f80832d696a1ed7e9281e832ee2df28107ad742779858fa13bc913f3",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "598a2560161ac4d51569a67ec4b86782fdb823f8d60997ca50be2655146a2b75",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -4708,7 +4708,7 @@
     "answer": "For boundary-case validation in this loan-to-price ratio model, the published input set produces 86.11% under this model. It uses loan principal of $465,000 and purchase price of $540,000, together with the other inputs shown below. Holding those other inputs fixed, the lower purchase price test gives 107.64%, while the higher test gives 71.76%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "The ratio divides the entered loan principal by the purchase price. It describes leverage against that price without assuming an appraised value. In this case, purchase price is $540,000. An invalid alternate scenario should display a reason rather than an invented numerical result. The sensitivity table preserves those constraints when they arise.",
-      "The reference input set produces 75%. This case differs from that reference by 11.11%, or 14.81% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
+      "The reference input set produces 75%. This case differs from that reference by 11.11 percentage points, or 14.81% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $432,000 and the higher input is $648,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 86.11% ratio describes the entered principal and selected basis. A lender's own value definition, qualifying costs and terms must be examined separately.",
       "All 4 displayed sensitivity tests satisfy the current numerical and model-specific rules. This does not validate the real-world assumptions. It means the alternate input sets can be evaluated by this particular equation without substituting an unavailable result."
@@ -4820,8 +4820,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "c16ac4e26aa06bc227f036a5c2a0d904e989436480947e43d242b71f6c097d83",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "7fb623ec5e9c76fd95b97f1d29577902efcac24b32cdcf0f5dfacdb9b9135658",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -4835,7 +4835,7 @@
     "answer": "For revised-input audit trail in this loan-to-price ratio model, the published input set produces 60.29% under this model. It uses loan principal of $246,000 and purchase price of $408,000, together with the other inputs shown below. Holding those other inputs fixed, the lower loan principal test gives 48.24%, while the higher test gives 72.35%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "The ratio divides the entered loan principal by the purchase price. It describes leverage against that price without assuming an appraised value. In this case, loan principal is $246,000. When replacing an input, retain its previous value and source so the reason for a changed conclusion can be understood. Do not overwrite the history with only the final answer.",
-      "The reference input set produces 75%. This case differs from that reference by -14.71%, or -19.61% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
+      "The reference input set produces 75%. This case differs from that reference by -14.71 percentage points, or -19.61% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to loan principal alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $196,800 and the higher input is $295,200. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 60.29% ratio describes the entered principal and selected basis. A lender's own value definition, qualifying costs and terms must be examined separately.",
       "As a revision exercise, replace only loan principal from $246,000 with the higher-test value $295,200. Retain both the original 60.29% and revised 72.35% outcomes with that changed field. This is a documented input revision, not a claim that a real record has changed."
@@ -4947,8 +4947,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "1da8625da88e77847faa388074e72eada7cadeed5edaff74370e24142d7093d9",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "b9a07adb3073d72f2c857dd0165bd34fddc0088edf29d3e0b98577e75656d122",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -4962,7 +4962,7 @@
     "answer": "For final interpretation in this loan-to-price ratio model, the published input set produces 97.96% under this model. It uses loan principal of $384,000 and purchase price of $392,000, together with the other inputs shown below. Holding those other inputs fixed, the lower purchase price test gives 122.45%, while the higher test gives 81.63%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "The ratio divides the entered loan principal by the purchase price. It describes leverage against that price without assuming an appraised value. In this case, purchase price is $392,000. State the result in a sentence containing its units and assumptions. Preserve the difference between a worked numerical answer and a verified property outcome.",
-      "The reference input set produces 75%. This case differs from that reference by 22.96%, or 30.61% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
+      "The reference input set produces 75%. This case differs from that reference by 22.96 percentage points, or 30.61% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $313,600 and the higher input is $470,400. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The 97.96% ratio describes the entered principal and selected basis. A lender's own value definition, qualifying costs and terms must be examined separately.",
       "A complete final sentence would identify this as a loan-to-price ratio calculation, state the 97.96% result in percent, and retain the disclosed inputs. That sentence should also preserve the model's exclusions. It must not turn a conditional teaching answer into a verified customer outcome or a guarantee."
@@ -5074,8 +5074,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "142e6851493bf22b668cd87ad180503cf6bc5ba3c113f28958d32d7fcdc608bb",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "abfae095bc84e11424c2280d30486b233242940c608c8e66442de4076bde8d40",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   }
