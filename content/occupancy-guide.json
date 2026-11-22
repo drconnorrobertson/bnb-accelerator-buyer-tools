@@ -1,0 +1,36 @@
+{
+  "title": "Booked-Night Occupancy: Reconcile the Calendar First",
+  "description": "Work through a fictional calendar bridge, distinguish offered-night occupancy from calendar utilization, and reconcile owner-use and closure dates before calculating.",
+  "reviewed": "2026-11-21",
+  "opening": [
+    "Booked-night occupancy answers a denominator question: of the nights offered for booking, how many were booked? A percentage without its calendar definition is incomplete. Two reports can show different percentages for the same property even when they agree on the number of booked nights.",
+    "The calculator below divides booked nights by available nights and multiplies by 100. For this guide, available means offered for booking during the chosen period. Use one property and one reporting period for both inputs. These original fictional examples teach the arithmetic and record review; they are not market benchmarks, forecasts or customer results."
+  ],
+  "bridge": [
+    "Start with a fictional 365-night year for one rental. The dated calendar contains 200 booked nights, 100 offered but unbooked nights, 30 owner-use nights, 20 maintenance-closure nights and 15 nights held off sale for another documented reason. Each night belongs to exactly one category in this illustration.",
+    "The categories reconcile: 200 + 100 + 30 + 20 + 15 = 365. Offered nights are the 200 booked plus the 100 offered but unbooked nights, giving 300. Offered-night occupancy is therefore 200 ÷ 300 × 100 = 66.67%. Dividing the same 200 booked nights by all 365 calendar nights gives 54.79% calendar utilization. Both calculations are reproducible, but they answer different questions.",
+    "Do not subtract a booked night merely because it also carries a maintenance note. Investigate overlapping status records at the date level and decide which classification is supported. If two owner-use records refer to the same date, count the date once. The clean five-bucket bridge here assumes those overlaps have already been resolved."
+  ],
+  "comparison": [
+    "Now change only the classification of 20 unbooked nights from offered to held off sale. Booked nights stay at 200, while offered nights fall from 300 to 280. Occupancy rises from 66.67% to 71.43%, a 4.76 percentage-point increase. No extra booking or room revenue has been established by that denominator change.",
+    "The reverse also matters. Release 20 previously held nights for booking, but receive no additional booking during the period. Offered nights rise to 320 and occupancy falls to 62.5%. That lower percentage alone does not show that a previously booked stay was lost. Preserve the count bridge alongside the ratio when explaining the change.",
+    "These comparisons keep booked nights fixed to isolate the denominator effect. A real year-to-year comparison may change both booked nights and availability, so it needs separate bridges. Do not attribute the entire difference to demand without reviewing those changes."
+  ],
+  "records": [
+    "Request a dated property calendar and the report definition used by the booking or management system. Match the date range, time basis and property identifier before comparing totals. Keep owner-use, maintenance and discretionary blocks separately visible so the reviewer can reconstruct the offered-night count.",
+    "Check what booked means in the source. A reservation made during the year can cover a stay outside that year. A cancelled reservation is different from a completed stay. An advance snapshot of future reservations is different from a closed historical period. For a stay-based review, allocate nights to the stay dates in the selected period and retain unresolved cancellations or status changes as exceptions.",
+    "A blocked date is a classification requiring evidence, not automatic proof of owner use or a repair closure. Save the calendar export and the reason for each adjustment. If the calendar cannot explain the gap, report the gap rather than adjusting availability until the desired occupancy appears."
+  ],
+  "boundaries": [
+    "With 200 booked nights and only 190 offered nights, the inputs conflict. The calculator rejects booked nights above available nights. Correct the date-level records rather than presenting a result above 100%. Zero offered nights also has no defined occupancy percentage in this model; it is not zero-percent occupancy. Zero booked nights with a positive offered count is a valid zero-percent result.",
+    "For several properties, a simple average of percentages generally does not reproduce the portfolio ratio. A fictional property with 80 booked of 100 offered nights has 80% occupancy, while another with 20 of 200 has 10%. The average of those two percentages is 45%, but the combined offered-night ratio is (80 + 20) ÷ (100 + 200) = 33.33%. This single-property calculator limits each count to 366, so use a separate reconciled property-night schedule for larger portfolios.",
+    "Occupancy does not establish profit, cash available for debt payments or the achievable nightly rate. Review room revenue and its definition separately. The linked average-rate and revenue-per-available-night tools address different ratios; they should use a consistent period and room-revenue scope if you compare them."
+  ],
+  "cases": [
+    {"name":"Reconciled offered calendar","nights":200,"available":300,"expected":66.66666666666667},
+    {"name":"Same bookings; 20 nights held off sale","nights":200,"available":280,"expected":71.42857142857143},
+    {"name":"Same bookings; 20 more nights offered","nights":200,"available":320,"expected":62.5},
+    {"name":"Full calendar utilization comparison","nights":200,"available":365,"expected":54.794520547945204},
+    {"name":"No bookings; positive offered calendar","nights":0,"available":300,"expected":0}
+  ]
+}
