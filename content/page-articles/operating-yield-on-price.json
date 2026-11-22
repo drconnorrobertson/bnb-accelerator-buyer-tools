@@ -9,7 +9,7 @@
     "answer": "For first-input sensitivity in this operating yield on price model, the published input set produces 6% under this model. It uses annual operating income of $24,000 and purchase price of $400,000, together with the other inputs shown below. Holding those other inputs fixed, the lower annual operating income test gives 4.8%, while the higher test gives 7.2%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "This simple yield divides annual operating income before financing by the purchase price. It allows you to separate operating assumptions from the debt structure. In this case, annual operating income is $24,000. Hold every other input constant when inspecting the first input. A difference from a multi-input reference case cannot be attributed to that input alone.",
-      "The reference input set produces 7.5%. This case differs from that reference by -1.5%, or -20% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating income alone.",
+      "The reference input set produces 7.5%. This case differs from that reference by -1.5 percentage points, or -20% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating income alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $19,200 and the higher input is $28,800. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 6% answers the displayed operating yield on price question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "For the first field, the published annual operating income is $24,000. Its lower and higher sensitivity rows change that field alone, so those rows are the relevant comparison for its local arithmetic effect. The full reference-case difference may include purchase price or other changed inputs and answers a different question."
@@ -121,8 +121,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "478a2541392b74bcc019ad585b6def260923b353f9928d843b8f858c7132deed",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "00b61fbc433b188933deacc83e08aa1a7f95e4aa02d1d2b14e754619e2f987b3",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -136,7 +136,7 @@
     "answer": "For second-input sensitivity in this operating yield on price model, the published input set produces 6.25% under this model. It uses annual operating income of $30,000 and purchase price of $480,000, together with the other inputs shown below. Holding those other inputs fixed, the lower purchase price test gives 7.81%, while the higher test gives 5.21%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "This simple yield divides annual operating income before financing by the purchase price. It allows you to separate operating assumptions from the debt structure. In this case, purchase price is $480,000. Use the second input as a separate lever. A value can look small in isolation while materially affecting a product, ratio or residual.",
-      "The reference input set produces 7.5%. This case differs from that reference by -1.25%, or -16.67% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
+      "The reference input set produces 7.5%. This case differs from that reference by -1.25 percentage points, or -16.67% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $384,000 and the higher input is $576,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 6.25% answers the displayed operating yield on price question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "The second field is purchase price, entered here as $480,000. Read its two sensitivity rows separately from the first field. This preserves the distinction between changing annual operating income and changing purchase price, even when both adjustments happen to move the headline answer in the same direction."
@@ -248,8 +248,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "0cfbafba4e7b4e93b497c5eacaab9f73133b19b6acf62b90c5da44a6e053a803",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "1c92d3b644bb03cfe1e1186ada6af4845b235b3b5a90e31de7a2e75ae701c580",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -263,7 +263,7 @@
     "answer": "For input units in this operating yield on price model, the published input set produces 6.62% under this model. It uses annual operating income of $22,500 and purchase price of $340,000, together with the other inputs shown below. Holding those other inputs fixed, the lower annual operating income test gives 5.29%, while the higher test gives 7.94%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "This simple yield divides annual operating income before financing by the purchase price. It allows you to separate operating assumptions from the debt structure. In this case, annual operating income is $22,500. Read the units before performing the arithmetic. A room rate, a total amount, a percentage and a count are different inputs even when they contain similar numbers.",
-      "The reference input set produces 7.5%. This case differs from that reference by -0.88%, or -11.76% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating income alone.",
+      "The reference input set produces 7.5%. This case differs from that reference by -0.88 percentage points, or -11.76% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating income alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $18,000 and the higher input is $27,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 6.62% answers the displayed operating yield on price question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "The first two inputs use USD and USD, respectively. The raw values are 22500 and 340000. Keep those units attached when transferring this example into another worksheet; copying the numbers without the definitions can create a different mathematical question."
@@ -375,8 +375,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "a523ff4e94692b442cc69083471f89fc4fd740bebb65837288404ce61f609edb",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "c8dac9113eee2c04502b721e59a45b1641a106b7e1e4cb86c359955503b9d669",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -390,7 +390,7 @@
     "answer": "For reference-case comparison in this operating yield on price model, the published input set produces 7.5% under this model. It uses annual operating income of $30,000 and purchase price of $400,000, together with the other inputs shown below. Holding those other inputs fixed, the lower purchase price test gives 9.38%, while the higher test gives 6.25%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "This simple yield divides annual operating income before financing by the purchase price. It allows you to separate operating assumptions from the debt structure. In this case, purchase price is $400,000. Compare the full input set with the model reference case. The reference is another hypothetical scenario, not a benchmark or a typical property result.",
-      "The reference input set produces 7.5%. This case differs from that reference by 0%, or 0% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
+      "The reference input set produces 7.5%. This case differs from that reference by 0 percentage points, or 0% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $320,000 and the higher input is $480,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 7.5% answers the displayed operating yield on price question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "All 2 inputs match the reference set, so 7.5% must equal 7.5%. This is a baseline consistency check. A disagreement under identical definitions and inputs would require checking the formula, precision or implementation before interpreting the result."
@@ -502,8 +502,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "caa5987efce903f8ecc0b7d6dbc0a1f8b5c65ffd1fcef8bf82d625fec2f9adca",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "501630a4612e69062d5d2ee6c56a2dc42702d65af7b3d0d782928b8e17a2c57f",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -517,7 +517,7 @@
     "answer": "For lower-input boundary in this operating yield on price model, the published input set produces 3.75% under this model. It uses annual operating income of $15,000 and purchase price of $400,000, together with the other inputs shown below. Holding those other inputs fixed, the lower annual operating income test gives 3%, while the higher test gives 4.5%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "This simple yield divides annual operating income before financing by the purchase price. It allows you to separate operating assumptions from the debt structure. In this case, annual operating income is $15,000. Check the selected input at a lower value without changing the other assumptions. A lower input does not always mean a more conservative output.",
-      "The reference input set produces 7.5%. This case differs from that reference by -3.75%, or -50% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating income alone.",
+      "The reference input set produces 7.5%. This case differs from that reference by -3.75 percentage points, or -50% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating income alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $12,000 and the higher input is $18,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 3.75% answers the displayed operating yield on price question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "The selected annual operating income has an allowed numerical range from -10000000 to 100000000 USD. The lower sensitivity test uses $12,000 and returns 3%. That numerical range is a form constraint, not evidence that the alternate value can be obtained for a real project."
@@ -629,8 +629,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "54065caec0316c5af22cd970b712440ab05b68cbff5d9862df11a7eb456ea355",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "28fafc7c6bf72f03438be252676000e5ff1a6f97e0ae31c91195b349bddab96d",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -644,7 +644,7 @@
     "answer": "For higher-input boundary in this operating yield on price model, the published input set produces 11.25% under this model. It uses annual operating income of $45,000 and purchase price of $400,000, together with the other inputs shown below. Holding those other inputs fixed, the lower purchase price test gives 14.06%, while the higher test gives 9.38%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "This simple yield divides annual operating income before financing by the purchase price. It allows you to separate operating assumptions from the debt structure. In this case, purchase price is $400,000. Check the selected input at a higher value and preserve the other assumptions. Whether the output rises or falls depends on the formula.",
-      "The reference input set produces 7.5%. This case differs from that reference by 3.75%, or 50% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
+      "The reference input set produces 7.5%. This case differs from that reference by 3.75 percentage points, or 50% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $320,000 and the higher input is $480,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 11.25% answers the displayed operating yield on price question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "The higher purchase price test uses $480,000 and gives 9.38%, compared with the published 11.25%. Retain the original input alongside the higher test so that the effect remains visible. A larger input is not automatically a better outcome; its position in this formula determines the direction."
@@ -756,8 +756,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "1e95e0c285d20913eb9e2703448ceedf11db60d12b5b63a9c058cc79b70282a9",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "888fa9b92a12c2558fe76ac218d3fe77c88aa9e6566bee3fdbf9917dcff37bc4",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -771,7 +771,7 @@
     "answer": "For displayed rounding in this operating yield on price model, the published input set produces 7.5% under this model. It uses annual operating income of $30,006 and purchase price of $400,120, together with the other inputs shown below. Holding those other inputs fixed, the lower annual operating income test gives 6%, while the higher test gives 9%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "This simple yield divides annual operating income before financing by the purchase price. It allows you to separate operating assumptions from the debt structure. In this case, annual operating income is $30,006. Keep precision through the calculation and round the displayed result only at the end. A displayed dollar amount can conceal a smaller underlying difference.",
-      "The reference input set produces 7.5%. This case differs from that reference by -0.00075%, or -0.01% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating income alone.",
+      "The reference input set produces 7.5%. This case differs from that reference by -0.00075 percentage points, or -0.01% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating income alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $24,005 and the higher input is $36,007. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 7.5% answers the displayed operating yield on price question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "Before display rounding, the result is 7.4992502249 percent. The displayed result is 7.5%. Use the unrounded value when reproducing dependent arithmetic, and use the rounded figure only as a presentation of that result. A small difference near zero should not be confused with proof that the unrounded value is exactly zero."
@@ -883,8 +883,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "f0d2f92c583367ddf6cc9ce276c182a2e91cfddf380b6d73ebcc2c4684c8a400",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "efaa6a94b612d1e51461beffb7da568a1bb5fcbeb1e69bc9465809afa6ac090b",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -898,7 +898,7 @@
     "answer": "For formula sequence in this operating yield on price model, the published input set produces 11.03% under this model. It uses annual operating income of $37,500 and purchase price of $340,000, together with the other inputs shown below. Holding those other inputs fixed, the lower purchase price test gives 13.79%, while the higher test gives 9.19%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "This simple yield divides annual operating income before financing by the purchase price. It allows you to separate operating assumptions from the debt structure. In this case, purchase price is $340,000. Follow the order of operations in the worked steps. Parentheses can change the meaning of a percentage adjustment or ratio.",
-      "The reference input set produces 7.5%. This case differs from that reference by 3.53%, or 47.06% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
+      "The reference input set produces 7.5%. This case differs from that reference by 3.53 percentage points, or 47.06% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $272,000 and the higher input is $408,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 11.03% answers the displayed operating yield on price question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "The disclosed expression is noi/price*100. The worked operation list evaluates that expression using this case's values. Follow each intermediate line before comparing the final 11.03% with another source; changing the grouping or performing a percentage adjustment at a different point can describe a different calculation."
@@ -1010,8 +1010,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "48d537a8374d58ad89d6194bf62bb3a9f56b0e03240432024fe05fd4b95fe6ea",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "c821c619529d1d23ce6dce58c210124da3aa300e49ba2655a356571aa024c919",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -1025,7 +1025,7 @@
     "answer": "For absolute change in this operating yield on price model, the published input set produces 7.88% under this model. It uses annual operating income of $31,500 and purchase price of $400,000, together with the other inputs shown below. Holding those other inputs fixed, the lower annual operating income test gives 6.3%, while the higher test gives 9.45%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "This simple yield divides annual operating income before financing by the purchase price. It allows you to separate operating assumptions from the debt structure. In this case, annual operating income is $31,500. Measure the change in the output unit before describing it as a percentage. A dollar change and a percentage change answer different questions.",
-      "The reference input set produces 7.5%. This case differs from that reference by 0.38%, or 5% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating income alone.",
+      "The reference input set produces 7.5%. This case differs from that reference by 0.38 percentage points, or 5% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating income alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $25,200 and the higher input is $37,800. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 7.88% answers the displayed operating yield on price question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "The absolute difference from the reference is 0.38% in the model's output units. That difference compares 7.88% with 7.5%. Preserve the unit and sign before describing the change in words, especially when the output is a period or ratio rather than a cash amount."
@@ -1137,8 +1137,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "061d4abb5fbaffab505f3fb4d7273d5f775848b419f46f7148a6b0c6474b04bd",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "f603cc4b5b5aa4adae5a5937f4efd3dad71db9684b33b7dcc8360028a05c99fb",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -1152,7 +1152,7 @@
     "answer": "For relative change in this operating yield on price model, the published input set produces 9.17% under this model. It uses annual operating income of $33,000 and purchase price of $360,000, together with the other inputs shown below. Holding those other inputs fixed, the lower purchase price test gives 11.46%, while the higher test gives 7.64%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "This simple yield divides annual operating income before financing by the purchase price. It allows you to separate operating assumptions from the debt structure. In this case, purchase price is $360,000. Use a nonzero reference before calculating a relative output change. A zero reference does not provide a finite percentage-change denominator.",
-      "The reference input set produces 7.5%. This case differs from that reference by 1.67%, or 22.22% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
+      "The reference input set produces 7.5%. This case differs from that reference by 1.67 percentage points, or 22.22% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $288,000 and the higher input is $432,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 9.17% answers the displayed operating yield on price question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "Using the absolute reference amount as the denominator, the change is 22.222222222%. This describes the movement from 7.5% to 9.17% under the full input set. It is separate from a percentage-point change in any one percent input."
@@ -1264,8 +1264,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "00d573958e13000161c31719995e0ea665f72e0ac59848fa3c4e4173b7b84d8e",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "a2ba5a76b4a5effe0b1eb27b42bda45616a7f8c48e4cd05c4ab21c86ebd86e36",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -1279,7 +1279,7 @@
     "answer": "For observed versus assumed inputs in this operating yield on price model, the published input set produces 7.12% under this model. It uses annual operating income of $28,500 and purchase price of $400,000, together with the other inputs shown below. Holding those other inputs fixed, the lower annual operating income test gives 5.7%, while the higher test gives 8.55%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "This simple yield divides annual operating income before financing by the purchase price. It allows you to separate operating assumptions from the debt structure. In this case, annual operating income is $28,500. Every number here is a hypothetical input. In a real file, label each value observed, quoted, assumed or unresolved before relying on the result.",
-      "The reference input set produces 7.5%. This case differs from that reference by -0.38%, or -5% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating income alone.",
+      "The reference input set produces 7.5%. This case differs from that reference by -0.38 percentage points, or -5% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating income alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $22,800 and the higher input is $34,200. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 7.12% answers the displayed operating yield on price question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "There is no real source record behind the teaching value $28,500 for annual operating income. For actual use, retain a source reference and status for that field, then do the same for purchase price. The calculation can be reproduced from assumed values while still lacking evidence that either value describes a real property."
@@ -1391,8 +1391,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "55cc1640357c39a5d53530e54ee4d8dece240fafbe3b2c3a67b0ff2ceafa9a2b",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "8f4f80426b1a82a78e662f9704f5f067b951fffe104cc05d07195a1a2b104eb9",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -1406,7 +1406,7 @@
     "answer": "For single-variable isolation in this operating yield on price model, the published input set produces 8.33% under this model. It uses annual operating income of $30,000 and purchase price of $360,000, together with the other inputs shown below. Holding those other inputs fixed, the lower purchase price test gives 10.42%, while the higher test gives 6.94%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "This simple yield divides annual operating income before financing by the purchase price. It allows you to separate operating assumptions from the debt structure. In this case, purchase price is $360,000. The one-input sensitivity rows isolate one arithmetic effect. They do not establish how other assumptions would behave at the same time.",
-      "The reference input set produces 7.5%. This case differs from that reference by 0.83%, or 11.11% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
+      "The reference input set produces 7.5%. This case differs from that reference by 0.83 percentage points, or 11.11% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $288,000 and the higher input is $432,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 8.33% answers the displayed operating yield on price question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "For the focused field purchase price, the lower test produces 10.42% and the higher test produces 6.94%. The other 1 inputs remain fixed in each row. This controlled comparison is what allows the local effect to be discussed without attributing simultaneous changes to the same field."
@@ -1518,8 +1518,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "d88d7066f6b55b090b3524a9e6916071c98cd6e06faaf7c22c26e013d8bf197b",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "ae10d0b13fa0c3626b6a2d83cd59dfeead9e88236c9c71f71c56ec0e626f88c3",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -1533,7 +1533,7 @@
     "answer": "For multiple-input movement in this operating yield on price model, the published input set produces 11.25% under this model. It uses annual operating income of $36,000 and purchase price of $320,000, together with the other inputs shown below. Holding those other inputs fixed, the lower annual operating income test gives 9%, while the higher test gives 13.5%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "This simple yield divides annual operating income before financing by the purchase price. It allows you to separate operating assumptions from the debt structure. In this case, annual operating income is $36,000. Several inputs differ from the reference in this scenario. The combined difference is attributable to that full input set rather than a single change.",
-      "The reference input set produces 7.5%. This case differs from that reference by 3.75%, or 50% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating income alone.",
+      "The reference input set produces 7.5%. This case differs from that reference by 3.75 percentage points, or 50% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating income alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $28,800 and the higher input is $43,200. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 11.25% answers the displayed operating yield on price question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "The case differs from the reference in 2 fields: Annual operating income $30,000 to $36,000; Purchase price $400,000 to $320,000. Keep that list with the 3.75% output difference. The one-input tests are a separate analysis of individual changes, not a decomposition of every interaction in the full case."
@@ -1645,8 +1645,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "d2fa0df80f8e7982f19748d43b210b0499456d138332bd708489b7493a0b6c76",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "cb43dc88588706f387f30e04ab0039dd903cd0f5aa3d668e66dfac01fa188774",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -1660,7 +1660,7 @@
     "answer": "For source-period alignment in this operating yield on price model, the published input set produces 4.77% under this model. It uses annual operating income of $21,000 and purchase price of $440,000, together with the other inputs shown below. Holding those other inputs fixed, the lower purchase price test gives 5.97%, while the higher test gives 3.98%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "This simple yield divides annual operating income before financing by the purchase price. It allows you to separate operating assumptions from the debt structure. In this case, purchase price is $440,000. For real use, retain the time basis of every amount or count. A monthly figure and an annual figure need a visible conversion before they are compared.",
-      "The reference input set produces 7.5%. This case differs from that reference by -2.73%, or -36.36% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
+      "The reference input set produces 7.5%. This case differs from that reference by -2.73 percentage points, or -36.36% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $352,000 and the higher input is $528,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 4.77% answers the displayed operating yield on price question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "The source schedule should preserve the period implied by each field label. In this example the first two fields are annual operating income (USD) and purchase price (USD). The model uses them as labeled; it cannot infer that a number copied from a monthly or partial-period source needs conversion before entry."
@@ -1772,8 +1772,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "50ea802dd809ef2affb27f4c92acb5342793f40a9bc706c397d3bed3741f9e5f",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "1e56ac50df5b3e5c60face9cd19fb64009c64cfe777cdeb498d4b5d0dc7b395e",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -1787,7 +1787,7 @@
     "answer": "For denominator and scaling in this operating yield on price model, the published input set produces 5.77% under this model. It uses annual operating income of $30,000 and purchase price of $520,000, together with the other inputs shown below. Holding those other inputs fixed, the lower annual operating income test gives 4.62%, while the higher test gives 6.92%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "This simple yield divides annual operating income before financing by the purchase price. It allows you to separate operating assumptions from the debt structure. In this case, annual operating income is $30,000. Inspect every division in the worked steps and name the quantity being divided by. If the formula contains no division, retain the actual multiplication or subtraction structure instead.",
-      "The reference input set produces 7.5%. This case differs from that reference by -1.73%, or -23.08% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating income alone.",
+      "The reference input set produces 7.5%. This case differs from that reference by -1.73 percentage points, or -23.08% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating income alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $24,000 and the higher input is $36,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 5.77% answers the displayed operating yield on price question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "The formula is noi/price*100. A division in that expression assigns meaning to the quantity in its denominator; a multiplication or subtraction does not create a denominator by analogy. Use the actual worked operations for this model instead of importing the interpretation of a similarly named percentage or yield."
@@ -1899,8 +1899,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "dc4bf3c0ae24e0b6982df8c4e7e76e3dc45d96697b7c0f36655533829052b449",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "d2f7d45a196f8bf77f5e9242a06801df5020732401866434a51a807b8490491c",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -1914,7 +1914,7 @@
     "answer": "For percentage input convention in this operating yield on price model, the published input set produces 6.82% under this model. It uses annual operating income of $30,000 and purchase price of $440,000, together with the other inputs shown below. Holding those other inputs fixed, the lower purchase price test gives 8.52%, while the higher test gives 5.68%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "This simple yield divides annual operating income before financing by the purchase price. It allows you to separate operating assumptions from the debt structure. In this case, purchase price is $440,000. This model has no percentage input. The displayed amounts and counts must be read in their own units; entering 20 does not instruct the model to apply twenty percent.",
-      "The reference input set produces 7.5%. This case differs from that reference by -0.68%, or -9.09% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
+      "The reference input set produces 7.5%. This case differs from that reference by -0.68 percentage points, or -9.09% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $352,000 and the higher input is $528,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 6.82% answers the displayed operating yield on price question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "Neither annual operating income nor the other listed fields is a whole-percentage input in this model. For example, 30000 in the first field means $30,000. If another source expresses a percentage instead, obtain or derive the correctly defined amount rather than copying its percentage number into this field."
@@ -2026,8 +2026,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "53712b5b88d5ed4351dcdf71483a2b5c0b7a9ed9e65810d4d18d2c85c322c667",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "44d84e3b28408807d1af3683174933aa80d7669ef2d9a63034158d7e6cc29467",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -2041,7 +2041,7 @@
     "answer": "For positive-input boundary in this operating yield on price model, the published input set produces 0% under this model. It uses annual operating income of $0 and purchase price of $400,000, together with the other inputs shown below. Holding those other inputs fixed, the lower annual operating income test gives 0%, while the higher test gives 0%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "This simple yield divides annual operating income before financing by the purchase price. It allows you to separate operating assumptions from the debt structure. In this case, annual operating income is $0. A zero numerator can be meaningful while a zero denominator may be undefined. Follow the model-specific range and calculation rules rather than inserting a result by convention.",
-      "The reference input set produces 7.5%. This case differs from that reference by -7.5%, or -100% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating income alone.",
+      "The reference input set produces 7.5%. This case differs from that reference by -7.5 percentage points, or -100% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating income alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $0 and the higher input is $0. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 0% answers the displayed operating yield on price question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "The zero-valued field is annual operating income. The remaining inputs stay visible, and the resulting 0% follows the model's own zero-handling rules. This is a deliberate arithmetic example; it is not permission to enter zero for an unpriced or unknown real obligation."
@@ -2153,8 +2153,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "bcb1e10249b624fa6b57936669859baa5549fd8ee9f1a980e456d71d814fd2f1",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "0828a8277befdc47b8df1a64f0f022c07a8e0d4e8c9dcd60faa7c0ebf0de9aee",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -2168,7 +2168,7 @@
     "answer": "For negative-output meaning in this operating yield on price model, the published input set produces 3% under this model. It uses annual operating income of $18,000 and purchase price of $600,000, together with the other inputs shown below. Holding those other inputs fixed, the lower purchase price test gives 3.75%, while the higher test gives 2.5%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "This simple yield divides annual operating income before financing by the purchase price. It allows you to separate operating assumptions from the debt structure. In this case, purchase price is $600,000. A negative result can be valid in a residual or change calculation. Interpret the sign within the model definition rather than silently replacing it with zero.",
-      "The reference input set produces 7.5%. This case differs from that reference by -4.5%, or -60% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
+      "The reference input set produces 7.5%. This case differs from that reference by -4.5 percentage points, or -60% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $480,000 and the higher input is $720,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 3% answers the displayed operating yield on price question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "This case returns 3%, not a negative result. Some models here permit negative residuals, while positive-contribution payback models impose a separate rule. Interpret the sign through this specific expression and its input constraints instead of assuming every model can produce the same kinds of outputs."
@@ -2280,8 +2280,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "1fee1ee4484c471bc766e46d4cb395d9403b4a32b2cddbb6551e04eeb13a7055",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "cb523619491e6f11dead577f43fc6d95876078bc432d40b2cfc1ce2e1fffa5e7",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -2295,7 +2295,7 @@
     "answer": "For cost inclusion boundary in this operating yield on price model, the published input set produces 5.4% under this model. It uses annual operating income of $27,000 and purchase price of $500,000, together with the other inputs shown below. Holding those other inputs fixed, the lower annual operating income test gives 4.32%, while the higher test gives 6.48%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "This simple yield divides annual operating income before financing by the purchase price. It allows you to separate operating assumptions from the debt structure. In this case, annual operating income is $27,000. A calculated result includes only the inputs and operations actually shown. Costs or receipts outside this model require a separate schedule.",
-      "The reference input set produces 7.5%. This case differs from that reference by -2.1%, or -28% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating income alone.",
+      "The reference input set produces 7.5%. This case differs from that reference by -2.1 percentage points, or -28% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating income alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $21,600 and the higher input is $32,400. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 5.4% answers the displayed operating yield on price question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "The displayed inputs include annual operating income, purchase price. Only those quantities enter noi/price*100. Before carrying 5.4% into a broader decision schedule, identify which additional receipts, costs, timing items or conditions the model description excludes rather than silently assuming they are already included."
@@ -2407,8 +2407,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "d82a5fc0ef481bb5c584405a460ce352a4bd8e55745fc9f01982275fad004486",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "af957069a084347ca316f3d30de5cb45e3d6263b7b80ad48fe811a8c09ccd197",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -2422,7 +2422,7 @@
     "answer": "For input precision in this operating yield on price model, the published input set produces 7.55% under this model. It uses annual operating income of $30,111 and purchase price of $398,800, together with the other inputs shown below. Holding those other inputs fixed, the lower purchase price test gives 9.44%, while the higher test gives 6.29%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "This simple yield divides annual operating income before financing by the purchase price. It allows you to separate operating assumptions from the debt structure. In this case, purchase price is $398,800. Use input precision supported by the real record. Adding decimal places to an estimate makes the arithmetic more precise without making the estimate more certain.",
-      "The reference input set produces 7.5%. This case differs from that reference by 0.05%, or 0.67% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
+      "The reference input set produces 7.5%. This case differs from that reference by 0.05 percentage points, or 0.67% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $319,040 and the higher input is $478,560. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 7.55% answers the displayed operating yield on price question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "The raw focused input is 398800 USD. The model retains the supplied numeric precision through its calculation, while the formatted output is 7.55%. Precision should reflect the real source's unit and measurement basis; a more detailed decimal representation does not establish a more reliable underlying estimate."
@@ -2534,8 +2534,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "9ac8b18090f20fec827c16f9ce13b546d3501ae6f7ac29a9068f56b9f771a4a5",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "3fde85108a1073c096ef8261a25c377c75140735c39aacad062de82455857367",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -2549,7 +2549,7 @@
     "answer": "For output-unit interpretation in this operating yield on price model, the published input set produces 9.38% under this model. It uses annual operating income of $30,000 and purchase price of $320,000, together with the other inputs shown below. Holding those other inputs fixed, the lower annual operating income test gives 7.5%, while the higher test gives 11.25%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "This simple yield divides annual operating income before financing by the purchase price. It allows you to separate operating assumptions from the debt structure. In this case, annual operating income is $30,000. Read the output unit alongside the answer. A total amount, a per-night amount, a percentage, a multiple and a period are not interchangeable measures.",
-      "The reference input set produces 7.5%. This case differs from that reference by 1.88%, or 25% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating income alone.",
+      "The reference input set produces 7.5%. This case differs from that reference by 1.88 percentage points, or 25% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating income alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $24,000 and the higher input is $36,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 9.38% answers the displayed operating yield on price question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "The answer unit is percent. The result 9.38% should therefore be read with that unit attached, just as $30,000 retains the first input's unit. Transferring only the number into a differently labeled output cell can create an apparent result that this calculation never produced."
@@ -2661,8 +2661,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "717955e953a476b2936b6fe7c620f24ed30ff5cb14ab0a38d33d7315f320b6e0",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "9c95080b2726664e46070c3d9e5e78cbdc7db3dcd28d4b1afee32663489fd04a",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -2676,7 +2676,7 @@
     "answer": "For scenario reproducibility in this operating yield on price model, the published input set produces 10.13% under this model. It uses annual operating income of $40,500 and purchase price of $400,000, together with the other inputs shown below. Holding those other inputs fixed, the lower purchase price test gives 12.66%, while the higher test gives 8.44%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "This simple yield divides annual operating income before financing by the purchase price. It allows you to separate operating assumptions from the debt structure. In this case, purchase price is $400,000. Save the inputs with the result and formula. A screenshot of a headline answer alone is insufficient for another reviewer to reproduce the calculation.",
-      "The reference input set produces 7.5%. This case differs from that reference by 2.63%, or 35% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
+      "The reference input set produces 7.5%. This case differs from that reference by 2.63 percentage points, or 35% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $320,000 and the higher input is $480,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 10.13% answers the displayed operating yield on price question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "A reproducible handoff needs all 2 published values, the formula noi/price*100, and the 10.13% result together. The input table and export support that handoff. If only the headline answer is retained, another reviewer cannot tell whether a later difference comes from the values, definitions or calculation."
@@ -2788,8 +2788,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "4fc9eecd8f62e8e6b5220f3a1ce2b303dce0f1426cfc9d3de61412cbba5331b8",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "753911399382a617fc673c9e608899a72ba799d62e0ecba66b4da0aa27bf97e0",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -2803,7 +2803,7 @@
     "answer": "For local change versus forecast in this operating yield on price model, the published input set produces 16% under this model. It uses annual operating income of $48,000 and purchase price of $300,000, together with the other inputs shown below. Holding those other inputs fixed, the lower annual operating income test gives 12.8%, while the higher test gives 19.2%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "This simple yield divides annual operating income before financing by the purchase price. It allows you to separate operating assumptions from the debt structure. In this case, annual operating income is $48,000. The sensitivity rows answer a conditional mathematical question. They do not assign a likelihood to any of the alternate inputs.",
-      "The reference input set produces 7.5%. This case differs from that reference by 8.5%, or 113.33% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating income alone.",
+      "The reference input set produces 7.5%. This case differs from that reference by 8.5 percentage points, or 113.33% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating income alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $38,400 and the higher input is $57,600. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 16% answers the displayed operating yield on price question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "The lower focused test is 12.8%; the higher focused test is 19.2%. These two conditional outputs do not give a probability that annual operating income will take either alternate value. The table describes how this equation responds, while the plausibility and source support of each assumption remain separate questions."
@@ -2915,8 +2915,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "05886c46b809a09096ac1c8be7cab3445059e68bdde19684436c7e8bf3ffb9a6",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "b0f6f53666bc976b15a2a96ca2a9e158dd34f7a899005c5160e256bbfc22ba39",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -2930,7 +2930,7 @@
     "answer": "For unpriced input treatment in this operating yield on price model, the published input set produces 6.71% under this model. It uses annual operating income of $25,500 and purchase price of $380,000, together with the other inputs shown below. Holding those other inputs fixed, the lower purchase price test gives 8.39%, while the higher test gives 5.59%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "This simple yield divides annual operating income before financing by the purchase price. It allows you to separate operating assumptions from the debt structure. In this case, purchase price is $380,000. An unknown amount is not automatically zero. In real use, retain an unresolved source item rather than completing a model with an unsupported value.",
-      "The reference input set produces 7.5%. This case differs from that reference by -0.79%, or -10.53% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
+      "The reference input set produces 7.5%. This case differs from that reference by -0.79 percentage points, or -10.53% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $304,000 and the higher input is $456,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 6.71% answers the displayed operating yield on price question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "The example includes a stated value for every required field, including purchase price at $380,000. A real missing quote or incomplete record should remain unresolved in the source register. The existence of a valid number box does not supply evidence for filling it, particularly when zero would materially change the 6.71% result."
@@ -3042,8 +3042,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "6036dfcd440e4d83a1b97f29562b99991d2797e81be40e541668b6b4271a3bb4",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "358718552824fd139f17f624374456d9490190c25e2c8f9825fba98f0dd4a33a",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -3057,7 +3057,7 @@
     "answer": "For comparison-basis consistency in this operating yield on price model, the published input set produces 7.16% under this model. It uses annual operating income of $31,500 and purchase price of $440,000, together with the other inputs shown below. Holding those other inputs fixed, the lower annual operating income test gives 5.73%, while the higher test gives 8.59%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "This simple yield divides annual operating income before financing by the purchase price. It allows you to separate operating assumptions from the debt structure. In this case, annual operating income is $31,500. Keep the same definitions when comparing this case with another. Similar labels can conceal different cost bases, periods or included components.",
-      "The reference input set produces 7.5%. This case differs from that reference by -0.34%, or -4.55% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating income alone.",
+      "The reference input set produces 7.5%. This case differs from that reference by -0.34 percentage points, or -4.55% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating income alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $25,200 and the higher input is $37,800. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 7.16% answers the displayed operating yield on price question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "The reference comparison uses 7.5% and the published case uses 7.16% under one fixed model definition. A source that includes different components, uses another period or changes an input's denominator is not on that same basis. Align those definitions before calling its result higher or lower than this case."
@@ -3169,8 +3169,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "acaba8750f3a80e255273a17b0bcd78f533a4fa531cf24d8637a81493d3832fd",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "a5ebf1a026147edc8077cfb6b239ec6e36ed994ff4a549ba23441f6c2e9022cc",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -3184,7 +3184,7 @@
     "answer": "For input-range constraint in this operating yield on price model, the published input set produces 19.62% under this model. It uses annual operating income of $51,000 and purchase price of $260,000, together with the other inputs shown below. Holding those other inputs fixed, the lower purchase price test gives 24.52%, while the higher test gives 16.35%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "This simple yield divides annual operating income before financing by the purchase price. It allows you to separate operating assumptions from the debt structure. In this case, purchase price is $260,000. The form checks its stated input ranges, but a valid numerical range does not prove that an assumption is feasible for a real property or contract.",
-      "The reference input set produces 7.5%. This case differs from that reference by 12.12%, or 161.54% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
+      "The reference input set produces 7.5%. This case differs from that reference by 12.12 percentage points, or 161.54% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $208,000 and the higher input is $312,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 19.62% answers the displayed operating yield on price question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "For purchase price, the numerical form limits are 1 through 100000000 USD. The published $260,000 is within those limits, but that alone says nothing about a lender quote, operating permission, vendor availability or actual demand. Treat range validity as a calculation check rather than external approval."
@@ -3296,8 +3296,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "2b062097dcfd99353287b6538257894ab006296294e62730e9de8fdfc3744dc5",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "e16c30bcdc571d75ef8f89df28955fba8b4de7869823032dfa6755b26f4c4f55",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -3311,7 +3311,7 @@
     "answer": "For direction of the relationship in this operating yield on price model, the published input set produces 4.5% under this model. It uses annual operating income of $18,000 and purchase price of $400,000, together with the other inputs shown below. Holding those other inputs fixed, the lower annual operating income test gives 3.6%, while the higher test gives 5.4%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "This simple yield divides annual operating income before financing by the purchase price. It allows you to separate operating assumptions from the debt structure. In this case, annual operating income is $18,000. Use the calculated lower and higher cases to inspect direction. A denominator change can move the result differently from a numerator or additive input.",
-      "The reference input set produces 7.5%. This case differs from that reference by -3%, or -40% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating income alone.",
+      "The reference input set produces 7.5%. This case differs from that reference by -3 percentage points, or -40% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating income alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $14,400 and the higher input is $21,600. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 4.5% answers the displayed operating yield on price question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "Relative to 4.5%, the lower focused case changes the output by -0.9% and the higher case changes it by 0.9%. Those signs show the local direction of this relationship for the selected inputs. Do not assume that an input appearing in a denominator behaves like one added to the numerator."
@@ -3423,8 +3423,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "9bc33d6f13ef7ff7ab47652b38cb5d4c6fbe851a37451074d6eebe20e1a78af0",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "c4a9fbd3c380c4b0594a14d34d9ed58b3a4a62cde0cd763d68cbefe8888b0918",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -3438,7 +3438,7 @@
     "answer": "For magnitude of the relationship in this operating yield on price model, the published input set produces 10.8% under this model. It uses annual operating income of $54,000 and purchase price of $500,000, together with the other inputs shown below. Holding those other inputs fixed, the lower purchase price test gives 13.5%, while the higher test gives 9%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "This simple yield divides annual operating income before financing by the purchase price. It allows you to separate operating assumptions from the debt structure. In this case, purchase price is $500,000. Consider how large the output change is in its own units. A mathematically visible change may still be small relative to other unmodeled obligations.",
-      "The reference input set produces 7.5%. This case differs from that reference by 3.3%, or 44% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
+      "The reference input set produces 7.5%. This case differs from that reference by 3.3 percentage points, or 44% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $400,000 and the higher input is $600,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 10.8% answers the displayed operating yield on price question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "The headline answer is 10.8%. The focused lower and higher tests are 13.5% and 9%. Consider those changes in percent, rather than focusing only on whether the displayed number moved. Other unmodeled obligations may matter more than a small arithmetic movement, and the formula does not rank their importance."
@@ -3550,8 +3550,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "fb85b0f5c548309ab8fccf799ee8cedc9057284c4200a3affbd72d9e48392ace",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "0d246817c714d5e9fa28916c30ddd2982365ac0af49cca75c4de69f4981513bd",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -3565,7 +3565,7 @@
     "answer": "For sensitivity symmetry in this operating yield on price model, the published input set produces 15% under this model. It uses annual operating income of $30,000 and purchase price of $200,000, together with the other inputs shown below. Holding those other inputs fixed, the lower annual operating income test gives 12%, while the higher test gives 18%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "This simple yield divides annual operating income before financing by the purchase price. It allows you to separate operating assumptions from the debt structure. In this case, annual operating income is $30,000. Do not assume that an equal percentage decrease and increase in an input cause symmetric output changes. Ratios and payment formulas can behave nonlinearly.",
-      "The reference input set produces 7.5%. This case differs from that reference by 7.5%, or 100% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating income alone.",
+      "The reference input set produces 7.5%. This case differs from that reference by 7.5 percentage points, or 100% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating income alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $24,000 and the higher input is $36,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 15% answers the displayed operating yield on price question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "The lower input changes the output by -3%, while the higher input changes it by 3%. Their absolute magnitudes are 3% and 3%. They need not match: the equation, bounds and whole-unit rounding can make equal-looking input moves asymmetric."
@@ -3677,8 +3677,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "57747159d650ce9518c90dec82db204ff61a5593635e215a83d6742a4bf9ac61",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "05aed20488c57effcb40eba1a013fca1b1d67891e08678d6cc4ed0c68446cd91",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -3692,7 +3692,7 @@
     "answer": "For reference-case limitations in this operating yield on price model, the published input set produces 7.22% under this model. It uses annual operating income of $30,900 and purchase price of $428,000, together with the other inputs shown below. Holding those other inputs fixed, the lower purchase price test gives 9.02%, while the higher test gives 6.02%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "This simple yield divides annual operating income before financing by the purchase price. It allows you to separate operating assumptions from the debt structure. In this case, purchase price is $428,000. The default input set is a teaching reference. It is not a market average, underwriting recommendation or evidence that the same conditions can be obtained.",
-      "The reference input set produces 7.5%. This case differs from that reference by -0.28%, or -3.74% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
+      "The reference input set produces 7.5%. This case differs from that reference by -0.28 percentage points, or -3.74% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $342,400 and the higher input is $513,600. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 7.22% answers the displayed operating yield on price question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "The reference set begins with annual operating income of $30,000 and purchase price of $400,000, producing 7.5%. These are disclosed teaching defaults. They are not independently observed market values or evidence that the case's 7.22% can be achieved for a particular purchase."
@@ -3804,8 +3804,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "857508adeb8a8633a3afc4c783df84b9a5b7d707c2dab505e0baf52dfe926df3",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "e45bead904235f0b0e103a6dec0f873a12c430c4bd3a7f0d882ceed33f7fff86",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -3819,7 +3819,7 @@
     "answer": "For input provenance in this operating yield on price model, the published input set produces 8.4% under this model. It uses annual operating income of $33,600 and purchase price of $400,000, together with the other inputs shown below. Holding those other inputs fixed, the lower annual operating income test gives 6.72%, while the higher test gives 10.08%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "This simple yield divides annual operating income before financing by the purchase price. It allows you to separate operating assumptions from the debt structure. In this case, annual operating income is $33,600. For each real input, retain the source identity, observation date, definition and period. The calculator does not authenticate any of those records.",
-      "The reference input set produces 7.5%. This case differs from that reference by 0.9%, or 12% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating income alone.",
+      "The reference input set produces 7.5%. This case differs from that reference by 0.9 percentage points, or 12% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating income alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $26,880 and the higher input is $40,320. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 8.4% answers the displayed operating yield on price question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "For actual work, the evidence request should name annual operating income, its USD unit, its observation date and its scope. The hypothetical $33,600 value only demonstrates the operation. A copied number without that provenance may remain reproducible mathematically while being unsupported for the real decision."
@@ -3931,8 +3931,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "ecbb99681c61ed07ed3914b3385c3de927541529c7cefa552632229d1069fd94",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "63b7efe2a14fe002cc45704cbb7b48f9fba06ecfb091873d0b11998004655721",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -3946,7 +3946,7 @@
     "answer": "For fixed-assumption scope in this operating yield on price model, the published input set produces 5.74% under this model. It uses annual operating income of $26,400 and purchase price of $460,000, together with the other inputs shown below. Holding those other inputs fixed, the lower purchase price test gives 7.17%, while the higher test gives 4.78%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "This simple yield divides annual operating income before financing by the purchase price. It allows you to separate operating assumptions from the debt structure. In this case, purchase price is $460,000. In each sensitivity row, inputs other than the named field remain fixed. This is a deliberate test condition rather than a claim that those inputs are independent in practice.",
-      "The reference input set produces 7.5%. This case differs from that reference by -1.76%, or -23.48% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
+      "The reference input set produces 7.5%. This case differs from that reference by -1.76 percentage points, or -23.48% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $368,000 and the higher input is $552,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 5.74% answers the displayed operating yield on price question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "The focused test varies purchase price while keeping the remaining input vector fixed. In the full case, annual operating income is $26,400 and purchase price is $460,000. That fixed-vector condition is what the sensitivity rows establish; it is not a statement that the underlying business variables will move independently."
@@ -4058,8 +4058,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "19906e9d9b3c90a01829a7fa656f425d10aca22d2d14a20878de0ae0a7514a9e",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "66ae4891ece37b0b56e128f35b032d316889c9d34fa4b08e71da304de82a63ab",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -4073,7 +4073,7 @@
     "answer": "For model-exclusion check in this operating yield on price model, the published input set produces 5.87% under this model. It uses annual operating income of $21,600 and purchase price of $368,000, together with the other inputs shown below. Holding those other inputs fixed, the lower annual operating income test gives 4.7%, while the higher test gives 7.04%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "This simple yield divides annual operating income before financing by the purchase price. It allows you to separate operating assumptions from the debt structure. In this case, annual operating income is $21,600. Read the stated exclusions before treating the result as a decision measure. Correct arithmetic cannot fill an omitted cost, condition or financing feature.",
-      "The reference input set produces 7.5%. This case differs from that reference by -1.63%, or -21.74% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating income alone.",
+      "The reference input set produces 7.5%. This case differs from that reference by -1.63 percentage points, or -21.74% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating income alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $17,280 and the higher input is $25,920. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 5.87% answers the displayed operating yield on price question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "The result is 5.87% from the displayed formula, and the model boundary is explicit: The price denominator excludes transaction and setup costs. This is not an appraisal or market cap-rate recommendation. Review that boundary before labeling the number as profit, total cash required, total return or another broader measure. A more favorable name does not add quantities absent from the equation."
@@ -4185,8 +4185,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "6356c65becfc3b5cae88dd0d3a15c6f2f9d490c4f6aee9b365bce1b0e1e4aeac",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "0a1a1466b4da7e8a4b0d15ece125292ca18a066b0ec851fe8be92fa8ccb242b5",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -4200,7 +4200,7 @@
     "answer": "For alternative-input request in this operating yield on price model, the published input set produces 8.71% under this model. It uses annual operating income of $36,600 and purchase price of $420,000, together with the other inputs shown below. Holding those other inputs fixed, the lower purchase price test gives 10.89%, while the higher test gives 7.26%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "This simple yield divides annual operating income before financing by the purchase price. It allows you to separate operating assumptions from the debt structure. In this case, purchase price is $420,000. Turn an uncertain input into a specific evidence request. Identify the exact field, unit and time basis needed to replace the example value.",
-      "The reference input set produces 7.5%. This case differs from that reference by 1.21%, or 16.19% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
+      "The reference input set produces 7.5%. This case differs from that reference by 1.21 percentage points, or 16.19% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $336,000 and the higher input is $504,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 8.71% answers the displayed operating yield on price question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "A precise follow-up for this case asks what supports purchase price at $420,000. The response should identify the relevant record, unit and period, not merely repeat the headline answer 8.71%. Replace the teaching value only after deciding how the new record's definition fits the model."
@@ -4312,8 +4312,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "07e958d8eefed4fb3f442934edd35bf184a90cea0f46bd52aa4ea6214c3d2c9f",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "2f99500fd32e76541469e2f72efb5f48dffc50ebc6fe55e131d30978a5969025",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -4327,7 +4327,7 @@
     "answer": "For decision-margin context in this operating yield on price model, the published input set produces 12.08% under this model. It uses annual operating income of $43,500 and purchase price of $360,000, together with the other inputs shown below. Holding those other inputs fixed, the lower annual operating income test gives 9.67%, while the higher test gives 14.5%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "This simple yield divides annual operating income before financing by the purchase price. It allows you to separate operating assumptions from the debt structure. In this case, annual operating income is $43,500. A favorable output does not establish the size of a complete decision margin. Check what the formula includes and what obligations remain outside it.",
-      "The reference input set produces 7.5%. This case differs from that reference by 4.58%, or 61.11% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating income alone.",
+      "The reference input set produces 7.5%. This case differs from that reference by 4.58 percentage points, or 61.11% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating income alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $34,800 and the higher input is $52,200. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 12.08% answers the displayed operating yield on price question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "The difference from the reference is 4.58% under this model's own definition. That difference is not automatically an all-in decision margin. Compare it with the excluded obligations and evidence gaps described for operating yield on price before assigning it an investment or operating meaning."
@@ -4439,8 +4439,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "271e608a7705a61ddff51d9e28e404848ca717cdf74131b83f96bc3154dbeda5",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "1fa70604ef156b97b4629fa4673fa9308e3bc1564c05a7b7ff9312e71a370757",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -4454,7 +4454,7 @@
     "answer": "For reconciliation to a source in this operating yield on price model, the published input set produces 9.42% under this model. It uses annual operating income of $32,400 and purchase price of $344,000, together with the other inputs shown below. Holding those other inputs fixed, the lower purchase price test gives 11.77%, while the higher test gives 7.85%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "This simple yield divides annual operating income before financing by the purchase price. It allows you to separate operating assumptions from the debt structure. In this case, purchase price is $344,000. If a real statement differs from this calculation, first align definitions, periods and rounding. An unexplained difference is a question to investigate rather than proof of an error by another party.",
-      "The reference input set produces 7.5%. This case differs from that reference by 1.92%, or 25.58% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
+      "The reference input set produces 7.5%. This case differs from that reference by 1.92 percentage points, or 25.58% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $275,200 and the higher input is $412,800. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 9.42% answers the displayed operating yield on price question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "If a source reports something other than 9.42%, first compare its input values with the table here and its formula with noi/price*100. A difference in unit, period, included components or rounding can explain a mismatch without establishing that either publisher made a false statement."
@@ -4566,8 +4566,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "9cf2a0b4083922b01a3032d7e267c82384cf453632b4a3ef6195934c4393c71c",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "9d4da0e3fdc2bdc924fdaf39dedf43f49bd616529649e9a6c2771619cbe7ef10",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -4581,7 +4581,7 @@
     "answer": "For export and handoff in this operating yield on price model, the published input set produces 5.85% under this model. It uses annual operating income of $27,600 and purchase price of $472,000, together with the other inputs shown below. Holding those other inputs fixed, the lower annual operating income test gives 4.68%, while the higher test gives 7.02%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "This simple yield divides annual operating income before financing by the purchase price. It allows you to separate operating assumptions from the debt structure. In this case, annual operating income is $27,600. An exported worksheet should retain the model, input set, result and limitations. Review personal notes before sharing the file with anyone else.",
-      "The reference input set produces 7.5%. This case differs from that reference by -1.65%, or -22.03% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating income alone.",
+      "The reference input set produces 7.5%. This case differs from that reference by -1.65 percentage points, or -22.03% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating income alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $22,080 and the higher input is $33,120. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 5.85% answers the displayed operating yield on price question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "Exporting this case should preserve annual operating income of $27,600, purchase price of $472,000, the remaining inputs and the calculated result. If you add real source notes in the editable form, inspect the exported file before sharing it; this published article itself contains only hypothetical values."
@@ -4693,8 +4693,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "6562b4184a9523e01e73f6bd30acdb393740fc060b195dc21028a8b5e77ab575",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "6aa00fd9b3d2cf419abaacb10279aa9e047fc6c747c7e5b75323267302b72f7a",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -4708,7 +4708,7 @@
     "answer": "For boundary-case validation in this operating yield on price model, the published input set produces 8.61% under this model. It uses annual operating income of $46,500 and purchase price of $540,000, together with the other inputs shown below. Holding those other inputs fixed, the lower purchase price test gives 10.76%, while the higher test gives 7.18%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "This simple yield divides annual operating income before financing by the purchase price. It allows you to separate operating assumptions from the debt structure. In this case, purchase price is $540,000. An invalid alternate scenario should display a reason rather than an invented numerical result. The sensitivity table preserves those constraints when they arise.",
-      "The reference input set produces 7.5%. This case differs from that reference by 1.11%, or 14.81% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
+      "The reference input set produces 7.5%. This case differs from that reference by 1.11 percentage points, or 14.81% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $432,000 and the higher input is $648,000. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 8.61% answers the displayed operating yield on price question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "All 4 displayed sensitivity tests satisfy the current numerical and model-specific rules. This does not validate the real-world assumptions. It means the alternate input sets can be evaluated by this particular equation without substituting an unavailable result."
@@ -4820,8 +4820,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "083f2a576a9407984f5c0f1b3697a6a27bee6fc964be3b0e873ecc235a7ebf4f",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "aa8b5de745845f0bed50571ca4ec005c6d2e9ebffe835bf15ead3b36ab0f2b0e",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -4835,7 +4835,7 @@
     "answer": "For revised-input audit trail in this operating yield on price model, the published input set produces 6.03% under this model. It uses annual operating income of $24,600 and purchase price of $408,000, together with the other inputs shown below. Holding those other inputs fixed, the lower annual operating income test gives 4.82%, while the higher test gives 7.24%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "This simple yield divides annual operating income before financing by the purchase price. It allows you to separate operating assumptions from the debt structure. In this case, annual operating income is $24,600. When replacing an input, retain its previous value and source so the reason for a changed conclusion can be understood. Do not overwrite the history with only the final answer.",
-      "The reference input set produces 7.5%. This case differs from that reference by -1.47%, or -19.61% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating income alone.",
+      "The reference input set produces 7.5%. This case differs from that reference by -1.47 percentage points, or -19.61% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to annual operating income alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $19,680 and the higher input is $29,520. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 6.03% answers the displayed operating yield on price question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "As a revision exercise, replace only annual operating income from $24,600 with the higher-test value $29,520. Retain both the original 6.03% and revised 7.24% outcomes with that changed field. This is a documented input revision, not a claim that a real record has changed."
@@ -4947,8 +4947,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "56118a6831bc4d9ba1b0af519ec64b25e55ff4d5a4d498dc79891d9e0f4af605",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "8d4150bd9efb3f4cb7c7a2cce9d86b357f3f5b0cbf69526b150219a5f711547b",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   },
@@ -4962,7 +4962,7 @@
     "answer": "For final interpretation in this operating yield on price model, the published input set produces 9.8% under this model. It uses annual operating income of $38,400 and purchase price of $392,000, together with the other inputs shown below. Holding those other inputs fixed, the lower purchase price test gives 12.24%, while the higher test gives 8.16%. These are conditional calculations from hypothetical inputs, not observed property results.",
     "analysis": [
       "This simple yield divides annual operating income before financing by the purchase price. It allows you to separate operating assumptions from the debt structure. In this case, purchase price is $392,000. State the result in a sentence containing its units and assumptions. Preserve the difference between a worked numerical answer and a verified property outcome.",
-      "The reference input set produces 7.5%. This case differs from that reference by 2.3%, or 30.61% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
+      "The reference input set produces 7.5%. This case differs from that reference by 2.3 percentage points, or 30.61% of the absolute reference amount. More than one input may have changed, so that full-case difference cannot automatically be assigned to purchase price alone.",
       "The sensitivity table changes one named input at a time and preserves the remaining values. For the focused field, the lower input is $313,600 and the higher input is $470,400. Read the result and any constraint message together; the table does not claim that all alternative assumptions are feasible in practice.",
       "The calculated 9.8% answers the displayed operating yield on price question under this input set. It should be carried forward with its units, source-status labels and the model-specific exclusions, rather than treated as a broader operating or investment conclusion.",
       "A complete final sentence would identify this as a operating yield on price calculation, state the 9.8% result in percent, and retain the disclosed inputs. That sentence should also preserve the model's exclusions. It must not turn a conditional teaching answer into a verified customer outcome or a guarantee."
@@ -5074,8 +5074,8 @@
     "provenance": "Original worked mathematical illustration using the disclosed model and hypothetical inputs.",
     "eligibility": {
       "status": "validated-for-publication",
-      "contentHash": "7af30d45546858c76433cd70148720fb18282d2e7915154a747ba037eaac7cfd",
-      "reviewedAt": "2026-11-21T17:46:03.743272+00:00",
+      "contentHash": "b3e921468a6badad742ac0e234caeea6fc049a7660a1a15f3e9fd147d89d55de",
+      "reviewedAt": "2026-11-22T04:01:29.898062+00:00",
       "reviewMethod": "Structured page-level content review, independent arithmetic where applicable, coverage and similarity checks; not an external expert certification."
     }
   }

@@ -37,6 +37,11 @@ for file in sorted((P/'content/page-articles').glob('*.json')):
    assert len(a['trace'])>=1
    close(a['trace'][-1]['result'],expected);assertions+=1
    ref=math_eval(topic['expression'],a['reference']['values']);close(ref,a['reference']['answer']);assertions+=1
+   if topic['unit']=='percent':
+    point=re.search(r'differs from that reference by (-?[0-9]+(?:\.[0-9]+)?) percentage points',a['analysis'][1])
+    assert point,(file,j,'percentage differences require percentage-point units')
+    assert abs(float(point.group(1))-(expected-ref))<=.0051,(file,j,'wrong percentage-point difference')
+    assertions+=1
    assert len(a['sensitivity'])==2*len(topic['fields'])
    for alt in a['sensitivity']:
     v={**a['values'],alt['field']:alt['value']}
