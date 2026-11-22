@@ -20,7 +20,7 @@ assert.equal((html.match(/href="\/workbooks\/break-even-booked-nights\/example-/
 for(const id of ['calculator','case-comparison','availability-check','input-buckets','formula-units','model-boundaries'])assert(html.includes('id="'+id+'"'));
 assert.equal(fs.readFileSync('public/downloads/break-even-booked-nights-cases.csv','utf8'),breakEvenCsv(model));
 const workspace=h=>JSON.parse(h.match(/<script id="workspace-data" type="application\/json">([^]*?)<\/script>/)[1]);
-const sitemap=fs.readFileSync('public/sitemap.xml','utf8');assert.equal((sitemap.match(/<lastmod>/g)||[]).length,1);assert(sitemap.includes('/library/break-even-booked-nights/</loc><lastmod>2026-11-21</lastmod>'));
+const sitemap=fs.readFileSync('public/sitemap.xml','utf8');assert.equal(sitemap.split('<loc>https://bnb-accelerator-buyer-tools.vercel.app/library/break-even-booked-nights/</loc>').length-1,1);assert(sitemap.includes('/library/break-even-booked-nights/</loc><lastmod>2026-11-21</lastmod>'));
 let unchanged=null;
 if(process.argv[2]){
  const base=process.argv[2];const old=fs.readFileSync(path.join(base,guide),'utf8');assert.deepEqual(workspace(html),workspace(old));

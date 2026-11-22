@@ -1,3 +1,4 @@
+import {revenueNightGuide} from './revenue-night-guide.mjs';
 import {occupancyGuide} from './occupancy-guide.mjs';
 import {breakEvenGuide} from './break-even-guide.mjs';
 import {articleFingerprint} from './approve-articles.mjs';
@@ -27,6 +28,7 @@ for(const [i,t] of topics.entries()){
  workspace=modelForm(t,valueSet(t,0),t.title+' calculator',0);
  if(t.slug==='break-even-booked-nights'){guide=breakEvenGuide(t);fs.mkdirSync(path.join(pub,'downloads'),{recursive:true});fs.writeFileSync(path.join(pub,'downloads/break-even-booked-nights-cases.csv'),guide.csv);}
  if(t.slug==='booked-night-occupancy'){guide=occupancyGuide(t);fs.mkdirSync(path.join(pub,'downloads'),{recursive:true});fs.writeFileSync(path.join(pub,'downloads/booked-night-occupancy-cases.csv'),guide.csv);}
+ if(t.slug==='revenue-per-available-night'){guide=revenueNightGuide(t);fs.mkdirSync(path.join(pub,'downloads'),{recursive:true});fs.writeFileSync(path.join(pub,'downloads/revenue-per-available-night-cases.csv'),guide.csv);}
  intro=section(t.question,para(t.intro))+section('Formula and units',`<p class="formula">${esc(t.formula)}</p>`+list(t.fields.map(f=>f.label+' — '+f.unit+'.')))+section('Input review',para(t.action))+section('What this model leaves out',para(t.limit));
  body=`<div class="reading"><article>${guide?guide.before:intro}${guide?'<section id="calculator" aria-labelledby="calculator-heading"><h2 id="calculator-heading">'+esc(guide.calculatorHeading||'Try your own cost-coverage inputs')+'</h2>'+workspace.html+'</section>'+guide.after:workspace.html}${section('Forty applied calculation guides','<p>Hypothetical input sets for practicing this model. Each example remains editable and can be exported. These are not observed property or customer results.</p><div class="example-grid">'+scenarioLinks+'</div>')}</article><aside class="sidepanel"><h2>Use the model carefully</h2><p>Check definitions and source dates before calculating. A result validates arithmetic under the inputs; it does not authenticate the inputs.</p>${related(t)}</aside></div>`;
  }else{

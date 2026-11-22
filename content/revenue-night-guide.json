@@ -1,0 +1,66 @@
+{
+  "title": "Revenue per available night: reconcile revenue, rate and occupancy",
+  "description": "Calculate room revenue per offered night, reconcile it with average rate and occupancy, compare five fictional cases, and distinguish revenue from payout.",
+  "reviewed": "2026-11-22",
+  "opening": [
+    "Divide room revenue for the reporting period by nights offered in that same period. The result spreads room revenue across booked and unbooked offered nights; it is not the price paid for a booked night or cash remaining after expenses. This guide uses one rentable unit, USD and an explicitly fictional 365-day annual window.",
+    "Name the unit before counting nights. A whole-home listing has one unit-night per offered date; a separately rented room needs its own inventory definition. Do not combine room-night revenue with a whole-home-night denominator. None of the examples establishes local demand, permissions, benchmark performance or an investment return."
+  ],
+  "identity": [
+    "Let R be room revenue, B booked unit-nights and A the matching offered unit-nights. For positive B, average daily room rate is R / B and booked share is B / A. Their product is (R / B) \u00d7 (B / A) = R / A. Use the share as a decimal: 60% means 0.60, not 60. Keep unrounded amounts through the reconciliation.",
+    "In the base case, $36,000 / 180 booked nights gives a $200 average rate; 180 / 300 offered nights gives 60% booked share. $200 \u00d7 0.60 equals $120 per offered night. Raising average rate to $300 while reducing booked nights to 120 leaves revenue at $36,000 and the same $120 result. A higher rate alone does not establish a higher revenue-per-offered-night result."
+  ],
+  "comparison": [
+    "All five rows are fictional. The full-calendar row divides the base case\u2019s identical revenue and booked nights by all 365 dates. It answers a different denominator question: it is not the offered-night result under a new label. Changes in the denominator can move a ratio without changing receipts.",
+    "When no nights are booked and room revenue is zero, revenue per offered night and booked share are zero if offered nights are positive. Average rate per booked night is undefined because its denominator is zero. Report that distinction rather than inventing a zero rate or forcing the rate-times-occupancy check."
+  ],
+  "records": [
+    "A payout deposit is not automatically room revenue. In a separate fictional ledger bridge, $38,000 room charges less $2,000 room refunds gives $36,000 room revenue under this example\u2019s stated net-of-room-refunds basis. Add $2,400 cleaning receipts and subtract $4,800 platform deductions to reach a $33,600 payout. No guest-tax receipts, remittances or other adjustments occur in this simplified packet.",
+    "The room-revenue ratio is $36,000 / 300 = $120. Entering the $33,600 payout instead produces $112 per offered night, which is a payout ratio under a different numerator. Even a perfectly matching average-rate-times-booked-share calculation cannot authenticate the revenue definition if the same wrong numerator was used twice. These ledger amounts are teaching assumptions, not a statement about any platform\u2019s actual settlement rules.",
+    "For real records, retain the reservation or stay-date ledger, room-charge and refund detail, available-calendar definition, payout statement and reconciliation of excluded receipts and deductions. Record whether the report follows stay dates, booking dates or payment dates. Resolve a period or inventory mismatch before treating a comparison as evidence of improvement."
+  ],
+  "portfolio": [
+    "For the base property, $36,000 / 300 is $120. For the second fictional property, $24,000 / 100 is $240. Their combined ratio is ($36,000 + $24,000) / (300 + 100) = $150 per offered unit-night. The simple mean of $120 and $240 is $180 and gives the smaller denominator too much weight.",
+    "The combined 400 unit-nights are a manual portfolio illustration across two properties. The calculator on this page remains a single-property annual model with a maximum of 366 available nights; do not squeeze a portfolio into that input range. Aggregate compatible revenue and inventory totals outside it, retaining the property-level bridge."
+  ],
+  "boundaries": [
+    "This ratio excludes cleaning income, guest taxes, fees, operating costs, reserves, debt service and tax effects under the stated room-revenue definition. It measures neither profit nor booking conversion and is not a forecast. A comparison needs matching period, inventory, currency and revenue policies before its arithmetic can be interpreted."
+  ],
+  "cases": [
+    {
+      "name": "Base offered-night case",
+      "basis": "offered",
+      "revenue": 36000,
+      "booked": 180,
+      "available": 300
+    },
+    {
+      "name": "Same receipts on full calendar",
+      "basis": "full calendar",
+      "revenue": 36000,
+      "booked": 180,
+      "available": 365
+    },
+    {
+      "name": "Higher rate fewer booked nights",
+      "basis": "offered",
+      "revenue": 36000,
+      "booked": 120,
+      "available": 300
+    },
+    {
+      "name": "Zero booked nights",
+      "basis": "offered",
+      "revenue": 0,
+      "booked": 0,
+      "available": 300
+    },
+    {
+      "name": "Second property offered nights",
+      "basis": "offered",
+      "revenue": 24000,
+      "booked": 80,
+      "available": 100
+    }
+  ]
+}
