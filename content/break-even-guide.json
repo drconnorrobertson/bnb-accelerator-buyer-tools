@@ -1,0 +1,71 @@
+{
+  "reviewed": "2026-11-21",
+  "title": "Break-even booked nights calculator and guide",
+  "description": "Calculate nights needed to cover annual fixed costs, compare five fictional cases, and check availability. Includes a worked example and downloadable CSV.",
+  "cases": [
+    {
+      "name": "Base case",
+      "rate": 250,
+      "share": 20,
+      "fixed": 36000,
+      "offered": 240
+    },
+    {
+      "name": "Lower room rate",
+      "rate": 200,
+      "share": 20,
+      "fixed": 36000,
+      "offered": 240
+    },
+    {
+      "name": "Higher fixed costs",
+      "rate": 250,
+      "share": 20,
+      "fixed": 42000,
+      "offered": 240
+    },
+    {
+      "name": "Limited availability",
+      "rate": 250,
+      "share": 20,
+      "fixed": 36000,
+      "offered": 160
+    },
+    {
+      "name": "Whole-night rounding",
+      "rate": 195,
+      "share": 20,
+      "fixed": 36000,
+      "offered": 240
+    }
+  ],
+  "opening": [
+    "At a fictional $250 room rate, a 20% variable expense share and $36,000 of annual fixed costs including debt payments, each booked night contributes $200. Covering the included costs requires 180 booked nights. That is 75% of 240 nights offered, but it is impossible within only 160 offered nights at the same contribution.",
+    "Use this calculator to answer a cost-coverage question, then check the calendar separately. All five cases below are original hypothetical illustrations. They are not property results, market rates, occupancy forecasts or customer outcomes."
+  ],
+  "buckets": [
+    "Room rate means room revenue per booked night before subtracting the variable costs modeled here. Use the same period and revenue definition throughout. Do not divide a payout containing cleaning charges, deposits or unrelated adjustments by room nights and assume it is the room rate.",
+    "The variable share is the portion of that same room revenue consumed by the costs you classify as variable. The fictional 20% is an assumption, not a typical fee estimate. A flat turnover cost per stay does not automatically behave like a fixed percentage per night; reconcile the stay length and charge treatment before approximating it this way.",
+    "Annual fixed costs are the full-year costs included in this cash-coverage exercise, including the debt payments specified by this model. Count each item once. If a cost is already in the variable share, do not add it again to fixed costs. Keep debt, reserves and any owner compensation visibly identified rather than silently treating them as interchangeable accounting expenses."
+  ],
+  "worked": [
+    "Start with the base case: $250 × 20% = $50 of modeled variable costs per booked night. Subtract $50 from $250 to get $200 of contribution. Divide $36,000 by $200 to get 180 nights. At 179 nights, contribution is $35,800, leaving a $200 gap; at 180 nights, the included costs are exactly covered.",
+    "Lowering the room rate to $200 while holding the 20% share and $36,000 fixed costs constant reduces contribution to $160. Required nights rise to 225. The room rate falls 20%, while the required nights rise 25%; the relationship is a division, not a one-for-one percentage adjustment.",
+    "At $195 per night and the same 20% share, contribution is $156. The unrounded requirement is about 230.77 nights. Round upward to 231: 230 nights produce $35,880, which is $120 short, while 231 produce $36,036. Rounding down would incorrectly label an uncovered cost position as break-even."
+  ],
+  "availability": [
+    "Use nights actually offered for the same full-year period as the costs. Separate planned owner use, maintenance closures and other unavailable dates from the calendar total. This is an operational input to check, not a claim that every remaining night is lawful to rent or will attract a booking.",
+    "Divide required whole nights by offered nights to inspect the required share of availability. The base case needs 180 ÷ 240 = 75%. With only 160 nights offered, it needs 112.5%. Even booking all 160 would contribute only $32,000 toward $36,000 of included fixed costs, leaving $4,000 uncovered. A result under 365 nights is therefore not enough to establish feasibility.",
+    "The calculator has three cost-and-rate inputs; offered nights are checked separately in the table and CSV. A required share at or below 100% clears only this arithmetic capacity check. It does not verify demand, booking pace, minimum-stay fit, legal permission, seasonality or the ability to collect the assumed room rate."
+  ],
+  "limits": [
+    "Keep the average contribution assumption visible. A high-rate season and a low-rate season are not interchangeable nights. Compare contribution by season when the rate, variable costs or available dates differ; do not assume that an annual average can be achieved on whichever dates remain empty.",
+    "The form requires a positive room rate and a variable share below 100%. At zero or negative contribution, additional booked nights cannot cover positive fixed costs under this model. If included fixed costs are zero, its result is zero nights; that does not mean the property has no other costs or requires no initial cash.",
+    "Covering the entered annual cash requirements is not the same as calculating accounting profit, net operating income, taxable income, cash-on-cash return or cash needed at closing. Omitted costs remain omitted. Before using real inputs, retain their source, observation date, reporting period and whether they are actuals, quotes or assumptions."
+  ],
+  "source": {
+    "url": "https://openstax.org/books/principles-managerial-accounting/pages/3-2-calculate-a-break-even-point-in-units-and-dollars",
+    "label": "OpenStax: Calculate a Break-Even Point in Units and Dollars",
+    "scope": "Background on fixed costs divided by per-unit contribution and the assumptions of cost-volume-profit analysis. The room-night cases, availability checks and inclusion of debt payments here are this site's own cash-coverage illustrations, not examples or endorsements from OpenStax."
+  }
+}
