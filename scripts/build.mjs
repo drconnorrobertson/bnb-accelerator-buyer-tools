@@ -50,8 +50,80 @@ for(const [i,t] of references.entries()){
  const near=topics[i%topics.length];const body='<div class="reading"><article>'+section(t.question,para(t.intro))+section('Apply the method',para(t.action))+section('What the method does not establish',para(t.limit))+section('A review sequence',list(['Name the exact question and the unit or scope being compared.','Record the source and the reporting period before changing a value.','Retain unresolved differences rather than filling them with an assumed fact.','Save the input set and conclusion together so another reviewer can reproduce the reasoning.']))+section('Put this into practice',`<p><a href="${topicPath(near)}">Open the ${esc(near.title.toLowerCase())} ${config.kind==='calculator'?'calculator':'worksheet'}</a> and record which definitions or evidence gaps matter before relying on its output.</p>`)+section('Keep the result in context',para('This reference is an original workflow explanation from the BNB resource team. It does not independently verify a company claim, a customer experience or a property result. Use the relevant original records and qualified advisers for decisions that require professional judgment.'))+'</article><aside class="sidepanel"><h2>Related practice</h2><a href="'+topicPath(near)+'">'+esc(near.title)+'</a><p><a href="/library/">Browse all topics</a></p></aside></div>';
  write('/library/'+t.slug+'/',t.title+' reference',t.question,body,{category:t.category});
 }
+const decisionGuides = [
+  [
+    "annual-occupancy-to-seasonal-revenue",
+    "Check a seasonal revenue forecast against booked nights",
+    "Reconcile annual occupancy with seasonal room rates before using a forecast.",
+    "A 90-night season with 54 booked nights at $180 contributes $9,720. A 275-night season with 110 booked nights at $110 contributes $12,100. The combined 164 booked nights give 44.9% calendar occupancy and $21,820 of room revenue.",
+    "Start with booked nights and room revenue by month. Group months only after checking their rate and demand patterns. Reconcile the annual totals to the inputs and document closures separately.",
+    [
+      "two-season-room-revenue",
+      "booked-night-occupancy",
+      "revenue-per-available-night"
+    ]
+  ],
+  [
+    "reconcile-cash-flow-to-cash-needed",
+    "Reconcile rental cash flow with cash needed at purchase",
+    "Use separate calculations for annual cash performance and the money needed to start operating.",
+    "A hypothetical property needs $60,000 at closing, $18,000 for setup, and $12,000 for its opening reserve. The entry cash is $90,000. If the model shows $9,000 of annual cash flow after modeled debt payments, the illustrative cash-on-cash result is 10%.",
+    "Give each entry cost an amount and expected payment date. Keep a separate annual operating schedule and check that one-time setup costs do not appear twice. Run a second result with a higher setup budget and compare how much cash remains available for delays.",
+    [
+      "total-entry-cash",
+      "cash-on-cash-percentage",
+      "setup-cost-overrun"
+    ]
+  ],
+  [
+    "test-rate-and-occupancy-together",
+    "Stress-test nightly rate and occupancy together",
+    "Test how a simultaneous rate and booking decline affects modeled room revenue.",
+    "A 30-night month with 18 booked nights at $160 produces $2,880 of room revenue. At 15 nights and $145, it produces $2,175, a $705 decline. The revenue change flows into cash only after you account for changes in variable costs and fixed commitments.",
+    "Save the baseline inputs, then run separate rate-only and occupancy-only cases before the combined case. Trace the assumptions to comparable periods. Compare results under the same treatment of cleaning receipts, channel fees and other costs.",
+    [
+      "nightly-rate-sensitivity",
+      "room-revenue-downside",
+      "combined-operating-stress"
+    ]
+  ],
+  [
+    "translate-booked-night-target-to-calendar",
+    "Translate a break-even target into a booking calendar",
+    "Check whether a monthly booked-night target fits your sellable nights and planned closures.",
+    "Monthly fixed costs of $2,100 and per-night contribution of $105 imply 20 booked nights to break even. With 24 sellable nights after planned blocks, the property needs 83.3% occupancy on sellable nights. The same 20 bookings would be 66.7% on a 30-night calendar.",
+    "List fixed costs and calculate contribution after modeled variable costs. Round the required night count up if the result is fractional. Compare the target against the sellable calendar and a representative low-demand month.",
+    [
+      "break-even-booked-nights",
+      "per-night-contribution",
+      "booked-night-occupancy"
+    ]
+  ]
+];
+const decisionRoute = slug => '/library/' + slug + '/';
+const decisionLinks = guides => '<ul>' + guides.map(([slug, title]) =>
+  '<li><a href="' + decisionRoute(slug) + '">' + esc(title) + '</a></li>'
+).join('') + '</ul>';
+for (const [slug, title, description, example, process, modelSlugs] of decisionGuides) {
+  const models = modelSlugs.map(modelSlug => {
+    const model = topics.find(topic => topic.slug === modelSlug);
+    if (!model) throw new Error('Unknown decision guide model: ' + modelSlug);
+    return '<li><a href="' + topicPath(model) + '">' + esc(model.title) + '</a></li>';
+  }).join('');
+  const body = '<div class="reading"><article>'
+    + section('Worked example', para(example))
+    + section('Run the check with your own inputs', para(process))
+    + section('Calculators for this check', '<ul>' + models + '</ul>')
+    + section('Related buyer decision guides', decisionLinks(decisionGuides.filter(guide => guide[0] !== slug)))
+    + '<p><a href="/library/">Back to the calculator library</a></p></article></div>';
+  write(decisionRoute(slug), title, description, body, {
+    category: 'Buyer decision guides',
+    parent: {title: config.library, route: '/library/'},
+    modified: '2026-11-28',
+  });
+}
 const all=[...topics,...references];const categories=[...new Set(all.map(t=>t.category))];const cards=all.map(t=>`<a class="card" data-library-item data-category="${esc(t.category)}" data-search="${esc((t.title+' '+t.question+' '+t.category).toLowerCase())}" href="/library/${t.slug}/"><span class="eyebrow">${esc(t.category)}</span><h2>${esc(t.title)}</h2><p>${esc(t.question)}</p><span class="textlink">${topics.includes(t)?(config.kind==='calculator'?'Use calculator and 40 worked analyses':'Read guide and 40 applied cases'):'Read reference'}</span></a>`).join('');
-write('/library/',config.library,'Browse '+all.length+' focused topics and 1,600 editable '+(config.kind==='calculator'?'worked calculations':'training workspaces')+' in the '+config.name+'.','<div class="library-intro"><div>'+para(config.intro)+'</div><div class="callout"><strong>'+all.length+' main topics · 1,600 practice workspaces</strong><p>Every example is hypothetical and editable. Original input sets remain visible for comparison.</p></div></div><div class="library-controls"><label for="library-search">Search topics<input id="library-search" type="search" placeholder="'+esc(config.search)+'"></label><label for="library-category">Category<select id="library-category"><option value="">All categories</option>'+categories.map(c=>'<option>'+esc(c)+'</option>').join('')+'</select></label></div><p class="library-status" id="library-status" role="status">'+all.length+' topics</p><div class="topic-grid">'+cards+'</div>',{category:config.library});
+write('/library/',config.library,'Browse '+all.length+' focused topics and 1,600 editable '+(config.kind==='calculator'?'worked calculations':'training workspaces')+' in the '+config.name+'.','<div class="library-intro"><div>'+para(config.intro)+'</div><div class="callout"><strong>'+all.length+' main topics · 1,600 practice workspaces</strong><p>Every example is hypothetical and editable. Original input sets remain visible for comparison.</p></div></div>'+section('Buyer decision guides',decisionLinks(decisionGuides))+'<div class="library-controls"><label for="library-search">Search topics<input id="library-search" type="search" placeholder="'+esc(config.search)+'"></label><label for="library-category">Category<select id="library-category"><option value="">All categories</option>'+categories.map(c=>'<option>'+esc(c)+'</option>').join('')+'</select></label></div><p class="library-status" id="library-status" role="status">'+all.length+' topics</p><div class="topic-grid">'+cards+'</div>',{category:config.library});
 const indexable=[...config.baseRoutes,...routes.filter(r=>!r.noindex).map(r=>r.route)];const core=[...config.baseRoutes,...routes.filter(r=>!r.route.startsWith('/workbooks/')).map(r=>r.route)];fs.writeFileSync(path.join(pub,'sitemap.xml'),'<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+indexable.map(r=>'<url><loc>'+origin+r+'</loc>'+(routes.find(x=>x.route===r)?.modified?'<lastmod>'+routes.find(x=>x.route===r).modified+'</lastmod>':'')+'</url>').join('')+'</urlset>');
 const coreIndexable=indexable.filter(route=>!route.startsWith('/workbooks/'));
 fs.writeFileSync(path.join(pub,'sitemap-core.xml'),'<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+coreIndexable.map(route=>'<url><loc>'+origin+route+'</loc></url>').join('')+'</urlset>');
